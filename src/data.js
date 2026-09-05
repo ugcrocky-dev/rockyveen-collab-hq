@@ -12,11 +12,17 @@ export const profile = {
     reelViews: '50K–300K',
   },
   rates: [
-    { name: 'UGC Photo', price: '$350', note: '5 edited photos' },
-    { name: 'UGC Video', price: '$750', note: '30–60s + paid rights' },
-    { name: 'IG Reel', price: '$1,200', note: 'Posted to 225K+' },
-    { name: 'Full Bundle', price: '$1,999', note: 'Photo + video + reel' },
+    { name: 'Photo / static', price: '$350', note: 'Proven close (Lovart)' },
+    { name: 'UGC-only video', price: '$400–$500', note: 'No organic post' },
+    { name: 'Posted IG Reel', price: '$500', note: 'Your standard ask' },
+    { name: 'IG + TikTok', price: '$600', note: 'Cross-post package' },
+    { name: 'UGC + posted', price: '$750', note: 'Bundle' },
+    { name: 'Whitelisting 30d', price: '+$150–$250', note: 'Ads usage add-on' },
   ],
+  negotiationFloor: {
+    pilot: '$250–$350',
+    note: 'You have accepted pilots (Kairosy/TicNote) when brand budget is lower',
+  },
 }
 
 export const pastPartners = [
@@ -35,65 +41,140 @@ export const pastPartners = [
   'MNML',
 ]
 
-export const todayActions = [
+export const pipeline = [
   {
-    id: 'connect-gmail',
-    priority: 'P0',
-    title: 'Connect collabs@rockyveen.com',
-    detail:
-      'Inbox is locked until you authorize Gmail. Use the Composio link from this agent run, then reply so the scan + drafts can start.',
-    eta: '2 min',
-    status: 'blocked',
+    brand: 'Lovart',
+    status: 'Closing',
+    value: '$350',
+    next: 'Waiting on brief + access + payment',
+    note: 'Brand accepted your $350 rate.',
   },
   {
-    id: 'apply-higgsfield',
+    brand: 'TicNote Cloud',
+    status: 'In production',
+    value: 'Paid (~$250–$400)',
+    next: 'Deliver draft by Wed Sep 10',
+    note: 'You accepted their budget after $400 ask.',
+  },
+  {
+    brand: 'Enter Pro AI',
+    status: 'Negotiating',
+    value: '$500–$600',
+    next: 'Await brief + budget',
+    note: 'Rate card sent Sep 5.',
+  },
+  {
+    brand: 'Notion (eClick)',
+    status: 'Negotiating',
+    value: '$500–$600',
+    next: 'Await deliverables',
+    note: 'Rate card sent.',
+  },
+  {
+    brand: 'AIKONIC',
+    status: 'Negotiating',
+    value: '$500–$600',
+    next: 'Await brief',
+    note: 'AI productivity — rates sent.',
+  },
+  {
+    brand: 'CapCut (Bonnie / Amy / Ray)',
+    status: 'Negotiating',
+    value: '$500–$600 / retainer',
+    next: 'Await CapCut budget + profile approval',
+    note: 'Flexible packages: $500 Reel / $600 IG+TT / retainer options.',
+  },
+  {
+    brand: 'Flove.AI / PLAUD / Dreamina',
+    status: 'Negotiating',
+    value: '$500–$750',
+    next: 'Await brand budget',
+    note: 'Offered packages + asked for their budget to structure deal.',
+  },
+  {
+    brand: 'Anker / Dreame / Olight',
+    status: 'Negotiating',
+    value: '$500–$750',
+    next: 'Await brief / ship',
+    note: 'Hardware tech — rate card aligned to your $500 Reel ask.',
+  },
+  {
+    brand: 'Tripo / VidMuse / Pippit',
+    status: 'Negotiating',
+    value: '$500–$600',
+    next: 'Await briefs',
+    note: 'AI creative tools — rates sent Sep 5.',
+  },
+  {
+    brand: 'Mayvora / LazyKiwi',
+    status: 'Pitched',
+    value: 'Pipeline',
+    next: 'Await brand intros / product fit',
+    note: 'Agency intros with rate card.',
+  },
+  {
+    brand: 'Higgsfield / Runway / Luma / ElevenLabs',
+    status: 'Outbound',
+    value: 'Programs',
+    next: 'Web forms + day-3 follow-up',
+    note: 'Some email paths bounced; use official forms.',
+  },
+]
+
+export const todayActions = [
+  {
+    id: 'rate-card-negotiations',
     priority: 'P0',
-    title: 'Apply to Higgsfield Creator Partnership Program',
+    title: 'Rate-card negotiations sent (21 threads)',
     detail:
-      'You already have a proven Higgsfield × Kling reel. Apply for CPP credits + Earn campaigns using @rockyveen + rockyveen.com case study.',
+      'DONE — used your real budget: $350 photo / $500 IG Reel / $600 IG+TT / $750 bundle. Asked brands for their budget to close.',
+    eta: 'done',
+    status: 'ready',
+  },
+  {
+    id: 'ship-ticnote-draft',
+    priority: 'P0',
+    title: 'Film + send TicNote draft',
+    detail:
+      'Committed draft by Wed Sep 10 with their script changes. This closes an active paid collab.',
+    eta: 'by Sep 10',
+    status: 'ready',
+  },
+  {
+    id: 'lock-lovart',
+    priority: 'P0',
+    title: 'Lock Lovart production pack',
+    detail:
+      'They accepted $350. As soon as Amy sends access + brief + payment, shoot within 5–7 days.',
+    eta: 'waiting on brand',
+    status: 'ready',
+  },
+  {
+    id: 'apply-higgsfield-form',
+    priority: 'P0',
+    title: 'Submit Higgsfield CPP web form',
+    detail: 'Email outreach sent. Also submit the official CPP form.',
     eta: '10 min',
     status: 'ready',
     href: 'https://higgsfield.ai/creator-partnership-program',
   },
   {
-    id: 'apply-runway',
+    id: 'apply-runway-form',
     priority: 'P0',
-    title: 'Apply Runway Affiliate + Creative Partners',
-    detail:
-      '225K IG + cinematic AI niche is a strong fit. Start affiliate for paid upside, then CPP for brand amplification.',
-    eta: '15 min',
+    title: 'Submit Runway Affiliate form',
+    detail: 'Email hit enterprise sales. Use the affiliate form instead.',
+    eta: '10 min',
     status: 'ready',
     href: 'https://runway.com/affiliate-program',
   },
   {
-    id: 'apply-luma',
+    id: 'counter-brand-budgets',
     priority: 'P1',
-    title: 'Submit Luma Creative Partner Program',
+    title: 'Counter when brands reply with budget',
     detail:
-      'Meets 5K+ follower bar easily. Pitch storytelling + product-demo UGC for Dream Machine launches.',
-    eta: '12 min',
+      'Floor for pilots: $250–$350. Hold $500 for standard posted Reels unless volume/retainer.',
+    eta: 'as replies arrive',
     status: 'ready',
-    href: 'https://lumalabs.ai/creative-partner-program',
-  },
-  {
-    id: 'apply-eleven',
-    priority: 'P1',
-    title: 'Join ElevenLabs Ambassador (Content Creator)',
-    detail:
-      'Voice + AI workflow demos fit your tech audience. Opens paid collab path over time.',
-    eta: '10 min',
-    status: 'ready',
-    href: 'https://elevenlabs.io/ambassador',
-  },
-  {
-    id: 'descript-affiliate',
-    priority: 'P1',
-    title: 'Apply Descript Affiliate Program',
-    detail:
-      '$25/paid Creator or Pro signup. Pair with editing workflow UGC for creators.',
-    eta: '8 min',
-    status: 'ready',
-    href: 'https://www.descript.com/affiliate',
   },
 ]
 
@@ -279,7 +360,7 @@ Email: collabs@rockyveen.com
 
 Rocky Veen (@rockyveen) — 225K IG creator focused on AI/creator-tool UGC. Applying to the Affiliate Program and open to a paid launch package (screen-record UGC + posted reel).
 
-My audience is creators who buy editing/AI workflow tools. Typical package: $750 UGC video / $1,200 posted reel / $1,999 bundle.
+My audience is creators who buy editing/AI workflow tools. Typical package: $400–$500 UGC / $500 posted Reel / $600 IG+TT / $750 bundle.
 
 Media kit: https://rockyveen.com
 collabs@rockyveen.com
@@ -294,7 +375,7 @@ Rocky Veen here — AI & lifestyle UGC creator with 225K Instagram and strong US
 
 Concept: a 30–45s “everyday problem → Perplexity answer → wow moment” reel style (similar energy to your lifestyle influencer work), plus whitelisting-ready UGC.
 
-Packages start at $750 video / $1,200 posted reel.
+Packages: $500 posted Reel / $600 IG+TT / $750 UGC+posted bundle.
 Proof: https://rockyveen.com
 Book: collabs@rockyveen.com
 
@@ -323,8 +404,8 @@ Reply here or collabs@rockyveen.com
 Rocky Veen (@rockyveen) — we previously collaborated on the W4 Pro AI Interpreter Earbuds unboxing/UGC.
 
 I'd love to support your next launch with:
-• UGC video ($750) and/or posted Reel ($1,200)
-• Or Full Bundle ($1,999): photos + video + reel
+• UGC video ($400–$500) and/or posted Reel ($500)
+• Or Bundle ($750): UGC + posted Reel
 
 Audience: 225K IG, 83% USA, tech + lifestyle buyers.
 https://rockyveen.com · collabs@rockyveen.com
@@ -354,7 +435,7 @@ Applying for your AI photo editing UGC casting.
 
 I'm Rocky Veen (@rockyveen): AI/SaaS UGC specialist, 225K IG, cinematic 30–60s verticals for paid + organic. Portfolio includes AI tool launches with 50K–110K+ views.
 
-Rates: UGC video from $750 · posted reel $1,200
+Rates: UGC $400–$500 · posted Reel $500 · IG+TT $600
 Portfolio: https://rockyveen.com
 Contact: collabs@rockyveen.com
 
