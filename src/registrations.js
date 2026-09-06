@@ -714,7 +714,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-06 ~16:37 poll-collab-otp-tight: SID 4747686 — Partnered Blockchain Council + Wondershare Software; 11 software still Pending (no status changes). Catalog Canva/Adobe/major AI SaaS thin — 0 new applies.',
+      '2026-09-06 ~16:46 poll-rakuten-more-saas: SID 4747686 — Partnered Blockchain Council + Wondershare Software; 11 software still Pending (Skylum/Brytesoft/NordVPN/NordVPN APAC/PureVPN/ESET/HTVRONT/Webroot Inc/IONOS/ExitLag/Tresorit — no Pending→Partnered moves). Catalog AI/SaaS/Canva/Grammarly/Adobe/Notion thin — 0 new applies.',
     jobs: [
       {
         id: 'rak-depositphotos',
