@@ -714,7 +714,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-06 ~19:46 poll-collab-otp-tight: 0 new AI/SaaS; 11 software still Pending; Partnered Blockchain Council + Wondershare unchanged. Catalog still thin (Educative terms-blocked). SID 4747686. Skipped phone/tax/card/IG.',
+      '2026-09-06 ~20:58 poll-rakuten-more-saas: 0 new AI/SaaS applies (catalog still thin; SaaS=0; Webroot International terms-blocked). Partnered Blockchain Council + Wondershare unchanged; 11 software still Pending (Skylum, Brytesoft, NordVPN(+APAC), PureVPN, ESET, HTVRONT, Webroot Inc, IONOS, ExitLag, Tresorit). SID 4747686. Skipped phone/tax/card/IG. FlexOffers phone-blocked; Impact skip; Admitad wait Active; Digistore skip anti-bot.',
     jobs: [
       {
         id: 'rak-depositphotos',
