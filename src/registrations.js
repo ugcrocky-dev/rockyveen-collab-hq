@@ -73,7 +73,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-06 ~10:56 poll: still no fresh unlock email (only stale device OTP/resets from ~09:26). Discover/marketplace 404s. Skipped — do not hammer. 0 programs joined.',
+      '2026-09-06 ~11:08 poll: still no fresh unlock (only stale Impact OTP 165312 / resets from ~09:15–09:26). Discover/marketplace 404s. Skipped — do not hammer. 0 programs joined.',
     jobs: [],
   },
   {
@@ -287,7 +287,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      'Network Pending/Under Review reconfirmed 2026-09-06 (78efd9d7; prior 27c3c2b3/9cdd48e2). Descript under review. Reclaim + ElevenLabs applications queued/on hold until Network approves. Skip phone/tax/card/IG OAuth.',
+      'Network still Pending (profile under review) — rechecked 2026-09-06 (27d1a3a6). Dashboard: 2 program apps on hold until Network approves (auto-submit on approval). Descript Application received. Reclaim + ElevenLabs on hold. No mass applies. Skip phone/tax/card/IG OAuth.',
     jobs: [
       {
         id: 'ps-elevenlabs',
