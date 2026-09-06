@@ -73,7 +73,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-06 ~14:15 poll-apply-tasks: Gmail — still NO fresh unlock (latest Impact Verification 165312 @09:26 expired; Reset Password burst earlier AM). Did NOT login. 0 programs. Skip hammering.',
+      '2026-09-06 ~14:16 impact-unlock-retry: Gmail collabs-rockyveen (inbox+spam) — still NO fresh unlock. Latest Impact mail remains Verification 165312 @09:26 (expired) + Reset Impact Password burst ~08:28–09:23. Account rockyveen treated as still locked. Did NOT attempt login. CreatorReady skipped (OTP spam only / not email-only unlock). 0 programs joined. Reschedule later.',
     jobs: [],
   },
   {
