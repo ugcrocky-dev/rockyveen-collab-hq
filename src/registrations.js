@@ -73,7 +73,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-06 ~22:28 poll-apply-tasks: Gmail still NO fresh unlock (Verification 165312 @09:26 expired + AM resets only). Did NOT login. Prior OTP ~22:22 / unlock-retry ~22:18 same. 0 programs. Fresh unlock required.',
+      '2026-09-06 ~23:28 poll-collab-otp-tight: Gmail still NO fresh unlock in last 12h (Verification 165312 @09:26 expired + AM resets only). Did NOT login. Prior ~22:28/~22:22 same. 0 programs. Fresh unlock required.',
     jobs: [],
   },
   {
@@ -547,7 +547,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-06 ~22:22 poll-collab-otp-tight: skipped — Company Information still requires Mobile Phone (do not invent). Prior ~21:15 same. 0 offers. User must enter phone + Continue.',
+      '2026-09-06 ~23:28 poll-collab-otp-tight: skipped — Company Information still requires Mobile Phone (do not invent). Prior ~22:22 same. 0 offers. User must enter phone + Continue.',
     jobs: [],
   },
   {
@@ -560,7 +560,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-06 ~22:22 poll-collab-otp-tight: login OK; Instagram (@rockyveen) + rockyveen.com adspaces still Not reviewed — cannot join catalog. Left pending (no re-submit). Prior ~21:15 same.',
+      '2026-09-06 ~23:28 poll-collab-otp-tight: one login attempt returned Invalid password/email — stopped (no hammer). Prior ~22:22 login OK with Instagram + rockyveen.com still Not reviewed — leave pending (no re-submit). Do not mass-retry password.',
     jobs: [],
   },
   {
@@ -647,7 +647,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-06 ~22:22 poll-collab-otp-tight: one calm login attempt → LOGCAP / Token missing — stopped (no hammer). Username rockyveenaffiliate. Prior ~21:15 password-incorrect skip; ~19:46 incorrect; ~18:46 LOGCAP. 10 products joined. Manual anti-bot/password resolve before AI/SaaS joins.',
+      '2026-09-06 ~23:28 poll-collab-otp-tight: one calm login attempt → LOGCAP — stopped (no hammer). Username rockyveenaffiliate. Prior ~22:22 LOGCAP; ~21:15 password-incorrect. 10 products joined. Manual anti-bot/password resolve before AI/SaaS joins.',
     jobs: [
       {
         id: 'ds-funnelcockpit',
@@ -701,7 +701,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-06 ~22:22 poll-collab-otp-tight: skipped — reCAPTCHA field required / anti-bot (do not hammer password). Prior ~21:15 same. 0 brand programs.',
+      '2026-09-06 ~23:28 poll-collab-otp-tight: skipped — site Blocked / anti-bot (do not hammer password). Prior ~22:22 reCAPTCHA. 0 brand programs.',
     jobs: [],
   },
   {
@@ -714,7 +714,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-06 ~22:22 poll-collab-otp-tight: light glance — Partnered Blockchain Council + Wondershare; 11 Pending unchanged; 0 new AI/SaaS applies. SID 4747686. Skipped phone/tax/card/IG. FlexOffers phone-blocked; Impact skip; Admitad wait Active; Digistore LOGCAP skip; Refersion captcha skip.',
+      '2026-09-06 ~23:28 poll-collab-otp-tight: Partnered Blockchain Council + Wondershare confirmed; 0 new AI/SaaS applies this pass (pending count UI obscured; prior 11 Pending). SID 4747686. Skipped phone/tax/card/IG. FlexOffers phone; Impact skip; Digistore LOGCAP; Refersion blocked; Admitad no-hammer after one reject.',
     jobs: [
       {
         id: 'rak-depositphotos',
