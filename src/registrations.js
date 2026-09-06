@@ -597,7 +597,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'marketplace',
     notes:
-      'Profile address+phone saved 2026-09-06 (450d3fce): 355 Autumn Bluff Dr, Lawrenceville GA 30044, +1 945-232-1969. Still waitlisted (creators/home). No unverified banner. IG/site already set. No IG OAuth.',
+      '2026-09-06 ~12:55 poll-statusphere-rakuten: Gmail (inbox+spam) — waitlist mail 12:00 UTC + older verify 08:40 (link EXPIRED). Login OK → creators/home still WAITLISTED (47% profile). Address+phone on file; IG @rockyveen connected. No unlock/campaign access. No phone/street invention. No IG OAuth.',
     jobs: [],
   },
   {
@@ -714,7 +714,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-06 ~12:15 poll-rakuten-more-saas: login OK. Partnered confirmed: Blockchain Council + Wondershare. All 11 prior software Pending still Pending (Skylum, Brytesoft, NordVPN, NordVPN APAC, PureVPN, ESET, HTVRONT, Webroot Inc, IONOS, ExitLag, Tresorit). 0 NEW applies — catalog thin (software/VPN/cloud/security/hosting/productivity searches + Bitdefender/Norton/Surfshark/ExpressVPN/Bluehost/Adobe/Canva/Grammarly/Shopify/Udemy/Dropbox etc NotFound). Depositphotos terms-blocked; Educative + Webroot Intl ineligible. SID 4747686. IG OAuth skipped.',
+      '2026-09-06 ~12:55 poll-statusphere-rakuten: no new AI/SaaS join targets beyond ~12:15 catalog sweep (0 new; PureVPN+NordVPN APAC still Pending). Prior: Partnered Blockchain Council + Wondershare; 11 software Pending; Depositphotos terms-blocked; Educative+Webroot Intl ineligible; major SaaS NotFound. SID 4747686. IG OAuth skipped.',
     jobs: [
       {
         id: 'rak-depositphotos',
