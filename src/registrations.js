@@ -587,7 +587,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'marketplace',
     notes:
-      'Waitlisted profile exists. Verify link expired (3663d8d2). Resend clicked twice 2026-09-06 (fae80d4a, 5ee43d66); still waiting on fresh verify mail. Save profile still needs street+phone. No IG OAuth.',
+      'Waitlisted profile exists. Verify token fa72c366 expired. Resend clicked 3x on 2026-09-06 (3663d8d2/fae80d4a/5ee43d66/cfd60912) with on-page 'link sent' but no newer Statusphere mail in inbox/spam yet. Save profile still needs street+phone. No IG OAuth.',
     jobs: [],
   },
   {
