@@ -704,8 +704,28 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      'Activated (SID 4747686). Blockchain Council partnered; HTVRONT Pending (3d7056a0). Software search surfaced Wondershare/ESET/Skylum/Educative/Brytesoft for next apply batch. IG OAuth skipped.',
+      'Activated (SID 4747686). Partnered: Blockchain Council + Wondershare (08e618a0). Pending: HTVRONT (MID 44712), ESET (MID 45104). Next queue: Skylum/Educative/Brytesoft. IG OAuth skipped.',
     jobs: [
+      {
+        id: 'rak-eset',
+        brand: 'ESET Software',
+        title: 'Rakuten Advertising partnership',
+        status: 'submitted',
+        appliedAt: '2026-09-06',
+        rate: 'Affiliate',
+        notes: 'Apply Pending 2026-09-06 (08e618a0). MID 45104.',
+        href: 'https://publisher.rakutenadvertising.com/advertisers/45104/offers/734309/details',
+      },
+      {
+        id: 'rak-wondershare',
+        brand: 'Wondershare',
+        title: 'Rakuten Advertising partnership',
+        status: 'won',
+        appliedAt: '2026-09-06',
+        rate: 'Affiliate',
+        notes: 'Partnered 2026-09-06 (08e618a0). MID 37160.',
+        href: 'https://publisher.rakutenadvertising.com/advertisers/37160/offers/764692/details',
+      },
       {
         id: 'rak-htvront',
         brand: 'HTVRONT',
@@ -713,7 +733,7 @@ export const platforms = [
         status: 'submitted',
         appliedAt: '2026-09-06',
         rate: 'Affiliate',
-        notes: 'Apply sent 2026-09-06 (3d7056a0); status Pending. MID 44712.',
+        notes: 'Apply Pending 2026-09-06 (3d7056a0/08e618a0). MID 44712.',
         href: 'https://publisher.rakutenadvertising.com/advertisers/find?query=AI&index=advertisers',
       },
       {
