@@ -73,7 +73,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-06 ~22:22 poll-collab-otp-tight: Gmail still NO fresh unlock in last 12h (Verification 165312 @09:26 expired + AM resets only). Did NOT login. Prior unlock-retry ~22:18 same. 0 programs. Fresh unlock required.',
+      '2026-09-06 ~22:28 poll-apply-tasks: Gmail still NO fresh unlock (Verification 165312 @09:26 expired + AM resets only). Did NOT login. Prior OTP ~22:22 / unlock-retry ~22:18 same. 0 programs. Fresh unlock required.',
     jobs: [],
   },
   {
@@ -287,7 +287,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-06 ~21:25 poll-apply-tasks: Network still Pending; profile ~69%. Home: 2 program applications on hold. Descript Application pending review (up to 30d). Reclaim.ai + ElevenLabs remain on hold pending Network (do not re-mass-apply). No PartnerStack approval mail in Gmail. Skip phone/tax/card/IG OAuth. FlexOffers phone-gated; Digistore24/Refersion skip; Impact no fresh unlock.',
+      '2026-09-06 ~22:28 poll-apply-tasks: Network still Pending; profile ~69%. Home: 2 program applications on hold. Descript Application pending review (up to 30d). Reclaim.ai on hold pending Network; ElevenLabs still gated to hold until Network Approved (do not re-mass-apply). No PartnerStack approval mail in Gmail. Skip phone/tax/card/IG OAuth. FlexOffers phone-gated; Digistore24 LOGCAP skip (~22:22); Refersion captcha skip; Impact no fresh unlock (~22:22).',
     jobs: [
       {
         id: 'ps-elevenlabs',
@@ -296,7 +296,7 @@ export const platforms = [
         status: 'submitted',
         appliedAt: '2026-09-06',
         rate: 'Affiliate',
-        notes: 'On hold pending Network approval — reconfirmed 2026-09-06 ~21:25.',
+        notes: 'On hold pending Network approval — reconfirmed 2026-09-06 ~22:28.',
         href: 'https://dash.partnerstack.com/marketplace/all/details/elevenlabsinc',
       },
       {
@@ -306,7 +306,7 @@ export const platforms = [
         status: 'submitted',
         appliedAt: '2026-09-05',
         rate: 'Affiliate',
-        notes: 'Application received / pending Descript review — reconfirmed 2026-09-06 ~21:25 (up to 30d).',
+        notes: 'Application received / pending Descript review — reconfirmed 2026-09-06 ~22:28 (up to 30d).',
         href: 'https://dash.partnerstack.com/descriptinc/application',
       },
       {
@@ -316,7 +316,7 @@ export const platforms = [
         status: 'submitted',
         appliedAt: '2026-09-06',
         rate: 'Affiliate',
-        notes: 'On hold pending Network approval — reconfirmed 2026-09-06 ~21:25.',
+        notes: 'On hold pending Network approval — reconfirmed 2026-09-06 ~22:28.',
         href: 'https://dash.partnerstack.com/marketplace/all/details/reclaim',
       },
       {
@@ -326,7 +326,7 @@ export const platforms = [
         status: 'submitted',
         appliedAt: '2026-09-06',
         rate: '—',
-        notes: 'Still Under Review / Pending 2026-09-06 ~21:25. Do not re-submit.',
+        notes: 'Still Under Review / Pending 2026-09-06 ~22:28. Do not re-submit.',
         href: 'https://dash.partnerstack.com/marketplace/network_application',
       },
     ],
