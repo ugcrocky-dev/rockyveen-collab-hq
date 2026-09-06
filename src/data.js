@@ -114,10 +114,10 @@ export const pipeline = [
   },
   {
     brand: 'Higgsfield / Runway / Luma / ElevenLabs',
-    status: 'Outbound',
+    status: 'Applied',
     value: 'Programs',
-    next: 'Web forms + day-3 follow-up',
-    note: 'Some email paths bounced; use official forms.',
+    next: 'Await approvals; finish Higgsfield + ElevenLabs manually',
+    note: 'Runway + Luma submitted Sep 5. Descript + Perplexity + CapCut CPP also in. Higgsfield/ElevenLabs need logged-in 1-tap.',
   },
 ]
 
@@ -152,20 +152,31 @@ export const todayActions = [
   {
     id: 'apply-higgsfield-form',
     priority: 'P0',
-    title: 'Submit Higgsfield CPP web form',
-    detail: 'Email outreach sent. Also submit the official CPP form.',
-    eta: '10 min',
+    title: 'Finish Higgsfield CPP (needs your login)',
+    detail:
+      'Form filled but their site errors on automated submit. Open while logged into Higgsfield and tap submit once.',
+    eta: '2 min',
     status: 'ready',
     href: 'https://higgsfield.ai/creator-partnership-program',
   },
   {
     id: 'apply-runway-form',
     priority: 'P0',
-    title: 'Submit Runway Affiliate form',
-    detail: 'Email hit enterprise sales. Use the affiliate form instead.',
-    eta: '10 min',
+    title: 'Runway Affiliate form submitted',
+    detail: 'DONE Sep 5 — confirmation received on runway.com/affiliate-program.',
+    eta: 'done',
     status: 'ready',
     href: 'https://runway.com/affiliate-program',
+  },
+  {
+    id: 'apply-more-programs',
+    priority: 'P0',
+    title: 'Program apps batch (Luma/Descript/Perplexity/CapCut)',
+    detail:
+      'DONE Sep 5 — Luma CPP thank-you, Descript PartnerStack received, Perplexity curator Typeform submitted, CapCut Creative Partner submitted. Kling emailed jingya@klingai.com. ElevenLabs Google Form still needs manual finish.',
+    eta: 'done',
+    status: 'ready',
+    href: 'https://elevenlabs.io/ambassador',
   },
   {
     id: 'counter-brand-budgets',
