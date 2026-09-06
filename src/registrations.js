@@ -67,13 +67,13 @@ export const platforms = [
     id: 'impact',
     platform: 'Impact.com',
     url: 'https://impact.com',
-    status: 'registered_account_locked',
+    status: 'registered_ui_broken',
     username: 'rockyveen',
     oauthRequired: false,
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      'Account locked. Reset links Wrong Link/expired (def6ade2); forgot-password re-triggered (6c86a7a9). Do NOT hammer login/reset — wait for a fresh valid unlock email, then one careful login. Join AI/SaaS only after unlock. 0 programs joined.',
+      'Password + device OTP OK (165312 on 9248295c → home-mp briefly). Discover/marketplace repeatedly 404 after login (5af4350a login↔404 loop). Do NOT hammer reset/login. 0 programs joined until Impact UI routes stabilize.',
     jobs: [],
   },
   {
@@ -287,7 +287,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      'Network membership SUBMITTED 2026-09-06 (b1e2cad0) — pending approval. Descript under review. Reclaim still gated on Network approval (d46f804a). Later handshake login hit shadow-DOM Continue-button stall (a6df0a03) — retry from dash after Network approves. Skip phone/tax/card/IG OAuth.',
+      'Network Under Review confirmed 2026-09-06 (27c3c2b3 / 9cdd48e2). Descript under review. Reclaim submitted but on hold until Network approves. ElevenLabs and other AI/SaaS also Network-gated — stopped mass applies. Skip phone/tax/card/IG OAuth.',
     jobs: [
       {
         id: 'ps-descript',
@@ -303,10 +303,10 @@ export const platforms = [
         id: 'ps-reclaim',
         brand: 'Reclaim.ai',
         title: 'PartnerStack affiliate application',
-        status: 'needs_action',
+        status: 'submitted',
         appliedAt: '2026-09-06',
         rate: 'Affiliate',
-        notes: 'Retrying after Network submit; dropdown “used before?” → No.',
+        notes: 'Submitted 2026-09-06 (9cdd48e2); on hold pending Network approval. used before? → No.',
         href: 'https://dash.partnerstack.com/marketplace/all/details/reclaim',
       },
       {
@@ -316,7 +316,7 @@ export const platforms = [
         status: 'submitted',
         appliedAt: '2026-09-06',
         rate: '—',
-        notes: 'Submitted 2026-09-06 (b1e2cad0). Pending PartnerStack Network approval.',
+        notes: 'Under Review (27c3c2b3 / b1e2cad0). Do not re-submit.',
         href: 'https://dash.partnerstack.com/marketplace/network_application',
       },
     ],
@@ -711,13 +711,13 @@ export const platforms = [
     id: 'firstpromoter',
     platform: 'FirstPromoter',
     url: 'https://www.firstpromoter.com',
-    status: 'registered_needs_2fa',
+    status: 'registered_admin_workspace',
     username: 'collabs@rockyveen.com',
     oauthRequired: false,
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      'Email confirmed 2026-09-06; admin 2FA still blocked — latest code attempts rejected/expired. Need one fresh code used immediately without requesting extras.',
+      'Logged in 2026-09-06 via same-session OTP 176993 (5a7146db) → https://rockyveen.firstpromoter.com/dashboard. This is Rocky Veen’s COMPANY/admin FirstPromoter workspace (own affiliate program), not a promoter marketplace to join external brands. Billing provider still unset — skipped phone/tax/card. 0 external programs to join.',
     jobs: [],
   },
 ]
