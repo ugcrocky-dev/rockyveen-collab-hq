@@ -597,7 +597,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'marketplace',
     notes:
-      '2026-09-06 ~14:58 poll-statusphere-rakuten: Gmail (inbox+spam) — no NEW verify/unlock. Still only waitlist mail @12:00 UTC + older verify @08:40 (expired earlier). Remain registered_waitlisted; no profile unlock. No phone/street invention. No IG OAuth.',
+      '2026-09-06 ~17:06 poll-statusphere-rakuten: Gmail (inbox+spam) — no NEW verify/unlock. Still only waitlist mail @12:00 UTC + older verify @08:40 (expired earlier). Remain registered_waitlisted; no profile unlock. No phone/street invention. No IG OAuth.',
     jobs: [],
   },
   {
@@ -714,7 +714,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-06 ~16:46 poll-rakuten-more-saas: SID 4747686 — Partnered Blockchain Council + Wondershare Software; 11 software still Pending (Skylum/Brytesoft/NordVPN/NordVPN APAC/PureVPN/ESET/HTVRONT/Webroot Inc/IONOS/ExitLag/Tresorit — no Pending→Partnered moves). Catalog AI/SaaS/Canva/Grammarly/Adobe/Notion thin — 0 new applies.',
+      '2026-09-06 ~17:06 poll-statusphere-rakuten: no new AI/SaaS since ~16:46 sweep (0 new; Partnered Blockchain Council + Wondershare; 11 software still Pending incl PureVPN+NordVPN APAC). Impact not hammered; FlexOffers phone-blocked. SID 4747686.',
     jobs: [
       {
         id: 'rak-depositphotos',
