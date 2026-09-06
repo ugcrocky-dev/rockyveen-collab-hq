@@ -60,7 +60,7 @@ export const platforms = [
     photoUploaded: true,
     category: 'marketplace',
     notes:
-      'DONE by me: profile, IG photo, rates (Reel $500 / TikTok $500 / UGC $450 / UGC+post $750). ONLY blocker left: card identity check at collabstr.com/creator-onboarding?step=4 (verify-only, they say no charge). Paste any card → Go Live → I mass-apply.',
+      'Profile/rates ready. 2026-09-06 card identity at step=4: details entered but BLOCKED by hCaptcha (0100cf58 / prior). Need human to click hCaptcha then Verify/Go Live ($0 auth expected; stop if >$10). Then mass-apply AI/SaaS.',
     jobs: [],
   },
   {
@@ -547,7 +547,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      'Email verified. 2026-09-06 poll: still blocked on companyInfo Mobile Phone (89d8ec67) — no fake phone. OTP N/A. 0 offers joined.',
+      'Phone+address entered 2026-09-06 (+1 9452321969, 355 Autumn Bluff Dr, Lawrenceville GA 30044). companyInfo Continue still flaky on website URL validation (https stripped) — retrying. 0 offers joined yet.',
     jobs: [],
   },
   {
@@ -597,7 +597,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'marketplace',
     notes:
-      'Login OK 2026-09-06 (a7026140) → creators/home waitlist. Old verify token fa72c366 still expired (2ee0c752); no newer Statusphere mail after prior resends. No unverified banner on dashboard. Street/phone still required for full profile — not invented. No IG OAuth.',
+      'Profile address+phone saved 2026-09-06 (450d3fce): 355 Autumn Bluff Dr, Lawrenceville GA 30044, +1 945-232-1969. Still waitlisted (creators/home). No unverified banner. IG/site already set. No IG OAuth.',
     jobs: [],
   },
   {
