@@ -714,7 +714,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-06 ~11:55 status check (17f81f81): Skylum/Brytesoft/NordVPN/NordVPN APAC/ESET/HTVRONT all still Pending. Partnered: Blockchain Council + Wondershare. Also Pending: PureVPN, Webroot Inc, IONOS, ExitLag, Tresorit. Depositphotos MID 38124 Not Partnered but terms-blocked (7beedffd). Canva/Notion/Grammarly/Dropbox/Adobe/etc NotFound as SaaS. Educative + Webroot Intl blocked. SID 4747686. IG OAuth skipped.',
+      '2026-09-06 ~12:15 poll-rakuten-more-saas: login OK. Partnered confirmed: Blockchain Council + Wondershare. All 11 prior software Pending still Pending (Skylum, Brytesoft, NordVPN, NordVPN APAC, PureVPN, ESET, HTVRONT, Webroot Inc, IONOS, ExitLag, Tresorit). 0 NEW applies — catalog thin (software/VPN/cloud/security/hosting/productivity searches + Bitdefender/Norton/Surfshark/ExpressVPN/Bluehost/Adobe/Canva/Grammarly/Shopify/Udemy/Dropbox etc NotFound). Depositphotos terms-blocked; Educative + Webroot Intl ineligible. SID 4747686. IG OAuth skipped.',
     jobs: [
       {
         id: 'rak-depositphotos',
@@ -870,10 +870,10 @@ export const platforms = [
         id: 'rak-blockchain-council',
         brand: 'Blockchain Council',
         title: 'Rakuten Advertising partnership',
-        status: 'submitted',
+        status: 'won',
         appliedAt: '2026-09-06',
         rate: 'Affiliate',
-        notes: 'Partnered / applied via Find Advertisers AI search (MID 43395 / offer 980864).',
+        notes: 'Partnered / Approved confirmed 2026-09-06 ~12:15 (MID 43395 / offer 980864).',
         href: 'https://publisher.rakutenadvertising.com/advertisers/43395/offers/980864/details',
       },
     ],
