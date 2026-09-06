@@ -591,13 +591,13 @@ export const platforms = [
     id: 'statusphere',
     platform: 'Statusphere',
     url: 'https://www.joinstatus.com',
-    status: 'registered_needs_email_verify',
+    status: 'registered_waitlisted',
     username: 'collabs@rockyveen.com',
     oauthRequired: false,
     photoUploaded: false,
     category: 'marketplace',
     notes:
-      'Waitlisted profile exists. Verify token fa72c366 expired. Resend clicked 3x on 2026-09-06 (3663d8d2/fae80d4a/5ee43d66/cfd60912) with on-page 'link sent' but no newer Statusphere mail in inbox/spam yet. Save profile still needs street+phone. No IG OAuth.',
+      'Login OK 2026-09-06 (a7026140) → creators/home waitlist. Old verify token fa72c366 still expired (2ee0c752); no newer Statusphere mail after prior resends. No unverified banner on dashboard. Street/phone still required for full profile — not invented. No IG OAuth.',
     jobs: [],
   },
   {
@@ -714,8 +714,28 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      'Activated (SID 4747686). Partnered: Blockchain Council + Wondershare. Pending applies: HTVRONT, ESET, Skylum (46644), Brytesoft (53710), NordVPN (43061). Educative (47764) blocked/not eligible. Canva/Notion/Grammarly not in catalog. IG OAuth skipped.',
+      'Activated (SID 4747686). Partnered: Blockchain Council + Wondershare. Pending: HTVRONT, ESET, Skylum (46644), Brytesoft (53710), NordVPN (43061), PureVPN (38687), NordVPN APAC (53276). Educative blocked. Jasper/Copy.ai/Semrush/Ahrefs/Adobe/Canva NotFound. IG OAuth skipped.',
     jobs: [
+      {
+        id: 'rak-purevpn',
+        brand: 'PureVPN',
+        title: 'Rakuten Advertising partnership',
+        status: 'submitted',
+        appliedAt: '2026-09-06',
+        rate: 'Affiliate',
+        notes: 'Apply Pending 2026-09-06 (17fe5967). MID 38687.',
+        href: 'https://publisher.rakutenadvertising.com/advertisers/38687/offers/1077999/details',
+      },
+      {
+        id: 'rak-nordvpn-apac',
+        brand: 'NordVPN APAC',
+        title: 'Rakuten Advertising partnership',
+        status: 'submitted',
+        appliedAt: '2026-09-06',
+        rate: 'Affiliate',
+        notes: 'Apply Pending 2026-09-06 (17fe5967). MID 53276 (separate from NordVPN 43061).',
+        href: 'https://publisher.rakutenadvertising.com/advertisers/53276/offers/details',
+      },
       {
         id: 'rak-nordvpn',
         brand: 'NordVPN',
