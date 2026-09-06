@@ -73,7 +73,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-06: Still locked/unusable. One-shot reset task def6ade2 hit Wrong Link (expired/invalid reset URL) — stopped immediately, 0 programs joined. Do not spam resets/logins; wait for unlock or a brand-new reset email before retry.',
+      'Task 6c86a7a9 finished: triggered forgot-password for collabs@rockyveen.com but could not complete without inbox. Existing reset links previously Wrong Link; OTP 165312 expired. Do not spam resets/logins. 0 programs joined.',
     jobs: [],
   },
   {
@@ -274,7 +274,7 @@ export const platforms = [
     oauthRequired: false,
     photoUploaded: false,
     category: 'affiliate',
-    notes: 'ShareASale redirects to Awin publisher signup; phone + physical address mandatory — skipped per email-only rule.',
+    notes: 'Task 7946b33a finished blocked: ShareASale→Awin publisher signup step 4 requires physical address + telephone. Stopped per no-fake-phone rule.',
     jobs: [],
   },
   {
@@ -287,7 +287,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      'Logged in 2026-09-06. Network form is flaky (Country/channels validation): one pass reported submit, recheck still showed Apply to Network + blocked marketplace. Descript under review. Reclaim + mass applies blocked until Network truly submits/approves.',
+      'Task cb500f39 finished: logged in. Descript still under review. Reclaim.ai stuck on required “used before?” dropdown (selection would not stick). Network/marketplace still flaky. No new joins this pass.',
     jobs: [
       {
         id: 'ps-descript',
@@ -518,13 +518,13 @@ export const platforms = [
     id: 'skeepers',
     platform: 'Skeepers',
     url: 'https://skeepers.io',
-    status: 'registered_needs_email_verify',
+    status: 'registered_needs_phone',
     username: 'collabs@rockyveen.com',
     oauthRequired: false,
     photoUploaded: false,
     category: 'marketplace',
     notes:
-      '2026-09-06 task 8824a0c6: creator signup started; paused on email activation. Welcome + password-reset mails from im.skeepers.io. After verify expect phone and/or IG OAuth blockers.',
+      'Task f48c4abc finished: email confirmed + logged in; name/site saved. Profile Update blocked — phone required. Consumer campaigns sold out; Influencer campaigns need IG/TikTok OAuth. 0 applies.',
     jobs: [],
   },
   {
@@ -537,7 +537,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      'Login reached email-verify UI, but passcode 101957 rejected as incorrect (likely expired; code emailed 09:15, ~30min TTL). Need a fresh FlexOffers passcode then re-verify before offer joins.',
+      'Task 2eb99db5 finished: login reached verify UI but passcode 538077 rejected. Fresh passcode 488312 emailed 09:39; continue task 778df5c1 entering it once (no code-spam).',
     jobs: [],
   },
   {
@@ -550,7 +550,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      'Mitgo ID + ad space OK. Welcome email your next 5 steps received 2026-09-06 09:17 — account live; waiting moderation before program applies.',
+      'Task 84e3bfa7 finished: Mitgo email confirmed + login OK. Onboarding set Influencer + @rockyveen + US; reached final create-adspace step. Marketplace applies still gated on finishing ad space / moderation.',
     jobs: [],
   },
   {
@@ -562,7 +562,7 @@ export const platforms = [
     oauthRequired: false,
     photoUploaded: false,
     category: 'marketplace',
-    notes: 'Signup hit Cloudflare/hCaptcha + rate limit / Too Many Requests; retry later.',
+    notes: 'Task f5b853d8 finished failed: Too Many Requests + persistent hCaptcha on accounts.shopify.com. Needs manual captcha.',
     jobs: [],
   },
   {
@@ -581,13 +581,13 @@ export const platforms = [
     id: 'statusphere',
     platform: 'Statusphere',
     url: 'https://www.joinstatus.com',
-    status: 'pending_email_verify',
+    status: 'registered_waitlisted',
     username: 'collabs@rockyveen.com',
     oauthRequired: false,
     photoUploaded: false,
     category: 'marketplace',
     notes:
-      'Verify link from 08:40 email expired (task 3663d8d2). Need resend verification for collabs@rockyveen.com before creator dashboard. Phone/address may still block profile save afterward.',
+      'Task 271c9224 finished: logged in (verified). Waitlisted. Partial profile (name/bio/site/@rockyveen/interests). Save blocked without street + phone. Photo upload errored.',
     jobs: [],
   },
   {
@@ -636,6 +636,19 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes: 'Affiliate signup blocked by Digistore24 anti-bot captcha (REGCAP) 2026-09-06.',
+    jobs: [],
+  },
+  {
+    id: 'refersion',
+    platform: 'Refersion',
+    url: 'https://www.refersion.com',
+    status: 'pending_signup',
+    username: 'collabs@rockyveen.com',
+    oauthRequired: false,
+    photoUploaded: false,
+    category: 'affiliate',
+    notes:
+      'Signup task bcfb55c1 launched 2026-09-06 (email-only; skip phone/tax/card/IG OAuth).',
     jobs: [],
   },
   {
