@@ -73,7 +73,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      'Task 6c86a7a9 finished: triggered forgot-password for collabs@rockyveen.com but could not complete without inbox. Existing reset links previously Wrong Link; OTP 165312 expired. Do not spam resets/logins. 0 programs joined.',
+      'Account locked. Reset links Wrong Link/expired (def6ade2); forgot-password re-triggered (6c86a7a9). Do NOT hammer login/reset — wait for a fresh valid unlock email, then one careful login. Join AI/SaaS only after unlock. 0 programs joined.',
     jobs: [],
   },
   {
@@ -287,7 +287,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      'Task cb500f39 finished: logged in. Descript still under review. Reclaim.ai stuck on required “used before?” dropdown (selection would not stick). Network/marketplace still flaky. No new joins this pass.',
+      'Logged in (cb500f39). Descript under review. Reclaim.ai stuck on required “used before?” dropdown. Network Apply form still flaky — marketplace locked until Network truly submits/approves. No new mass applies.',
     jobs: [
       {
         id: 'ps-descript',
@@ -537,20 +537,20 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      'Task 2eb99db5 finished: login reached verify UI but passcode 538077 rejected. Fresh passcode 488312 emailed 09:39; continue task 778df5c1 entering it once (no code-spam).',
+      'Passcodes 538077/488312/101957/495721/227257/320052 all rejected or expired across tasks 2eb99db5/c505bccf/57a2020e. Login-only session stalled. Need one fresh code entered in-session within ~30s. 0 offers joined.',
     jobs: [],
   },
   {
     id: 'admitad',
     platform: 'Admitad (Mitgo ID)',
     url: 'https://www.admitad.com',
-    status: 'registered_needs_adspace',
+    status: 'registered_pending_moderation',
     username: 'collabs@rockyveen.com',
     oauthRequired: false,
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      'Task 84e3bfa7 finished: Mitgo email confirmed + login OK. Onboarding set Influencer + @rockyveen + US; reached final create-adspace step. Marketplace applies still gated on finishing ad space / moderation.',
+      'Email confirmed + login OK (84e3bfa7). Website + IG (@rockyveen) adspaces created and submitted (e4eaecf7). Status Not reviewed — cannot join catalog until Active (1–3 business days). No phone/tax/card asked.',
     jobs: [],
   },
   {
@@ -630,7 +630,7 @@ export const platforms = [
     id: 'digistore24',
     platform: 'Digistore24',
     url: 'https://www.digistore24.com',
-    status: 'blocked_captcha',
+    status: 'registered_needs_email_verify',
     username: 'collabs@rockyveen.com',
     oauthRequired: false,
     photoUploaded: false,
@@ -642,13 +642,26 @@ export const platforms = [
     id: 'refersion',
     platform: 'Refersion',
     url: 'https://www.refersion.com',
-    status: 'pending_signup',
+    status: 'pending_email_verify',
     username: 'collabs@rockyveen.com',
     oauthRequired: false,
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      'Signup task bcfb55c1 launched 2026-09-06 (email-only; skip phone/tax/card/IG OAuth).',
+      'Friends of Rewardful confirmed + dashboard OK (ab78929a). Affiliate link https://www.rewardful.com/?via=rocky. Business Profile/payouts need mobile 2FA — phone skipped.',
+    jobs: [],
+  },
+  {
+    id: 'rakuten',
+    platform: 'Rakuten Advertising',
+    url: 'https://rakutenadvertising.com',
+    status: 'pending_email_activate',
+    username: 'collabs@rockyveen.com',
+    oauthRequired: false,
+    photoUploaded: false,
+    category: 'affiliate',
+    notes:
+      'Publisher signup submitted (e72a8c6a). Activation email 09:50; activate task 962860b9 navigating long JWT link. Stop if phone/tax/SSN/card required.',
     jobs: [],
   },
   {
