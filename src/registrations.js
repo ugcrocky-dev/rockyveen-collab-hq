@@ -73,7 +73,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-06: Earlier OTP 165312 got partner home briefly; Discover 404 — 0 joins. Locked after failed retries. Fresh reset 09:23 + OTP 165312 at 09:26; one-shot reset task def6ade2 in flight. Do not hammer login. Join AI/SaaS only after unlock.',
+      '2026-09-06: Still locked/unusable. One-shot reset task def6ade2 hit Wrong Link (expired/invalid reset URL) — stopped immediately, 0 programs joined. Do not spam resets/logins; wait for unlock or a brand-new reset email before retry.',
     jobs: [],
   },
   {
@@ -537,7 +537,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      'Passcode 101957 from 09:15 verify email; browser task c505bccf entering code + joining AI/SaaS offers (no phone/tax/card).',
+      'Login reached email-verify UI, but passcode 101957 rejected as incorrect (likely expired; code emailed 09:15, ~30min TTL). Need a fresh FlexOffers passcode then re-verify before offer joins.',
     jobs: [],
   },
   {
@@ -587,7 +587,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'marketplace',
     notes:
-      'Creator application started 2026-09-06 (task 41a2bb97). Verify-email received; task 3663d8d2 opening link. Profile save may still need street + phone after verify.',
+      'Verify link from 08:40 email expired (task 3663d8d2). Need resend verification for collabs@rockyveen.com before creator dashboard. Phone/address may still block profile save afterward.',
     jobs: [],
   },
   {
