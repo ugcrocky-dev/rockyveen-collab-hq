@@ -67,13 +67,13 @@ export const platforms = [
     id: 'impact',
     platform: 'Impact.com',
     url: 'https://impact.com',
-    status: 'registered_ui_broken',
+    status: 'registered_locked',
     username: 'rockyveen',
     oauthRequired: false,
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-06 ~11:56 apply-tasks poll: Gmail still only stale Impact Verification 165312 + Reset mails (~08:28–09:26). No fresh unlock. Skipped — do not hammer. Discover/marketplace 404s. 0 programs joined.',
+      '2026-09-06 ~12:02 impact-unlock-retry: Gmail collabs-rockyveen checked — still NO fresh unlock. Latest Impact mail remains Verification 165312 @09:26 (expired) + Reset Impact Password burst ~08:28–09:23. Account rockyveen treated as still locked. Did NOT attempt login (avoid more failed-login lock). CreatorReady skipped (not email-only path / OTP spam only). 0 programs joined. Reschedule later.',
     jobs: [],
   },
   {
