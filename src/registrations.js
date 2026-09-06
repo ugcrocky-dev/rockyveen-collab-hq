@@ -597,7 +597,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'marketplace',
     notes:
-      '2026-09-06 ~12:55 poll-statusphere-rakuten: Gmail (inbox+spam) — waitlist mail 12:00 UTC + older verify 08:40 (link EXPIRED). Login OK → creators/home still WAITLISTED (47% profile). Address+phone on file; IG @rockyveen connected. No unlock/campaign access. No phone/street invention. No IG OAuth.',
+      '2026-09-06 ~14:58 poll-statusphere-rakuten: Gmail (inbox+spam) — no NEW verify/unlock. Still only waitlist mail @12:00 UTC + older verify @08:40 (expired earlier). Remain registered_waitlisted; no profile unlock. No phone/street invention. No IG OAuth.',
     jobs: [],
   },
   {
@@ -714,7 +714,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-06 ~13:50 poll-collab-otp-tight: login OK. Partnered: Blockchain Council + Wondershare. Still Pending: Skylum, Brytesoft, NordVPN(+APAC), PureVPN, ESET, HTVRONT, Webroot Inc, IONOS, ExitLag, Tresorit (+software set). AI Find Advertisers: only already-applied. 0 new applies. SID 4747686.',
+      '2026-09-06 ~14:58 poll-statusphere-rakuten: login OK. Partnered still Blockchain Council + Wondershare. All 11 software still Pending (Skylum, Brytesoft, NordVPN(+APAC), PureVPN, ESET, HTVRONT, Webroot Inc, IONOS, ExitLag, Tresorit). SaaS/AI software/cloud software Find Advertisers: 0 new eligible (catalog thin). 0 new applies. Impact not hammered; FlexOffers phone-blocked. SID 4747686.',
     jobs: [
       {
         id: 'rak-depositphotos',
