@@ -73,7 +73,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-06 ~11:08 poll: still no fresh unlock (only stale Impact OTP 165312 / resets from ~09:15–09:26). Discover/marketplace 404s. Skipped — do not hammer. 0 programs joined.',
+      '2026-09-06 ~11:45 OTP-tight poll: Gmail still only stale Impact Verification/Reset mails (~09:05–09:26). No fresh unlock. Skipped — do not hammer. Discover/marketplace 404s. 0 programs joined.',
     jobs: [],
   },
   {
@@ -547,7 +547,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      'Phone+address entered 2026-09-06 (+1 9452321969, 355 Autumn Bluff Dr, Lawrenceville GA 30044). companyInfo Continue still flaky on website URL validation (https stripped) — retrying. 0 offers joined yet.',
+      '2026-09-06 ~11:45: still registered_needs_phone — OTP-tight pass skipped (Mobile Phone gate). Prior: phone+address attempted (+1 9452321969 / 355 Autumn Bluff Dr) but Continue flaky (country code + URL strip). 0 offers joined. Do not invent phones.',
     jobs: [],
   },
   {
@@ -560,7 +560,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      'Login OK 2026-09-06 (ef5a2e11). Adspaces rockyveen.com + IG @rockyveen still Not reviewed — cannot join catalog. Left pending moderation (no re-submit spam).',
+      '2026-09-06 ~11:50 recheck (fbf87324): login OK; adspaces Rocky Veen Instagram + rockyveen.com still Not reviewed — cannot join catalog. Left pending moderation (no re-submit spam).',
     jobs: [],
   },
   {
@@ -647,7 +647,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      'Email confirm link opened 2026-09-06 (32e200ac) → redirected to login. Re-login still blocked by Digistore anti-bot LOGCAP/B8SC (577a60c0; prior e5bd91cb/c3f069fd). Username rockyveenaffiliate. Prior: 10 products joined (b7d8de29). Goolux + KNX Wetterstation still pending approval.',
+      '2026-09-06 ~11:48 probe (e1432518): login form visible then blocked again — LOGCAP/B8SC anti-bot. Skipped (not calm). Username rockyveenaffiliate. Prior: email confirm opened (32e200ac); 10 products joined (b7d8de29). Goolux + KNX Wetterstation still pending approval.',
     jobs: [
       {
         id: 'ds-funnelcockpit',
@@ -701,7 +701,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      'Prior 2FA OK (723060). Re-login 2026-09-06 again blocked by persistent reCAPTCHA / incorrect combo loops (c3bb1aab; prior e22de181) — stopped. Still on Unified Payments onboarding (phone/tax/card skipped). 0 brand programs applied.',
+      '2026-09-06 ~11:45 OTP-tight: one login attempt (400c15c8) → Incorrect email/password — stopped (no retry). Prior 2FA OK (723060); earlier reCAPTCHA/combo loops (c3bb1aab/e22de181). Still on Unified Payments onboarding (phone/tax/card skipped). 0 brand programs applied.',
     jobs: [],
   },
   {
@@ -714,8 +714,18 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      'Activated (SID 4747686). Partnered: Blockchain Council + Wondershare. Pending: HTVRONT, ESET, Skylum (46644), Brytesoft (53710), NordVPN (43061), PureVPN (38687), NordVPN APAC (53276), Webroot Inc (24709), IONOS (53749), ExitLag (54235), Tresorit (53772). Educative blocked. Webroot Intl (42780) ineligible. Big SaaS names mostly NotFound. IG OAuth skipped.',
+      '2026-09-06 ~11:55 status check (17f81f81): Skylum/Brytesoft/NordVPN/NordVPN APAC/ESET/HTVRONT all still Pending. Partnered: Blockchain Council + Wondershare. Also Pending: PureVPN, Webroot Inc, IONOS, ExitLag, Tresorit. Depositphotos MID 38124 Not Partnered but terms-blocked (7beedffd). Canva/Notion/Grammarly/Dropbox/Adobe/etc NotFound as SaaS. Educative + Webroot Intl blocked. SID 4747686. IG OAuth skipped.',
     jobs: [
+      {
+        id: 'rak-depositphotos',
+        brand: 'Depositphotos INC',
+        title: 'Rakuten Advertising partnership',
+        status: 'blocked',
+        appliedAt: '2026-09-06',
+        rate: 'Affiliate',
+        notes: 'Not Partnered but terms not met — cannot apply 2026-09-06 (7beedffd). MID 38124 / offer 283668.',
+        href: 'https://publisher.rakutenadvertising.com/advertisers/38124/offers/283668/details',
+      },
       {
         id: 'rak-tresorit',
         brand: 'Tresorit',
