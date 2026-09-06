@@ -73,7 +73,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-06 ~14:16 impact-unlock-retry: Gmail collabs-rockyveen (inbox+spam) — still NO fresh unlock. Latest Impact mail remains Verification 165312 @09:26 (expired) + Reset Impact Password burst ~08:28–09:23. Account rockyveen treated as still locked. Did NOT attempt login. CreatorReady skipped (OTP spam only / not email-only unlock). 0 programs joined. Reschedule later.',
+      '2026-09-06 ~15:26 poll-collab-otp-tight: Gmail confirmed — still NO fresh unlock (latest Impact Verification 165312 @09:26 expired; Reset Password burst ~08:28–09:23). Did NOT login. 0 programs.',
     jobs: [],
   },
   {
@@ -547,7 +547,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-06 ~14:15 poll-apply-tasks: still needs Mobile Phone — skipped (confirmed ~13:50). 0 offers. Do not invent phones.',
+      '2026-09-06 ~15:26 poll-collab-otp-tight: logged in; Company Information still requires Mobile Phone — skipped (do not invent phones). 0 offers.',
     jobs: [],
   },
   {
@@ -560,7 +560,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-06 ~13:50 poll-collab-otp-tight: login OK; adspaces Rocky Veen Instagram + rockyveen.com still Not reviewed — cannot join catalog. Left pending (no re-submit).',
+      '2026-09-06 ~15:26 poll-collab-otp-tight: login OK; Instagram (@rockyveen) + rockyveen.com adspaces still Not reviewed — cannot join catalog. Left pending (no re-submit).',
     jobs: [],
   },
   {
@@ -647,7 +647,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-06 ~14:15 poll-apply-tasks: anti-bot not calm (LOGCAP/B8SC @~13:50) — skipped re-login. Username rockyveenaffiliate. Prior: 10 products joined. Goolux + KNX Wetterstation pending.',
+      '2026-09-06 ~15:26 poll-collab-otp-tight: login still LOGCAP/B8SC anti-bot — skipped. Username rockyveenaffiliate. Prior: 10 products joined. Goolux + KNX Wetterstation pending.',
     jobs: [
       {
         id: 'ds-funnelcockpit',
@@ -701,7 +701,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-06 ~14:15 poll-apply-tasks: skipped (Incorrect email/password @~13:50; do not hammer). Password may need manual reset. 0 brand programs.',
+      '2026-09-06 ~15:26 poll-collab-otp-tight: login page hard Blocked (anti-bot; helpme@refersion.com). Did not attempt password. Prior password reject — do not hammer. 0 brand programs.',
     jobs: [],
   },
   {
@@ -714,7 +714,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-06 ~14:58 poll-statusphere-rakuten: login OK. Partnered still Blockchain Council + Wondershare. All 11 software still Pending (Skylum, Brytesoft, NordVPN(+APAC), PureVPN, ESET, HTVRONT, Webroot Inc, IONOS, ExitLag, Tresorit). SaaS/AI software/cloud software Find Advertisers: 0 new eligible (catalog thin). 0 new applies. Impact not hammered; FlexOffers phone-blocked. SID 4747686.',
+      '2026-09-06 ~15:26 poll-collab-otp-tight: rechecked — Partnered Blockchain Council + Wondershare; 11 software still Pending (Skylum/Brytesoft/NordVPN/NordVPN APAC/PureVPN/ESET/HTVRONT/Webroot Inc/IONOS/ExitLag/Tresorit). Catalog search Grammarly/Adobe/Canva/AI — 0 new applies. SID 4747686.',
     jobs: [
       {
         id: 'rak-depositphotos',
