@@ -73,7 +73,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-06 ~20:17 impact-unlock-retry: Gmail (inbox+spam) still NO fresh unlock/reset. Latest still Verification 165312 @09:26 (expired) + Reset Password burst AM; no unlock mail. Did NOT login (avoid hammer). 0 programs. Reschedule ~2h.',
+      '2026-09-06 ~21:15 poll-collab-otp-tight: Gmail (inbox+spam) still NO fresh unlock/reset. Latest still Verification 165312 @09:26 (expired) + Reset Password burst AM; no unlock mail. Did NOT login (avoid hammer). Prior ~20:17 / ~18:17 same. 0 programs. Fresh unlock email required.',
     jobs: [],
   },
   {
@@ -547,7 +547,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-06 ~19:46 poll-collab-otp-tight: skipped — Mobile Phone still required on Company Information (do not invent phones). 0 offers.',
+      '2026-09-06 ~21:15 poll-collab-otp-tight: skipped — Mobile Phone still required on Company Information (do not invent phones). Prior ~19:46 / ~18:46 same. 0 offers. User must enter phone + Continue.',
     jobs: [],
   },
   {
@@ -560,7 +560,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-06 ~19:46 poll-collab-otp-tight: login OK; Instagram (@rockyveen) + rockyveen.com adspaces still Not reviewed — cannot join catalog. Left pending (no re-submit).',
+      '2026-09-06 ~21:15 poll-collab-otp-tight: Instagram (@rockyveen) + rockyveen.com adspaces still Not reviewed — cannot join catalog. Left pending (no re-submit). Prior ~19:46 same.',
     jobs: [],
   },
   {
@@ -647,7 +647,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-06 ~19:46 poll-collab-otp-tight: login probe returned Email/password incorrect (not calm LOGCAP path) — did NOT hammer. Username rockyveenaffiliate. Prior: 10 products joined. Goolux + KNX Wetterstation pending.',
+      '2026-09-06 ~21:15 poll-collab-otp-tight: prior Email/password incorrect still on login — DO NOT HAMMER (not calm). Username rockyveenaffiliate. Prior ~19:46 incorrect; ~18:46 LOGCAP. 10 products joined. Manual password/anti-bot resolve before AI/SaaS joins.',
     jobs: [
       {
         id: 'ds-funnelcockpit',
@@ -701,7 +701,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-06 ~19:46 poll-collab-otp-tight: skipped (hard anti-bot / multi-stage reCAPTCHA still present; prior Block ~15:26 + password reject). Do not hammer. 0 brand programs.',
+      '2026-09-06 ~21:15 poll-collab-otp-tight: skipped (hard anti-bot / multi-stage reCAPTCHA still present). Do not hammer password. Prior ~19:46 / ~18:46 same. 0 brand programs.',
     jobs: [],
   },
   {
@@ -714,7 +714,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-06 ~20:58 poll-rakuten-more-saas: 0 new AI/SaaS applies (catalog still thin; SaaS=0; Webroot International terms-blocked). Partnered Blockchain Council + Wondershare unchanged; 11 software still Pending (Skylum, Brytesoft, NordVPN(+APAC), PureVPN, ESET, HTVRONT, Webroot Inc, IONOS, ExitLag, Tresorit). SID 4747686. Skipped phone/tax/card/IG. FlexOffers phone-blocked; Impact skip; Admitad wait Active; Digistore skip anti-bot.',
+      '2026-09-06 ~21:15 OTP light glance + ~20:58 full SaaS poll: 0 new AI/SaaS (catalog thin). Partnered Blockchain Council + Wondershare; 11 Pending (Skylum, Brytesoft, NordVPN(+APAC), PureVPN, ESET, HTVRONT, Webroot Inc, IONOS, ExitLag, Tresorit). SID 4747686. Skipped phone/tax/card/IG.',
     jobs: [
       {
         id: 'rak-depositphotos',
