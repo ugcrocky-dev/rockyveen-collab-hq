@@ -73,7 +73,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-06 ~18:17 impact-unlock-retry: Gmail still NO fresh unlock/reset (latest Impact Verification 165312 @09:26 expired; Reset Password burst ~08:28–09:23). Did NOT login. CreatorReady skipped (OTP spam; not email-only unlock). 0 programs.',
+      '2026-09-06 ~18:46 poll-collab-otp-tight: Gmail still NO fresh unlock (latest Impact Verification 165312 @09:26 expired; Reset Password burst AM). Did NOT login. 0 programs.',
     jobs: [],
   },
   {
@@ -547,7 +547,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-06 ~17:38 poll-collab-otp-tight: skipped — still needs Mobile Phone on Company Information (do not invent phones). 0 offers.',
+      '2026-09-06 ~18:46 poll-collab-otp-tight: skipped — still needs Mobile Phone on Company Information (do not invent phones). 0 offers.',
     jobs: [],
   },
   {
@@ -560,7 +560,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-06 ~17:38 poll-collab-otp-tight: login OK; Instagram (@rockyveen) + rockyveen.com adspaces still Not reviewed — cannot join catalog. Left pending (no re-submit).',
+      '2026-09-06 ~18:46 poll-collab-otp-tight: login OK; Instagram (@rockyveen) + rockyveen.com adspaces still Not reviewed — cannot join catalog. Left pending (no re-submit).',
     jobs: [],
   },
   {
@@ -647,7 +647,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-06 ~17:38 poll-collab-otp-tight: login still LOGCAP/B8SC anti-bot — skipped. Username rockyveenaffiliate. Prior: 10 products joined. Goolux + KNX Wetterstation pending.',
+      '2026-09-06 ~18:46 poll-collab-otp-tight: login still LOGCAP/B8SC anti-bot — skipped. Username rockyveenaffiliate. Prior: 10 products joined. Goolux + KNX Wetterstation pending.',
     jobs: [
       {
         id: 'ds-funnelcockpit',
@@ -701,7 +701,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-06 ~17:38 poll-collab-otp-tight: skipped (hard anti-bot Block as of ~15:26; prior password reject). Do not hammer. 0 brand programs.',
+      '2026-09-06 ~18:46 poll-collab-otp-tight: skipped (hard anti-bot Block as of ~15:26; prior password reject). Do not hammer. 0 brand programs.',
     jobs: [],
   },
   {
@@ -714,7 +714,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-06 ~17:38 poll-collab-otp-tight: no new AI/SaaS since ~16:46/~17:06 (0 new; Partnered Blockchain Council + Wondershare; 11 software still Pending). SID 4747686.',
+      '2026-09-06 ~18:46 poll-collab-otp-tight: no new AI/SaaS since ~16:46/~17:06 (0 new; Partnered Blockchain Council + Wondershare; 11 software still Pending). SID 4747686.',
     jobs: [
       {
         id: 'rak-depositphotos',
