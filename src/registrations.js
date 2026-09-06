@@ -73,7 +73,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-06: Password reset to RockyCollabs2026!Veen succeeded for username rockyveen. Login blocked on device verification code emailed to collabs@rockyveen.com — completing OTP then joining AI/SaaS programs.',
+      '2026-09-06: Password reset + device OTP succeeded (username rockyveen). Logged into partner home, but Discover/brand pages repeatedly 404 — 0 programs joined this pass. Retry marketplace navigation next.',
     jobs: [],
   },
   {
