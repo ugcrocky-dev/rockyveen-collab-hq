@@ -73,7 +73,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      'No fresh unlock email (only stale device OTP 165312 from 09:26). Reset links expired earlier. Discover/marketplace 404s. Skipped — do not hammer. 0 programs joined.',
+      '2026-09-06 poll: still no fresh unlock (only stale device OTP 165312 / resets from ~09:26). Discover/marketplace 404s. Skipped — do not hammer. 0 programs joined.',
     jobs: [],
   },
   {
@@ -537,7 +537,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      'Email verified. Login 2026-09-06 (c50d1670) → companyInfo; Mobile Phone required — stopped (no fake phone). OTP loop N/A this pass (already past passcode). 0 offers joined.',
+      'Email verified. Reconfirmed 2026-09-06 (89d8ec67): login → companyInfo; Mobile Phone required — stopped (no fake phone). OTP N/A (already past passcode). 0 offers joined.',
     jobs: [],
   },
   {
@@ -550,7 +550,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      'Login OK 2026-09-06 (82f02505). Adspaces rockyveen.com + IG @rockyveen still Not reviewed — cannot join catalog. Left pending moderation (no re-submit spam).',
+      'Login OK 2026-09-06 (ef5a2e11). Adspaces rockyveen.com + IG @rockyveen still Not reviewed — cannot join catalog. Left pending moderation (no re-submit spam).',
     jobs: [],
   },
   {
@@ -637,7 +637,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      'Email confirmed + 10 products joined earlier (b7d8de29). 2026-09-06 re-login blocked by Digistore anti-bot LOGCAP/B8SC (c3f069fd). Username rockyveenaffiliate. Goolux + KNX Wetterstation still pending approval.',
+      'Email confirmed + 10 products joined earlier (b7d8de29). Re-login 2026-09-06 still blocked by Digistore anti-bot LOGCAP/B8SC (e5bd91cb; prior c3f069fd). Username rockyveenaffiliate. Goolux + KNX Wetterstation still pending approval.',
     jobs: [
       {
         id: 'ds-funnelcockpit',
@@ -691,7 +691,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      'Prior 2FA OK (723060). 2026-09-06 re-login blocked by persistent reCAPTCHA / incorrect combo loops (e22de181) — stopped. Still on Unified Payments onboarding (phone/tax/card skipped). 0 brand programs applied.',
+      'Prior 2FA OK (723060). Re-login 2026-09-06 again blocked by persistent reCAPTCHA / incorrect combo loops (c3bb1aab; prior e22de181) — stopped. Still on Unified Payments onboarding (phone/tax/card skipped). 0 brand programs applied.',
     jobs: [],
   },
   {
@@ -704,8 +704,48 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      'Activated (SID 4747686). Partnered: Blockchain Council + Wondershare (08e618a0). Pending: HTVRONT (MID 44712), ESET (MID 45104). Next queue: Skylum/Educative/Brytesoft. IG OAuth skipped.',
+      'Activated (SID 4747686). Partnered: Blockchain Council + Wondershare. Pending applies: HTVRONT, ESET, Skylum (46644), Brytesoft (53710), NordVPN (43061). Educative (47764) blocked/not eligible. Canva/Notion/Grammarly not in catalog. IG OAuth skipped.',
     jobs: [
+      {
+        id: 'rak-nordvpn',
+        brand: 'NordVPN',
+        title: 'Rakuten Advertising partnership',
+        status: 'submitted',
+        appliedAt: '2026-09-06',
+        rate: 'Affiliate',
+        notes: 'Apply Pending 2026-09-06 (c81af4a8). MID 43061.',
+        href: 'https://publisher.rakutenadvertising.com/advertisers/43061/offers/572706/details',
+      },
+      {
+        id: 'rak-brytesoft',
+        brand: 'Brytesoft',
+        title: 'Rakuten Advertising partnership',
+        status: 'submitted',
+        appliedAt: '2026-09-06',
+        rate: 'Affiliate',
+        notes: 'Apply Pending 2026-09-06 (c81af4a8). MID 53710.',
+        href: 'https://publisher.rakutenadvertising.com/advertisers/53710/offers/2051206/details',
+      },
+      {
+        id: 'rak-educative',
+        brand: 'Educative',
+        title: 'Rakuten Advertising partnership',
+        status: 'blocked',
+        appliedAt: '2026-09-06',
+        rate: 'Affiliate',
+        notes: 'Not eligible / terms not met 2026-09-06 (25ab2b7e). MID 47764.',
+        href: 'https://publisher.rakutenadvertising.com/advertisers/47764/offers/1095549/details',
+      },
+      {
+        id: 'rak-skylum',
+        brand: 'Skylum',
+        title: 'Rakuten Advertising partnership',
+        status: 'submitted',
+        appliedAt: '2026-09-06',
+        rate: 'Affiliate',
+        notes: 'Apply Pending 2026-09-06 (25ab2b7e). MID 46644 / offer 908928.',
+        href: 'https://publisher.rakutenadvertising.com/advertisers/46644/offers/908928/details',
+      },
       {
         id: 'rak-eset',
         brand: 'ESET Software',
