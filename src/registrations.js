@@ -73,7 +73,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      'Password + device OTP OK (165312 on 9248295c → home-mp briefly). Discover/marketplace repeatedly 404 after login (5af4350a login↔404 loop). Do NOT hammer reset/login. 0 programs joined until Impact UI routes stabilize.',
+      'Password + device OTP OK earlier (165312). Reset link task def6ade2: Wrong Link / expired — stopped. Discover/marketplace still 404 after login. Do NOT hammer reset/login. 0 programs joined.',
     jobs: [],
   },
   {
@@ -537,7 +537,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      'Email verified 2026-09-06 (code 297062, task 602f0b96) after tight same-session OTP. Onboarding Company Info requires Mobile Phone — stopped per no-fake-phone rule (e50a6251). Website https://rockyveen.com available to fill. 0 offers joined until phone.',
+      'Email verified (past OTP). Login OK 2026-09-06 (6d06fb60) → companyInfo. Mobile Phone required — stopped (no fake phone). Stale code 101957 rejected earlier. Website https://rockyveen.com ready. 0 offers joined until phone.',
     jobs: [],
   },
   {
@@ -581,13 +581,13 @@ export const platforms = [
     id: 'statusphere',
     platform: 'Statusphere',
     url: 'https://www.joinstatus.com',
-    status: 'registered_waitlisted',
+    status: 'registered_needs_email_verify',
     username: 'collabs@rockyveen.com',
     oauthRequired: false,
     photoUploaded: false,
     category: 'marketplace',
     notes:
-      'Task 271c9224 finished: logged in (verified). Waitlisted. Partial profile (name/bio/site/@rockyveen/interests). Save blocked without street + phone. Photo upload errored.',
+      'Waitlisted profile exists. Verify link expired (3663d8d2). Resend clicked 2026-09-06 (fae80d4a); no newer verify mail yet in inbox. Save profile still needs street+phone. No IG OAuth.',
     jobs: [],
   },
   {
@@ -698,13 +698,13 @@ export const platforms = [
     id: 'rakuten',
     platform: 'Rakuten Advertising',
     url: 'https://rakutenadvertising.com',
-    status: 'pending_email_activate',
+    status: 'registered',
     username: 'collabs@rockyveen.com',
     oauthRequired: false,
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      'Publisher signup submitted (e72a8c6a). Activation email 09:50; activate task 962860b9 navigating long JWT link. Stop if phone/tax/SSN/card required.',
+      'Activated + onboarding complete 2026-09-06 (9efa53c4). SID 4747686 · profile Rocky Veen · site https://rockyveen.com · dashboard https://publisher.rakutenadvertising.com/. IG OAuth skipped. No phone/tax/card required for activation.',
     jobs: [],
   },
   {
