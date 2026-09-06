@@ -587,7 +587,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'marketplace',
     notes:
-      'Waitlisted profile exists. Verify link expired (3663d8d2). Resend clicked 2026-09-06 (fae80d4a); no newer verify mail yet in inbox. Save profile still needs street+phone. No IG OAuth.',
+      'Waitlisted profile exists. Verify link expired (3663d8d2). Resend clicked twice 2026-09-06 (fae80d4a, 5ee43d66); still waiting on fresh verify mail. Save profile still needs street+phone. No IG OAuth.',
     jobs: [],
   },
   {
@@ -698,14 +698,25 @@ export const platforms = [
     id: 'rakuten',
     platform: 'Rakuten Advertising',
     url: 'https://rakutenadvertising.com',
-    status: 'registered',
+    status: 'registered_applying',
     username: 'collabs@rockyveen.com',
     oauthRequired: false,
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      'Activated + onboarding complete 2026-09-06 (9efa53c4). SID 4747686 · profile Rocky Veen · site https://rockyveen.com · dashboard https://publisher.rakutenadvertising.com/. IG OAuth skipped. No phone/tax/card required for activation.',
-    jobs: [],
+      'Activated + onboarding complete 2026-09-06 (9efa53c4). SID 4747686 · profile Rocky Veen · site https://rockyveen.com · dashboard https://publisher.rakutenadvertising.com/. IG OAuth skipped. Joined Blockchain Council (MID 43395) via marketplace search AI (83d5a29a).',
+    jobs: [
+      {
+        id: 'rak-blockchain-council',
+        brand: 'Blockchain Council',
+        title: 'Rakuten Advertising partnership',
+        status: 'submitted',
+        appliedAt: '2026-09-06',
+        rate: 'Affiliate',
+        notes: 'Partnered / applied via Find Advertisers AI search (MID 43395 / offer 980864).',
+        href: 'https://publisher.rakutenadvertising.com/advertisers/43395/offers/980864/details',
+      },
+    ],
   },
   {
     id: 'firstpromoter',
