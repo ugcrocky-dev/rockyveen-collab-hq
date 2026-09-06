@@ -73,7 +73,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-06 ~13:05 poll-apply-tasks: Gmail collabs-rockyveen — still NO fresh unlock (latest Impact Verification 165312 @09:26 expired; Reset Password burst ~08:28–09:23 only). Did NOT login. 0 programs. Skip hammering.',
+      '2026-09-06 ~13:50 poll-collab-otp-tight: Gmail — still NO fresh unlock (latest Impact Verification 165312 @09:26 expired; Reset Password burst earlier). Did NOT login. 0 programs.',
     jobs: [],
   },
   {
@@ -547,7 +547,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-06 ~13:05 poll-apply-tasks: still registered_needs_phone — skipped. Prior phone+address attempt flaky. 0 offers. Do not invent phones.',
+      '2026-09-06 ~13:50 poll-collab-otp-tight: login OK but onboarding still requires Mobile Phone — skipped (no invent). 0 offers.',
     jobs: [],
   },
   {
@@ -560,7 +560,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-06 ~11:50 recheck (fbf87324): login OK; adspaces Rocky Veen Instagram + rockyveen.com still Not reviewed — cannot join catalog. Left pending moderation (no re-submit spam).',
+      '2026-09-06 ~13:50 poll-collab-otp-tight: login OK; adspaces Rocky Veen Instagram + rockyveen.com still Not reviewed — cannot join catalog. Left pending (no re-submit).',
     jobs: [],
   },
   {
@@ -647,7 +647,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-06 ~13:05 poll-apply-tasks: anti-bot still not treated as calm — skipped re-login (prior LOGCAP/B8SC). Username rockyveenaffiliate. Prior: email confirm + 10 products joined. Goolux + KNX Wetterstation pending approval.',
+      '2026-09-06 ~13:50 poll-collab-otp-tight: login hit LOGCAP/B8SC anti-bot again — skipped. Username rockyveenaffiliate. Prior: email confirm + 10 products joined. Goolux + KNX Wetterstation pending.',
     jobs: [
       {
         id: 'ds-funnelcockpit',
@@ -701,7 +701,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-06 ~13:05 poll-apply-tasks: skipped re-login (prior Incorrect email/password 400c15c8; avoid lockout). Stale Refersion OTPs in Gmail (~10:07) not used. Still Unified Payments onboarding. 0 brand programs.',
+      '2026-09-06 ~13:50 poll-collab-otp-tight: ONE login attempt — Incorrect email/password again; STOPPED (no retry). Stale OTPs unused. 0 brand programs. Password may need manual reset.',
     jobs: [],
   },
   {
@@ -714,7 +714,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-06 ~12:55 poll-statusphere-rakuten: no new AI/SaaS join targets beyond ~12:15 catalog sweep (0 new; PureVPN+NordVPN APAC still Pending). Prior: Partnered Blockchain Council + Wondershare; 11 software Pending; Depositphotos terms-blocked; Educative+Webroot Intl ineligible; major SaaS NotFound. SID 4747686. IG OAuth skipped.',
+      '2026-09-06 ~13:50 poll-collab-otp-tight: login OK. Partnered: Blockchain Council + Wondershare. Still Pending: Skylum, Brytesoft, NordVPN(+APAC), PureVPN, ESET, HTVRONT, Webroot Inc, IONOS, ExitLag, Tresorit (+software set). AI Find Advertisers: only already-applied. 0 new applies. SID 4747686.',
     jobs: [
       {
         id: 'rak-depositphotos',
