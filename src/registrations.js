@@ -67,7 +67,7 @@ export const platforms = [
     id: 'impact',
     platform: 'Impact.com',
     url: 'https://impact.com',
-    status: 'pending_password_reset',
+    status: 'registered_needs_marketplace',
     username: 'collabs@rockyveen.com',
     oauthRequired: false,
     photoUploaded: false,
