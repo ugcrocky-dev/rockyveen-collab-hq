@@ -73,7 +73,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-06 poll: still no fresh unlock (only stale device OTP 165312 / resets from ~09:26). Discover/marketplace 404s. Skipped — do not hammer. 0 programs joined.',
+      '2026-09-06 ~10:56 poll: still no fresh unlock email (only stale device OTP/resets from ~09:26). Discover/marketplace 404s. Skipped — do not hammer. 0 programs joined.',
     jobs: [],
   },
   {
@@ -287,8 +287,18 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      'Network Under Review confirmed 2026-09-06 (27c3c2b3 / 9cdd48e2). Descript under review. Reclaim submitted but on hold until Network approves. ElevenLabs and other AI/SaaS also Network-gated — stopped mass applies. Skip phone/tax/card/IG OAuth.',
+      'Network Pending/Under Review reconfirmed 2026-09-06 (78efd9d7; prior 27c3c2b3/9cdd48e2). Descript under review. Reclaim + ElevenLabs applications queued/on hold until Network approves. Skip phone/tax/card/IG OAuth.',
     jobs: [
+      {
+        id: 'ps-elevenlabs',
+        brand: 'ElevenLabs',
+        title: 'PartnerStack affiliate application',
+        status: 'submitted',
+        appliedAt: '2026-09-06',
+        rate: 'Affiliate',
+        notes: 'Submitted 2026-09-06 (78efd9d7); on hold pending Network approval.',
+        href: 'https://dash.partnerstack.com/marketplace/all/details/elevenlabsinc',
+      },
       {
         id: 'ps-descript',
         brand: 'Descript',
@@ -316,7 +326,7 @@ export const platforms = [
         status: 'submitted',
         appliedAt: '2026-09-06',
         rate: '—',
-        notes: 'Under Review (27c3c2b3 / b1e2cad0). Do not re-submit.',
+        notes: 'Under Review / Pending (78efd9d7; prior 27c3c2b3 / b1e2cad0). Do not re-submit.',
         href: 'https://dash.partnerstack.com/marketplace/network_application',
       },
     ],
@@ -537,7 +547,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      'Email verified. Reconfirmed 2026-09-06 (89d8ec67): login → companyInfo; Mobile Phone required — stopped (no fake phone). OTP N/A (already past passcode). 0 offers joined.',
+      'Email verified. 2026-09-06 poll: still blocked on companyInfo Mobile Phone (89d8ec67) — no fake phone. OTP N/A. 0 offers joined.',
     jobs: [],
   },
   {
@@ -637,7 +647,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      'Email confirmed + 10 products joined earlier (b7d8de29). Re-login 2026-09-06 still blocked by Digistore anti-bot LOGCAP/B8SC (e5bd91cb; prior c3f069fd). Username rockyveenaffiliate. Goolux + KNX Wetterstation still pending approval.',
+      'Email confirm link opened 2026-09-06 (32e200ac) → redirected to login. Re-login still blocked by Digistore anti-bot LOGCAP/B8SC (577a60c0; prior e5bd91cb/c3f069fd). Username rockyveenaffiliate. Prior: 10 products joined (b7d8de29). Goolux + KNX Wetterstation still pending approval.',
     jobs: [
       {
         id: 'ds-funnelcockpit',
