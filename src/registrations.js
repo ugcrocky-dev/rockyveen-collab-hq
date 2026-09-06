@@ -73,7 +73,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      'Password + device OTP OK earlier (165312). Reset link task def6ade2: Wrong Link / expired — stopped. Discover/marketplace still 404 after login. Do NOT hammer reset/login. 0 programs joined.',
+      'No fresh unlock email (only stale device OTP 165312 from 09:26). Reset links expired earlier. Discover/marketplace 404s. Skipped — do not hammer. 0 programs joined.',
     jobs: [],
   },
   {
@@ -537,7 +537,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      'Email verified (past OTP). Login OK 2026-09-06 (6d06fb60) → companyInfo. Mobile Phone required — stopped (no fake phone). Stale code 101957 rejected earlier. Website https://rockyveen.com ready. 0 offers joined until phone.',
+      'Email verified. Login 2026-09-06 (c50d1670) → companyInfo; Mobile Phone required — stopped (no fake phone). OTP loop N/A this pass (already past passcode). 0 offers joined.',
     jobs: [],
   },
   {
@@ -550,7 +550,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      'Email confirmed + login OK (84e3bfa7). Website + IG (@rockyveen) adspaces created and submitted (e4eaecf7). Status Not reviewed — cannot join catalog until Active (1–3 business days). No phone/tax/card asked.',
+      'Login OK 2026-09-06 (82f02505). Adspaces rockyveen.com + IG @rockyveen still Not reviewed — cannot join catalog. Left pending moderation (no re-submit spam).',
     jobs: [],
   },
   {
@@ -637,7 +637,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      'Email confirmed + login OK 2026-09-06 (b7d8de29). Joined 10 marketplace products without phone/tax/card. Goolux + KNX Wetterstation pending manual approval. Ignore any earlier invented phone/address.',
+      'Email confirmed + 10 products joined earlier (b7d8de29). 2026-09-06 re-login blocked by Digistore anti-bot LOGCAP/B8SC (c3f069fd). Username rockyveenaffiliate. Goolux + KNX Wetterstation still pending approval.',
     jobs: [
       {
         id: 'ds-funnelcockpit',
@@ -691,7 +691,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      'Email confirm + login 2FA OK 2026-09-06 (code 723060, task cbb3bfe1). Landed on Unified Payments onboarding — skipped phone/tax/card per rules. Marketplace applies may need payout setup later. 0 brand programs applied yet.',
+      'Prior 2FA OK (723060). 2026-09-06 re-login blocked by persistent reCAPTCHA / incorrect combo loops (e22de181) — stopped. Still on Unified Payments onboarding (phone/tax/card skipped). 0 brand programs applied.',
     jobs: [],
   },
   {
@@ -704,8 +704,18 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      'Activated + onboarding complete 2026-09-06 (9efa53c4). SID 4747686 · profile Rocky Veen · site https://rockyveen.com · dashboard https://publisher.rakutenadvertising.com/. IG OAuth skipped. Joined Blockchain Council (MID 43395) via marketplace search AI (83d5a29a).',
+      'Activated (SID 4747686). Blockchain Council partnered; HTVRONT Pending (3d7056a0). Software search surfaced Wondershare/ESET/Skylum/Educative/Brytesoft for next apply batch. IG OAuth skipped.',
     jobs: [
+      {
+        id: 'rak-htvront',
+        brand: 'HTVRONT',
+        title: 'Rakuten Advertising partnership',
+        status: 'submitted',
+        appliedAt: '2026-09-06',
+        rate: 'Affiliate',
+        notes: 'Apply sent 2026-09-06 (3d7056a0); status Pending. MID 44712.',
+        href: 'https://publisher.rakutenadvertising.com/advertisers/find?query=AI&index=advertisers',
+      },
       {
         id: 'rak-blockchain-council',
         brand: 'Blockchain Council',
