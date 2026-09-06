@@ -73,7 +73,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-06 ~12:02 impact-unlock-retry: Gmail collabs-rockyveen checked — still NO fresh unlock. Latest Impact mail remains Verification 165312 @09:26 (expired) + Reset Impact Password burst ~08:28–09:23. Account rockyveen treated as still locked. Did NOT attempt login (avoid more failed-login lock). CreatorReady skipped (not email-only path / OTP spam only). 0 programs joined. Reschedule later.',
+      '2026-09-06 ~13:05 poll-apply-tasks: Gmail collabs-rockyveen — still NO fresh unlock (latest Impact Verification 165312 @09:26 expired; Reset Password burst ~08:28–09:23 only). Did NOT login. 0 programs. Skip hammering.',
     jobs: [],
   },
   {
@@ -287,7 +287,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      'Network still Pending (profile Under Review) — rechecked 2026-09-06 ~11:56 (390a81c6; prior 27d1a3a6). Home: “Your 2 program applications are on hold.” Descript Application received / pending review. Reclaim + ElevenLabs on hold (auto-submit when Network Approved). No mass applies. Skip phone/tax/card/IG OAuth.',
+      'Network still Pending (Under Review) — rechecked 2026-09-06 ~13:05 poll-apply-tasks (login OK; profile 69%). Home: 2 apps on hold. Descript Application received / pending review (up to 30d). Reclaim + ElevenLabs on hold (auto-submit when Network Approved). No new mass applies. Skip phone/tax/card/IG OAuth.',
     jobs: [
       {
         id: 'ps-elevenlabs',
@@ -296,7 +296,7 @@ export const platforms = [
         status: 'submitted',
         appliedAt: '2026-09-06',
         rate: 'Affiliate',
-        notes: 'On hold pending Network approval — reconfirmed 2026-09-06 (390a81c6; prior 78efd9d7).',
+        notes: 'On hold pending Network approval — reconfirmed 2026-09-06 ~13:05.',
         href: 'https://dash.partnerstack.com/marketplace/all/details/elevenlabsinc',
       },
       {
@@ -306,7 +306,7 @@ export const platforms = [
         status: 'submitted',
         appliedAt: '2026-09-05',
         rate: 'Affiliate',
-        notes: 'Application received / pending Descript review — reconfirmed 2026-09-06 (390a81c6).',
+        notes: 'Application received / pending Descript review — reconfirmed 2026-09-06 ~13:05 (up to 30d).',
         href: 'https://dash.partnerstack.com/descriptinc/application',
       },
       {
@@ -316,7 +316,7 @@ export const platforms = [
         status: 'submitted',
         appliedAt: '2026-09-06',
         rate: 'Affiliate',
-        notes: 'On hold pending Network approval — marketplace shows on hold 2026-09-06 (390a81c6; prior 9cdd48e2).',
+        notes: 'On hold pending Network approval — reconfirmed 2026-09-06 ~13:05.',
         href: 'https://dash.partnerstack.com/marketplace/all/details/reclaim',
       },
       {
@@ -326,7 +326,7 @@ export const platforms = [
         status: 'submitted',
         appliedAt: '2026-09-06',
         rate: '—',
-        notes: 'Still Under Review / Pending 2026-09-06 (390a81c6; prior 78efd9d7 / 27c3c2b3). Do not re-submit.',
+        notes: 'Still Under Review / Pending 2026-09-06 ~13:05. Do not re-submit.',
         href: 'https://dash.partnerstack.com/marketplace/network_application',
       },
     ],
@@ -547,7 +547,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-06 ~11:56 apply-tasks: still registered_needs_phone — skipped. Prior: phone+address attempted (+1 9452321969 / 355 Autumn Bluff Dr) but Continue flaky (country code + URL strip). 0 offers joined. Do not invent phones.',
+      '2026-09-06 ~13:05 poll-apply-tasks: still registered_needs_phone — skipped. Prior phone+address attempt flaky. 0 offers. Do not invent phones.',
     jobs: [],
   },
   {
@@ -647,7 +647,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-06 ~11:56 apply-tasks: anti-bot still not calm (prior LOGCAP/B8SC e1432518) — skipped. Username rockyveenaffiliate. Prior: email confirm opened (32e200ac); 10 products joined (b7d8de29). Goolux + KNX Wetterstation still pending approval.',
+      '2026-09-06 ~13:05 poll-apply-tasks: anti-bot still not treated as calm — skipped re-login (prior LOGCAP/B8SC). Username rockyveenaffiliate. Prior: email confirm + 10 products joined. Goolux + KNX Wetterstation pending approval.',
     jobs: [
       {
         id: 'ds-funnelcockpit',
@@ -701,7 +701,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-06 ~11:56 apply-tasks: skipped re-login (prior ~11:45 attempt 400c15c8 Incorrect email/password; avoid lockout). Prior 2FA OK (723060); earlier reCAPTCHA/combo loops. Still on Unified Payments onboarding (phone/tax/card skipped). 0 brand programs applied.',
+      '2026-09-06 ~13:05 poll-apply-tasks: skipped re-login (prior Incorrect email/password 400c15c8; avoid lockout). Stale Refersion OTPs in Gmail (~10:07) not used. Still Unified Payments onboarding. 0 brand programs.',
     jobs: [],
   },
   {
