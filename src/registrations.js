@@ -655,13 +655,13 @@ export const platforms = [
     id: 'rakuten',
     platform: 'Rakuten Advertising',
     url: 'https://rakutenadvertising.com',
-    status: 'pending_email_activate',
+    status: 'registered_needs_ig_oauth',
     username: 'collabs@rockyveen.com',
     oauthRequired: false,
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      'Publisher signup submitted (e72a8c6a). Activation email 09:50; activate task 962860b9 navigating long JWT link. Stop if phone/tax/SSN/card required.',
+      'Email activated + login OK (962860b9). Website https://rockyveen.com validated; Creator/Influencer selected. Blocked on Instagram OAuth to connect @rockyveen (no IG password available). No phone/tax/SSN asked yet.',
     jobs: [],
   },
   {
