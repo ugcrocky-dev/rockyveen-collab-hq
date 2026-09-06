@@ -73,7 +73,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-06 ~13:50 poll-collab-otp-tight: Gmail — still NO fresh unlock (latest Impact Verification 165312 @09:26 expired; Reset Password burst earlier). Did NOT login. 0 programs.',
+      '2026-09-06 ~14:15 poll-apply-tasks: Gmail — still NO fresh unlock (latest Impact Verification 165312 @09:26 expired; Reset Password burst earlier AM). Did NOT login. 0 programs. Skip hammering.',
     jobs: [],
   },
   {
@@ -287,7 +287,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      'Network still Pending (Under Review) — rechecked 2026-09-06 ~13:05 poll-apply-tasks (login OK; profile 69%). Home: 2 apps on hold. Descript Application received / pending review (up to 30d). Reclaim + ElevenLabs on hold (auto-submit when Network Approved). No new mass applies. Skip phone/tax/card/IG OAuth.',
+      'Network still Pending (Under Review) — rechecked 2026-09-06 ~14:15 poll-apply-tasks (login OK). Home: 2 apps on hold. Descript Application received / pending review (up to 30d). Reclaim + ElevenLabs on hold (auto-submit when Network Approved). No new mass applies. Skip phone/tax/card/IG OAuth.',
     jobs: [
       {
         id: 'ps-elevenlabs',
@@ -296,7 +296,7 @@ export const platforms = [
         status: 'submitted',
         appliedAt: '2026-09-06',
         rate: 'Affiliate',
-        notes: 'On hold pending Network approval — reconfirmed 2026-09-06 ~13:05.',
+        notes: 'On hold pending Network approval — reconfirmed 2026-09-06 ~14:15.',
         href: 'https://dash.partnerstack.com/marketplace/all/details/elevenlabsinc',
       },
       {
@@ -306,7 +306,7 @@ export const platforms = [
         status: 'submitted',
         appliedAt: '2026-09-05',
         rate: 'Affiliate',
-        notes: 'Application received / pending Descript review — reconfirmed 2026-09-06 ~13:05 (up to 30d).',
+        notes: 'Application received / pending Descript review — reconfirmed 2026-09-06 ~14:15 (up to 30d).',
         href: 'https://dash.partnerstack.com/descriptinc/application',
       },
       {
@@ -316,7 +316,7 @@ export const platforms = [
         status: 'submitted',
         appliedAt: '2026-09-06',
         rate: 'Affiliate',
-        notes: 'On hold pending Network approval — reconfirmed 2026-09-06 ~13:05.',
+        notes: 'On hold pending Network approval — reconfirmed 2026-09-06 ~14:15.',
         href: 'https://dash.partnerstack.com/marketplace/all/details/reclaim',
       },
       {
@@ -326,7 +326,7 @@ export const platforms = [
         status: 'submitted',
         appliedAt: '2026-09-06',
         rate: '—',
-        notes: 'Still Under Review / Pending 2026-09-06 ~13:05. Do not re-submit.',
+        notes: 'Still Under Review / Pending 2026-09-06 ~14:15. Do not re-submit.',
         href: 'https://dash.partnerstack.com/marketplace/network_application',
       },
     ],
@@ -547,7 +547,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-06 ~13:50 poll-collab-otp-tight: login OK but onboarding still requires Mobile Phone — skipped (no invent). 0 offers.',
+      '2026-09-06 ~14:15 poll-apply-tasks: still needs Mobile Phone — skipped (confirmed ~13:50). 0 offers. Do not invent phones.',
     jobs: [],
   },
   {
@@ -647,7 +647,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-06 ~13:50 poll-collab-otp-tight: login hit LOGCAP/B8SC anti-bot again — skipped. Username rockyveenaffiliate. Prior: email confirm + 10 products joined. Goolux + KNX Wetterstation pending.',
+      '2026-09-06 ~14:15 poll-apply-tasks: anti-bot not calm (LOGCAP/B8SC @~13:50) — skipped re-login. Username rockyveenaffiliate. Prior: 10 products joined. Goolux + KNX Wetterstation pending.',
     jobs: [
       {
         id: 'ds-funnelcockpit',
@@ -701,7 +701,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-06 ~13:50 poll-collab-otp-tight: ONE login attempt — Incorrect email/password again; STOPPED (no retry). Stale OTPs unused. 0 brand programs. Password may need manual reset.',
+      '2026-09-06 ~14:15 poll-apply-tasks: skipped (Incorrect email/password @~13:50; do not hammer). Password may need manual reset. 0 brand programs.',
     jobs: [],
   },
   {
