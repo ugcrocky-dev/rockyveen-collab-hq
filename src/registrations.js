@@ -726,7 +726,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-07 ~20:58 poll-collab-otp-tight: SKIP login — Keycloak Invalid since ~03:38 (do not hammer). Gmail: still only Tresorit Partnered after:2026/09/07 — no NEW among Pending. Still 3 Partnered (Blockchain Council + Wondershare + Tresorit). SID 4747686.',
+      '2026-09-07 ~21:25 poll-rakuten-more-saas: SKIP login — Keycloak Invalid since ~03:38 (do not hammer). Gmail-only: still only Tresorit Partnered after:2026/09/07 — no NEW among Pending SaaS (Keeper, Skylum, Brytesoft, NordVPN(+APAC), PureVPN, ESET, HTVRONT, Webroot Inc, IONOS, ExitLag). Still 3 Partnered (Blockchain Council + Wondershare + Tresorit @12:05). SID 4747686.',
     jobs: [
       {
         id: 'rak-keeper-security',
