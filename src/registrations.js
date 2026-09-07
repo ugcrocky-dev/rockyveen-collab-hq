@@ -73,7 +73,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-06 ~23:32 poll-apply-tasks: Gmail still NO fresh unlock in last 12h (Verification 165312 @09:26 expired + AM resets only). Did NOT login. Prior OTP ~23:28 same. 0 programs. Fresh unlock required.',
+      '2026-09-07 ~00:19 impact-unlock-retry: Gmail (inbox+spam) still NO fresh unlock/reset. Newest Impact mail remains Verification 165312 @09:26 UTC 2026-09-06 (expired) + Reset Password burst AM same day. Did NOT login (avoid lock hammer). 0 programs. Fresh unlock required. Skip CreatorReady/Creator.co (phone).',
     jobs: [],
   },
   {
