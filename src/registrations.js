@@ -73,7 +73,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-07 ~00:31 poll-collab-otp-tight: Gmail still NO fresh unlock (Verification 165312 @09:26 + AM resets only). Did NOT login. Prior impact-unlock-retry ~00:19 same. 0 programs. Fresh unlock required.',
+      '2026-09-07 ~01:34 poll-collab-otp-tight: Gmail still NO fresh unlock (Verification 165312 @09:26 + AM resets only). Did NOT login. Prior ~00:31/~00:19 same. 0 programs. Fresh unlock required.',
     jobs: [],
   },
   {
@@ -547,7 +547,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-07 ~00:31 poll-collab-otp-tight: skipped — Company Information still requires Mobile Phone (do not invent). Gmail has only old AM FlexOffers verify passcodes (no phone unlock). 0 offers. User must enter phone + Continue.',
+      '2026-09-07 ~01:34 poll-collab-otp-tight: skipped — Company Information still requires Mobile Phone (do not invent). No new FlexOffers mail since AM verify passcodes. 0 offers. User must enter phone + Continue.',
     jobs: [],
   },
   {
@@ -560,7 +560,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-07 ~00:31 poll-collab-otp-tight: Mitgo login form shown — did NOT submit password (prior Invalid password ~23:28; no hammer). Adspaces still unknown/Not reviewed from ~22:22. Leave pending; needs manual password/adspace Active before AI/SaaS requests.',
+      '2026-09-07 ~01:34 poll-collab-otp-tight: skipped password — prior Invalid ~23:28 + Mitgo form ~00:31 (no hammer). Adspaces still Not reviewed from ~22:22. Leave pending until Active/manual password clear.',
     jobs: [],
   },
   {
@@ -647,7 +647,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-07 ~00:31 poll-collab-otp-tight: login page looked calm (no visible LOGCAP) → ONE attempt with rockyveenaffiliate; page did not advance / no error shown — STOPPED (no hammer). Prior LOGCAP ~23:28/~22:22; password-incorrect ~21:15. 10 products joined. Manual anti-bot/password resolve before AI/SaaS joins.',
+      '2026-09-07 ~01:34 poll-collab-otp-tight: skipped login — prior ~00:31 calm page → ONE attempt no advance (no hammer). Username rockyveenaffiliate. Prior LOGCAP ~23:28/~22:22. 10 products joined. Manual resolve before AI/SaaS joins.',
     jobs: [
       {
         id: 'ds-funnelcockpit',
@@ -701,7 +701,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-07 ~00:31 poll-collab-otp-tight: skipped — prior Blocked/anti-bot (~23:28); Gmail only old AM temporary pass codes (expired). Do not hammer password/reCAPTCHA. 0 brand programs.',
+      '2026-09-07 ~01:34 poll-collab-otp-tight: skipped — prior Blocked/anti-bot; Gmail only old AM temporary pass codes. Do not hammer. 0 brand programs.',
     jobs: [],
   },
   {
@@ -714,7 +714,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-07 ~01:14 poll-rakuten-more-saas: login OK; Pending→Partnered: none (still 2 Partnered Blockchain Council + Wondershare; 12 Pending unchanged incl Keeper Security). AI/SaaS/software/cybersecurity/VPN/antivirus searches — 0 new applies (hits already Partnered/Pending; Educative skipped). SID 4747686. Skipped phone/tax/card/IG. FlexOffers phone-blocked; Impact skip unless unlock; Admitad wait Active; Digistore no-hammer.',
+      '2026-09-07 ~01:34 poll-collab-otp-tight: no re-scan (full SaaS poll ~01:14: still 2 Partnered + 12 Pending incl Keeper; 0 new). SID 4747686. Skip phone/tax/card/IG.',
     jobs: [
       {
         id: 'rak-keeper-security',
