@@ -73,7 +73,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-07 ~14:35 impact-unlock-retry: still locked — 0 notifications@app.impact.com after:2026/09/07 (only Govee promo from outreach). Newest still Verification 165312 @09:26 Sep 6 + expired Reset Impact Password mails. Did NOT login (no hammer). 0 programs. Fresh unlock/reset required.',
+      '2026-09-07 ~14:52 poll-collab-otp-tight: still locked — 0 notifications@app.impact.com after:2026/09/07. Newest still Verification 165312 @09:26 Sep 6. Did NOT login (no hammer). 0 programs.',
     jobs: [],
   },
   {
@@ -547,7 +547,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-07 ~13:51 poll-collab-otp-tight: skipped — Company Information still requires Mobile Phone (do not invent). 0 FlexOffers mail after:2026/09/07 (old Sep 6 verify only). 0 offers. User must enter phone + Continue.',
+      '2026-09-07 ~14:52 poll-collab-otp-tight: skipped — still needs Mobile Phone on Company Information (do not invent). 0 FlexOffers mail after:2026/09/07. 0 offers.',
     jobs: [],
   },
   {
@@ -560,7 +560,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-07 ~13:51 poll-collab-otp-tight: skipped password — prior Invalid ~23:28 (no hammer). 0 Admitad mail after:2026/09/07. Adspaces still Not reviewed. Leave pending until Active/manual password clear.',
+      '2026-09-07 ~14:52 poll-collab-otp-tight: skipped password — prior Invalid ~23:28 (no hammer). 0 Admitad mail after:2026/09/07. Adspaces leave pending until Active/manual password clear.',
     jobs: [],
   },
   {
@@ -635,7 +635,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-07 ~13:51 poll-collab-otp-tight: Gmail — approved for Tapfiliate $178 one-time commission program @12:53 (ref https://tapfiliate.com?ref=ndm2ndd1). Publisher account already created 2026-09-06. Login https://affiliates.tapfiliate.com/login.',
+      '2026-09-07 ~14:52 poll-collab-otp-tight: still approved Tapfiliate $178 @12:53 (ref https://tapfiliate.com?ref=ndm2ndd1); no NEW Tapfiliate program approvals after that. Login https://affiliates.tapfiliate.com/login.',
     jobs: [
       {
         id: 'tap-tapfiliate-178',
@@ -659,7 +659,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-07 ~13:51 poll-collab-otp-tight: SKIPPED login — prior ~03:38 one attempt no advance (and ~00:31). No hammer. Username rockyveenaffiliate. ~10 products already joined. Manual resolve before AI/SaaS joins. Only Digistore promo newsletter @09:51 Sep 7 (not unlock).',
+      '2026-09-07 ~14:52 poll-collab-otp-tight: SKIPPED login — prior ~03:38 no-advance (no hammer). Username rockyveenaffiliate. ~10 products joined. Only Digistore promo newsletter @09:51 Sep 7 (not unlock).',
     jobs: [
       {
         id: 'ds-funnelcockpit',
@@ -713,7 +713,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-07 ~13:51 poll-collab-otp-tight: skipped — prior Blocked/anti-bot; 0 Refersion mail after:2026/09/07 (old Sep 6 temp codes only). Do not hammer. 0 brand programs.',
+      '2026-09-07 ~14:52 poll-collab-otp-tight: skipped — prior Blocked/anti-bot; 0 Refersion mail after:2026/09/07. Do not hammer. 0 brand programs.',
     jobs: [],
   },
   {
@@ -726,7 +726,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-07 ~14:07 poll-statusphere-rakuten: SKIP login — Keycloak Invalid email/password since ~03:38 (also ~02:00); do not hammer until credentials manually fixed. Gmail: still only Tresorit Partnered after:2026/09/07 — no NEW among remaining Pending. Still 3 Partnered (Blockchain Council + Wondershare + Tresorit) + ~11 Pending: Keeper, Skylum, Brytesoft, NordVPN(+APAC), PureVPN, ESET, HTVRONT, Webroot Inc, IONOS, ExitLag. SID 4747686. Skip phone/tax/card/IG.',
+      '2026-09-07 ~14:52 poll-collab-otp-tight: SKIP login — Keycloak Invalid email/password since ~03:38 (do not hammer). Gmail: still only Tresorit Partnered after:2026/09/07 — no NEW among Pending (Keeper/Skylum/Brytesoft/NordVPN(+APAC)/PureVPN/ESET/HTVRONT/Webroot/IONOS/ExitLag). Still 3 Partnered (Blockchain Council + Wondershare + Tresorit). SID 4747686. Skip phone/tax/card/IG.',
     jobs: [
       {
         id: 'rak-keeper-security',
