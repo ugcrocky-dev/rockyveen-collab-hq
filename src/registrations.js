@@ -73,7 +73,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-07 ~14:32 poll-apply-tasks: still locked — 0 Impact mail after:2026/09/07 (newest still Verification 165312 @09:26 Sep 6 + expired resets). Did NOT login. 0 programs. Fresh unlock required — no hammer.',
+      '2026-09-07 ~14:35 impact-unlock-retry: still locked — 0 notifications@app.impact.com after:2026/09/07 (only Govee promo from outreach). Newest still Verification 165312 @09:26 Sep 6 + expired Reset Impact Password mails. Did NOT login (no hammer). 0 programs. Fresh unlock/reset required.',
     jobs: [],
   },
   {
