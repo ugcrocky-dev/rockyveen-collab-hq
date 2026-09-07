@@ -73,7 +73,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-07 ~12:20 poll-apply-tasks: still locked — 0 Impact mail after:2026/09/07 (newest still Verification 165312 @09:26 Sep 6). Did NOT login. 0 programs. Fresh unlock required — no hammer.',
+      '2026-09-07 ~12:28 impact-unlock-retry: still locked — 0 Impact mail after:2026/09/07 (newest still Verification 165312 @09:26 Sep 6 + AM Reset Impact Password only). Did NOT login. 0 programs. Fresh unlock required — no hammer.',
     jobs: [],
   },
   {
