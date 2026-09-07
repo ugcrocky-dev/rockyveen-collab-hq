@@ -714,7 +714,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-07 ~08:44 poll-collab-otp-tight: SKIPPED login — prior ~03:38 Keycloak Invalid email/password (do not hammer). 0 Partnered/unlock mail in last 12h. Still 2 Partnered + 12 Pending incl Keeper (last catalog ~01:14). SID 4747686. Skip phone/tax/card/IG.',
+      '2026-09-07 ~09:19 poll-rakuten-more-saas: SKIPPED login — prior ~03:38 Keycloak Invalid email/password (do not hammer). Gmail-only: 0 NEW Partnered among pending SaaS (Keeper/Skylum/Brytesoft/NordVPN/PureVPN/ESET/HTVRONT/Webroot/IONOS/ExitLag/Tresorit). Still only 2 Partnered (Blockchain Council + Wondershare @Sep 6). 0 Rakuten mail in last 12h. Last catalog ~01:14: 12 Pending. SID 4747686. Skip phone/tax/card/IG.',
     jobs: [
       {
         id: 'rak-keeper-security',
