@@ -73,7 +73,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-07 ~02:35 poll-collab-otp-tight: Gmail still NO fresh unlock (Impact check ~02:20 same; Verification 165312 @09:26 + AM resets only). Did NOT login. 0 programs. Fresh unlock required.',
+      '2026-09-07 ~03:38 poll-collab-otp-tight: Gmail still NO fresh unlock (newest Impact still Verification 165312 @09:26 Sep 6 + AM resets). Did NOT login. 0 programs. Fresh unlock required — no hammer.',
     jobs: [],
   },
   {
@@ -547,7 +547,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-07 ~02:35 poll-collab-otp-tight: skipped — Company Information still requires Mobile Phone (do not invent). No new FlexOffers mail. 0 offers. User must enter phone + Continue.',
+      '2026-09-07 ~03:38 poll-collab-otp-tight: skipped — Company Information still requires Mobile Phone (do not invent). No new unlock mail (old verify threads only). 0 offers. User must enter phone + Continue.',
     jobs: [],
   },
   {
@@ -560,7 +560,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-07 ~02:35 poll-collab-otp-tight: skipped password — prior Invalid ~23:28 (no hammer). Adspaces still Not reviewed. Leave pending until Active/manual password clear.',
+      '2026-09-07 ~03:38 poll-collab-otp-tight: skipped password — prior Invalid ~23:28 (no hammer). Adspaces still Not reviewed. Leave pending until Active/manual password clear.',
     jobs: [],
   },
   {
@@ -647,7 +647,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-07 ~02:35 poll-collab-otp-tight: skipped login — prior ~00:31 one attempt no advance (no hammer). Username rockyveenaffiliate. 10 products joined. Manual resolve before AI/SaaS joins.',
+      '2026-09-07 ~03:38 poll-collab-otp-tight: ONE calm login attempt (task 434af1c8) — page had no LOGCAP/captcha but login did NOT advance to dashboard; STOPPED (no further hammer). Username rockyveenaffiliate. ~10 products already joined. Manual resolve before AI/SaaS joins.',
     jobs: [
       {
         id: 'ds-funnelcockpit',
@@ -701,7 +701,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-07 ~02:35 poll-collab-otp-tight: skipped — prior Blocked/anti-bot; no new OTPs. Do not hammer. 0 brand programs.',
+      '2026-09-07 ~03:38 poll-collab-otp-tight: skipped — prior Blocked/anti-bot; no fresh useful OTP (old temp codes only). Do not hammer. 0 brand programs.',
     jobs: [],
   },
   {
@@ -714,7 +714,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-07 ~02:35 poll-collab-otp-tight: no re-login (Keycloak fail ~02:00; last good ~01:14: 2 Partnered + 12 Pending incl Keeper; 0 new). SID 4747686. Skip phone/tax/card/IG.',
+      '2026-09-07 ~03:38 poll-collab-otp-tight: ONE calm Keycloak login (task 434af1c8) → Invalid email address or password; STOPPED (no hammer). Last good catalog ~01:14: 2 Partnered (Blockchain Council + Wondershare) + 12 Pending incl Keeper. SID 4747686. Skip phone/tax/card/IG.',
     jobs: [
       {
         id: 'rak-keeper-security',
