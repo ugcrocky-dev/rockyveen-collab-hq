@@ -597,7 +597,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'marketplace',
     notes:
-      '2026-09-07 ~10:00 poll-statusphere-rakuten: Gmail (inbox+spam) — no NEW verify/unlock. Still only waitlist mail @12:00 UTC 2026-09-06 + older verify @08:40. Remain registered_waitlisted; no profile unlock. No phone/street invention. No IG OAuth.',
+      '2026-09-07 ~12:05 poll-statusphere-rakuten: Gmail (inbox+spam) — no NEW verify/unlock. Still only waitlist mail @12:00 UTC 2026-09-06 + older verify @08:40. Remain registered_waitlisted; no profile unlock. No phone/street invention. No IG OAuth.',
     jobs: [],
   },
   {
@@ -714,7 +714,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-07 ~11:48 poll-collab-otp-tight: SKIPPED login — prior ~03:38 Keycloak Invalid email/password (do not hammer). 0 new Partnered mail after:2026/09/07 (last approvals still Wondershare+Blockchain Council @~10:38–10:44 Sep 6). Still 2 Partnered + 12 Pending incl Keeper (last catalog ~01:14). SID 4747686. Skip phone/tax/card/IG.',
+      '2026-09-07 ~12:05 poll-statusphere-rakuten: SKIPPED login — prior ~03:38 Keycloak Invalid email/password (do not hammer). NEW Partnered mail @12:05: Tresorit approved (Gmail-only). Now 3 Partnered (Blockchain Council + Wondershare + Tresorit) + ~11 Pending incl Keeper (last catalog ~01:14). SID 4747686. Skip phone/tax/card/IG.',
     jobs: [
       {
         id: 'rak-keeper-security',
@@ -740,10 +740,10 @@ export const platforms = [
         id: 'rak-tresorit',
         brand: 'Tresorit',
         title: 'Rakuten Advertising partnership',
-        status: 'submitted',
+        status: 'won',
         appliedAt: '2026-09-06',
         rate: 'Affiliate',
-        notes: 'Apply Pending 2026-09-06 (96c0f2ed) via cloud search. MID 53772 / offer 1878376.',
+        notes: 'Partnered / Approved via Gmail 2026-09-07 ~12:05 (MID 53772 / offer 1878376). Was Apply Pending 2026-09-06.',
         href: 'https://publisher.rakutenadvertising.com/advertisers/53772/offers/1878376/details',
       },
       {
