@@ -73,7 +73,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-07 ~03:38 poll-collab-otp-tight: Gmail still NO fresh unlock (newest Impact still Verification 165312 @09:26 Sep 6 + AM resets). Did NOT login. 0 programs. Fresh unlock required — no hammer.',
+      '2026-09-07 ~03:45 poll-apply-tasks: Gmail still NO fresh unlock (newest Impact still Verification 165312 @09:26 Sep 6 + AM resets). Did NOT login. 0 programs. Fresh unlock required — no hammer.',
     jobs: [],
   },
   {
@@ -287,7 +287,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-07 ~02:41 poll-apply-tasks: Network still Pending; profile 69%. Home banner: \"Your 2 program applications are on hold. If approved to the Network, PartnerStack will automatically submit these applications for you\" (Reclaim.ai + ElevenLabs). Descript Application received/pending. Did NOT re-submit/mass-apply. No PartnerStack approval mail. Skip phone/tax/card/IG. FlexOffers phone-gated; Digistore skip; Refersion blocked; Impact no unlock (~02:20).',
+      '2026-09-07 ~03:45 poll-apply-tasks (task df46fb1f): Network still Pending (\"Your Network Profile is being reviewed\"); profile 69%. Home banner: \"Your 2 program applications are on hold\" — Reclaim.ai + ElevenLabs on hold until Network accepted. Descript Application pending review. Did NOT re-submit/mass-apply. No PartnerStack approval mail. Skip phone/tax/card/IG. FlexOffers phone-gated; Digistore skip (~03:38 no-advance); Refersion blocked; Impact no unlock.',
     jobs: [
       {
         id: 'ps-elevenlabs',
@@ -296,7 +296,7 @@ export const platforms = [
         status: 'submitted',
         appliedAt: '2026-09-06',
         rate: 'Affiliate',
-        notes: 'On hold pending Network approval — reconfirmed 2026-09-07 ~02:41 (do not re-submit).',
+        notes: 'On hold pending Network approval — reconfirmed 2026-09-07 ~03:45 (do not re-submit).',
         href: 'https://dash.partnerstack.com/marketplace/all/details/elevenlabsinc',
       },
       {
@@ -306,7 +306,7 @@ export const platforms = [
         status: 'submitted',
         appliedAt: '2026-09-05',
         rate: 'Affiliate',
-        notes: 'Application received / pending Descript review — reconfirmed 2026-09-07 ~02:41 (up to 30d).',
+        notes: 'Application received / pending Descript review — reconfirmed 2026-09-07 ~03:45 (up to 30d).',
         href: 'https://dash.partnerstack.com/descriptinc/application',
       },
       {
@@ -316,7 +316,7 @@ export const platforms = [
         status: 'submitted',
         appliedAt: '2026-09-06',
         rate: 'Affiliate',
-        notes: 'On hold pending Network approval — reconfirmed 2026-09-07 ~02:41 (do not re-submit).',
+        notes: 'On hold pending Network approval — reconfirmed 2026-09-07 ~03:45 (do not re-submit). Banner: on hold until accepted into PartnerStack Network.',
         href: 'https://dash.partnerstack.com/marketplace/all/details/reclaim',
       },
       {
@@ -326,7 +326,7 @@ export const platforms = [
         status: 'submitted',
         appliedAt: '2026-09-06',
         rate: '—',
-        notes: 'Still Under Review / Pending 2026-09-07 ~02:41 (profile 69%). Do not re-submit.',
+        notes: 'Still Under Review / Pending 2026-09-07 ~03:45 (profile 69%). Do not re-submit.',
         href: 'https://dash.partnerstack.com/marketplace/network_application',
       },
     ],
