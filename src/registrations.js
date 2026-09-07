@@ -73,7 +73,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-07 ~16:54 poll-collab-otp-tight: still locked — 0 notifications@app.impact.com after:2026/09/07. Newest Verification 165312 @09:26 Sep 6. Did NOT login (no hammer). 0 programs.',
+      '2026-09-07 ~17:39 poll-apply-tasks: still locked — 0 notifications@app.impact.com after:2026/09/07. Newest Verification 165312 @09:26 Sep 6. Did NOT login (no hammer). 0 programs.',
     jobs: [],
   },
   {
@@ -287,7 +287,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-07 ~16:37 poll-apply-tasks: Browser dash confirmed — Network still Pending; home banner still \"Your 2 program applications are on hold\" (Reclaim.ai + ElevenLabs); Descript Application received/pending; profile still 69%. Did NOT re-submit. Gmail: 0 PartnerStack/Descript/Reclaim/ElevenLabs after:2026/09/06; 0 Impact app mail after:2026/09/07. Skip phone/tax/card/IG. FlexOffers phone-gated; Digistore skip; Refersion blocked.',
+      '2026-09-07 ~17:39 poll-apply-tasks: Browser dash confirmed — Network still Pending; home banner still \"Your 2 program applications are on hold\" (Reclaim.ai + ElevenLabs); Descript Application pending; profile still 69%. Did NOT re-submit. Gmail: 0 PartnerStack/Descript/Reclaim/ElevenLabs after:2026/09/06; 0 Impact app mail after:2026/09/07. Skip phone/tax/card/IG. FlexOffers phone-gated; Digistore skip; Refersion blocked.',
     jobs: [
       {
         id: 'ps-elevenlabs',
