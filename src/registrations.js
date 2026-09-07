@@ -597,7 +597,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'marketplace',
     notes:
-      '2026-09-07 ~12:05 poll-statusphere-rakuten: Gmail (inbox+spam) — no NEW verify/unlock. Still only waitlist mail @12:00 UTC 2026-09-06 + older verify @08:40. Remain registered_waitlisted; no profile unlock. No phone/street invention. No IG OAuth.',
+      '2026-09-07 ~14:07 poll-statusphere-rakuten: Gmail (inbox+spam) — no NEW verify/unlock after:2026/09/07. Still only waitlist Confirmed @12:00 UTC 2026-09-06 + older verify @08:40. Remain registered_waitlisted; no profile unlock. No phone/street invention. No IG OAuth. Next poll ~16:07.',
     jobs: [],
   },
   {
@@ -726,7 +726,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-07 ~13:51 poll-collab-otp-tight: SKIPPED login — prior ~03:38 Keycloak Invalid email/password (do not hammer). No NEW Partnered since Tresorit @12:05. Still 3 Partnered (Blockchain Council + Wondershare + Tresorit) + ~11 Pending incl Keeper. SID 4747686. Skip phone/tax/card/IG.',
+      '2026-09-07 ~14:07 poll-statusphere-rakuten: SKIP login — Keycloak Invalid email/password since ~03:38 (also ~02:00); do not hammer until credentials manually fixed. Gmail: still only Tresorit Partnered after:2026/09/07 — no NEW among remaining Pending. Still 3 Partnered (Blockchain Council + Wondershare + Tresorit) + ~11 Pending: Keeper, Skylum, Brytesoft, NordVPN(+APAC), PureVPN, ESET, HTVRONT, Webroot Inc, IONOS, ExitLag. SID 4747686. Skip phone/tax/card/IG.',
     jobs: [
       {
         id: 'rak-keeper-security',
