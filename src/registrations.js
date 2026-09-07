@@ -73,7 +73,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-07 ~07:43 poll-collab-otp-tight: still locked — 0 Impact mail in last 12h (newest still Verification 165312 @09:26 Sep 6 + AM resets). Did NOT login. 0 programs. Fresh unlock required — no hammer.',
+      '2026-09-07 ~08:24 impact-unlock-retry: Gmail still NO fresh unlock/reset (newest Impact still Verification 165312 @09:26 Sep 6 + AM resets only; 0 Impact mail in last 12h). Did NOT login. 0 programs. Fresh unlock required — no hammer. Rescheduled once more.',
     jobs: [],
   },
   {
