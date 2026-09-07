@@ -597,7 +597,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'marketplace',
     notes:
-      '2026-09-07 ~02:00 poll-statusphere-rakuten: Gmail (inbox+spam) — no NEW verify/unlock. Still only waitlist mail @12:00 UTC 2026-09-06 + older verify @08:40. Remain registered_waitlisted; no profile unlock. No phone/street invention. No IG OAuth.',
+      '2026-09-07 ~04:00 poll-statusphere-rakuten: Gmail (inbox+spam) — no NEW verify/unlock. Still only waitlist mail @12:00 UTC 2026-09-06 + older verify @08:40. Remain registered_waitlisted; no profile unlock. No phone/street invention. No IG OAuth.',
     jobs: [],
   },
   {
@@ -714,7 +714,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-07 ~03:38 poll-collab-otp-tight: ONE calm Keycloak login (task 434af1c8) → Invalid email address or password; STOPPED (no hammer). Last good catalog ~01:14: 2 Partnered (Blockchain Council + Wondershare) + 12 Pending incl Keeper. SID 4747686. Skip phone/tax/card/IG.',
+      '2026-09-07 ~04:00 poll-statusphere-rakuten: SKIPPED login — prior ~03:38 Keycloak Invalid email/password (and ~02:00 fail); do not hammer. No new Rakuten approval mail since Wondershare+Blockchain Council. Last good catalog ~01:14: 2 Partnered + 12 Pending incl Keeper. SID 4747686. Skip phone/tax/card/IG.',
     jobs: [
       {
         id: 'rak-keeper-security',
