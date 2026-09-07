@@ -73,7 +73,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-07 ~04:21 impact-unlock-retry: Gmail still NO fresh unlock/reset (newest Impact still Verification 165312 @09:26 Sep 6 + AM resets only; 0 Impact mail in last 12h). Did NOT login. 0 programs. Fresh unlock required — no hammer. Rescheduled once more.',
+      '2026-09-07 ~04:39 poll-collab-otp-tight: Gmail still NO fresh unlock (newest Impact still Verification 165312 @09:26 Sep 6; 0 unlock mail in last 6h). Did NOT login. 0 programs. Fresh unlock required — no hammer.',
     jobs: [],
   },
   {
@@ -547,7 +547,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-07 ~03:38 poll-collab-otp-tight: skipped — Company Information still requires Mobile Phone (do not invent). No new unlock mail (old verify threads only). 0 offers. User must enter phone + Continue.',
+      '2026-09-07 ~04:39 poll-collab-otp-tight: skipped — Company Information still requires Mobile Phone (do not invent). No new FlexOffers mail in last 6h (old verify threads only). 0 offers. User must enter phone + Continue.',
     jobs: [],
   },
   {
@@ -560,7 +560,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-07 ~03:38 poll-collab-otp-tight: skipped password — prior Invalid ~23:28 (no hammer). Adspaces still Not reviewed. Leave pending until Active/manual password clear.',
+      '2026-09-07 ~04:39 poll-collab-otp-tight: skipped password — prior Invalid ~23:28 (no hammer). No new Admitad mail. Adspaces still Not reviewed. Leave pending until Active/manual password clear.',
     jobs: [],
   },
   {
@@ -647,7 +647,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-07 ~03:38 poll-collab-otp-tight: ONE calm login attempt (task 434af1c8) — page had no LOGCAP/captcha but login did NOT advance to dashboard; STOPPED (no further hammer). Username rockyveenaffiliate. ~10 products already joined. Manual resolve before AI/SaaS joins.',
+      '2026-09-07 ~04:39 poll-collab-otp-tight: SKIPPED login — prior ~03:38 one attempt no advance (and ~00:31). No hammer. Username rockyveenaffiliate. ~10 products already joined. Manual resolve before AI/SaaS joins.',
     jobs: [
       {
         id: 'ds-funnelcockpit',
@@ -701,7 +701,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-07 ~03:38 poll-collab-otp-tight: skipped — prior Blocked/anti-bot; no fresh useful OTP (old temp codes only). Do not hammer. 0 brand programs.',
+      '2026-09-07 ~04:39 poll-collab-otp-tight: skipped — prior Blocked/anti-bot; no fresh useful OTP in last 6h (old temp codes only). Do not hammer. 0 brand programs.',
     jobs: [],
   },
   {
@@ -714,7 +714,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-07 ~04:00 poll-statusphere-rakuten: SKIPPED login — prior ~03:38 Keycloak Invalid email/password (and ~02:00 fail); do not hammer. No new Rakuten approval mail since Wondershare+Blockchain Council. Last good catalog ~01:14: 2 Partnered + 12 Pending incl Keeper. SID 4747686. Skip phone/tax/card/IG.',
+      '2026-09-07 ~04:39 poll-collab-otp-tight: SKIPPED login — prior ~03:38 Keycloak Invalid email/password (and ~02:00). Do not hammer. No new Rakuten unlock mail. Last good catalog ~01:14: 2 Partnered + 12 Pending incl Keeper. SID 4747686. Skip phone/tax/card/IG.',
     jobs: [
       {
         id: 'rak-keeper-security',
