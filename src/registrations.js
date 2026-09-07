@@ -73,7 +73,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-07 ~20:58 poll-collab-otp-tight: still locked — 0 notifications@app.impact.com unlock/reset/Verification after:2026/09/07. Newest Verification 165312 @09:26 Sep 6. Did NOT login (no hammer). 0 programs.',
+      '2026-09-07 ~21:58 poll-collab-otp-tight: still locked — 0 notifications@app.impact.com unlock/reset/Verification after:2026/09/07. Newest Verification 165312 @09:26 Sep 6. Did NOT login (no hammer). 0 programs.',
     jobs: [],
   },
   {
@@ -547,7 +547,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-07 ~20:58 poll-collab-otp-tight: skipped — still needs Mobile Phone (do not invent). 0 FlexOffers mail after:2026/09/07. 0 offers.',
+      '2026-09-07 ~21:58 poll-collab-otp-tight: skipped — still needs Mobile Phone (do not invent). 0 FlexOffers mail after:2026/09/07. 0 offers.',
     jobs: [],
   },
   {
@@ -560,7 +560,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-07 ~20:58 poll-collab-otp-tight: skipped password — prior Invalid ~23:28 (no hammer). 0 Admitad mail after:2026/09/07. Adspaces leave pending.',
+      '2026-09-07 ~21:58 poll-collab-otp-tight: skipped password — prior Invalid ~23:28 (no hammer). 0 Admitad mail after:2026/09/07. Adspaces leave pending.',
     jobs: [],
   },
   {
@@ -635,7 +635,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-07 ~20:58 poll-collab-otp-tight: still approved Tapfiliate $178 @12:53 (ref https://tapfiliate.com?ref=ndm2ndd1); no NEW program approvals.',
+      '2026-09-07 ~21:58 poll-collab-otp-tight: still approved Tapfiliate $178 @12:53 (ref https://tapfiliate.com?ref=ndm2ndd1); no NEW program approvals.',
     jobs: [
       {
         id: 'tap-tapfiliate-178',
@@ -659,7 +659,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-07 ~20:58 poll-collab-otp-tight: SKIPPED login — prior ~03:38 no-advance (no hammer). Username rockyveenaffiliate. ~10 products joined. 0 Digistore mail after:2026/09/07.',
+      '2026-09-07 ~21:58 poll-collab-otp-tight: SKIPPED login — prior ~03:38 no-advance (no hammer). Username rockyveenaffiliate. ~10 products joined. 0 Digistore mail after:2026/09/07.',
     jobs: [
       {
         id: 'ds-funnelcockpit',
@@ -713,7 +713,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-07 ~20:58 poll-collab-otp-tight: skipped — prior Blocked/anti-bot; 0 Refersion mail after:2026/09/07. Do not hammer. 0 brand programs.',
+      '2026-09-07 ~21:58 poll-collab-otp-tight: skipped — prior Blocked/anti-bot; 0 Refersion mail after:2026/09/07. Do not hammer. 0 brand programs.',
     jobs: [],
   },
   {
@@ -726,7 +726,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-07 ~21:25 poll-rakuten-more-saas: SKIP login — Keycloak Invalid since ~03:38 (do not hammer). Gmail-only: still only Tresorit Partnered after:2026/09/07 — no NEW among Pending SaaS (Keeper, Skylum, Brytesoft, NordVPN(+APAC), PureVPN, ESET, HTVRONT, Webroot Inc, IONOS, ExitLag). Still 3 Partnered (Blockchain Council + Wondershare + Tresorit @12:05). SID 4747686.',
+      '2026-09-07 ~21:58 poll-collab-otp-tight: SKIP login — Keycloak Invalid since ~03:38 (do not hammer). Gmail: ExitLag DENIED @21:30 (not Partnered). Still only Tresorit Partnered after:2026/09/07. Still 3 Partnered (Blockchain Council + Wondershare + Tresorit). ~10 Pending remain (Keeper, Skylum, Brytesoft, NordVPN(+APAC), PureVPN, ESET, HTVRONT, Webroot Inc, IONOS). SID 4747686.',
     jobs: [
       {
         id: 'rak-keeper-security',
@@ -762,10 +762,10 @@ export const platforms = [
         id: 'rak-exitlag',
         brand: 'ExitLag',
         title: 'Rakuten Advertising partnership',
-        status: 'submitted',
+        status: 'lost',
         appliedAt: '2026-09-06',
         rate: 'Affiliate',
-        notes: 'Apply Pending 2026-09-06 (96c0f2ed). MID 54235 / offer 2080923.',
+        notes: 'DENIED via Gmail 2026-09-07 ~21:30 — ExitLag chose not to accept Rocky Veen (site access/traffic/fit). MID 54235 / offer 2080923. Was Apply Pending 2026-09-06.',
         href: 'https://publisher.rakutenadvertising.com/advertisers/54235/offers/2080923/details',
       },
       {
