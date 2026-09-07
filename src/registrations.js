@@ -73,7 +73,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-07 ~11:48 poll-collab-otp-tight: still locked — 0 Impact mail after:2026/09/07 (newest still Verification 165312 @09:26 Sep 6). Did NOT login. 0 programs. Fresh unlock required — no hammer.',
+      '2026-09-07 ~12:20 poll-apply-tasks: still locked — 0 Impact mail after:2026/09/07 (newest still Verification 165312 @09:26 Sep 6). Did NOT login. 0 programs. Fresh unlock required — no hammer.',
     jobs: [],
   },
   {
@@ -287,7 +287,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-07 ~11:11 poll-apply-tasks: Network still Pending; Home banner: \"Your 2 program applications are on hold. If approved to the Network, PartnerStack will automatically submit these applications for you\" (Reclaim.ai + ElevenLabs). Descript Application pending. Reclaim + ElevenLabs on hold pending Network. Profile still 69%. Did NOT re-submit/mass-apply. No PartnerStack approval mail (0 after:2026/09/06; 0 newer_than:12h). Skip phone/tax/card/IG. FlexOffers phone-gated; Digistore skip; Refersion blocked; Impact no unlock (0 mail after:2026/09/07).',
+      '2026-09-07 ~12:20 poll-apply-tasks: Network still Pending; Home banner: \"Your 2 program applications are on hold. If approved to the Network, PartnerStack will automatically submit these applications for you\" (Reclaim.ai + ElevenLabs). Descript Application pending. Reclaim + ElevenLabs on hold pending Network. Profile still 69%. Did NOT re-submit/mass-apply. No PartnerStack approval mail (0 after:2026/09/06). Skip phone/tax/card/IG. FlexOffers phone-gated; Digistore skip; Refersion blocked; Impact no unlock (0 mail after:2026/09/07).',
     jobs: [
       {
         id: 'ps-elevenlabs',
