@@ -73,7 +73,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-07 ~00:19 impact-unlock-retry: Gmail (inbox+spam) still NO fresh unlock/reset. Newest Impact mail remains Verification 165312 @09:26 UTC 2026-09-06 (expired) + Reset Password burst AM same day. Did NOT login (avoid lock hammer). 0 programs. Fresh unlock required. Skip CreatorReady/Creator.co (phone).',
+      '2026-09-07 ~00:31 poll-collab-otp-tight: Gmail still NO fresh unlock (Verification 165312 @09:26 + AM resets only). Did NOT login. Prior impact-unlock-retry ~00:19 same. 0 programs. Fresh unlock required.',
     jobs: [],
   },
   {
@@ -547,7 +547,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-06 ~23:28 poll-collab-otp-tight: skipped — Company Information still requires Mobile Phone (do not invent). Prior ~22:22 same. 0 offers. User must enter phone + Continue.',
+      '2026-09-07 ~00:31 poll-collab-otp-tight: skipped — Company Information still requires Mobile Phone (do not invent). Gmail has only old AM FlexOffers verify passcodes (no phone unlock). 0 offers. User must enter phone + Continue.',
     jobs: [],
   },
   {
@@ -560,7 +560,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-06 ~23:28 poll-collab-otp-tight: one login attempt returned Invalid password/email — stopped (no hammer). Prior ~22:22 login OK with Instagram + rockyveen.com still Not reviewed — leave pending (no re-submit). Do not mass-retry password.',
+      '2026-09-07 ~00:31 poll-collab-otp-tight: Mitgo login form shown — did NOT submit password (prior Invalid password ~23:28; no hammer). Adspaces still unknown/Not reviewed from ~22:22. Leave pending; needs manual password/adspace Active before AI/SaaS requests.',
     jobs: [],
   },
   {
@@ -647,7 +647,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-06 ~23:28 poll-collab-otp-tight: one calm login attempt → LOGCAP — stopped (no hammer). Username rockyveenaffiliate. Prior ~22:22 LOGCAP; ~21:15 password-incorrect. 10 products joined. Manual anti-bot/password resolve before AI/SaaS joins.',
+      '2026-09-07 ~00:31 poll-collab-otp-tight: login page looked calm (no visible LOGCAP) → ONE attempt with rockyveenaffiliate; page did not advance / no error shown — STOPPED (no hammer). Prior LOGCAP ~23:28/~22:22; password-incorrect ~21:15. 10 products joined. Manual anti-bot/password resolve before AI/SaaS joins.',
     jobs: [
       {
         id: 'ds-funnelcockpit',
@@ -701,7 +701,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-06 ~23:28 poll-collab-otp-tight: skipped — site Blocked / anti-bot (do not hammer password). Prior ~22:22 reCAPTCHA. 0 brand programs.',
+      '2026-09-07 ~00:31 poll-collab-otp-tight: skipped — prior Blocked/anti-bot (~23:28); Gmail only old AM temporary pass codes (expired). Do not hammer password/reCAPTCHA. 0 brand programs.',
     jobs: [],
   },
   {
@@ -714,7 +714,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-07 ~00:00 poll-statusphere-rakuten: login OK; NEW apply Keeper Security (Pending confirmed). Other AI/SaaS/VPN/antivirus/cloud/productivity searches thin — no further new applies. Educative skipped (terms-blocked). Partnered Blockchain Council + Wondershare; 12 Pending (Keeper Security + Skylum, Brytesoft, NordVPN(+APAC), PureVPN, ESET, HTVRONT, Webroot Inc, IONOS, ExitLag, Tresorit). SID 4747686. Skipped phone/tax/card/IG. Impact not hammered; FlexOffers phone-blocked.',
+      '2026-09-07 ~00:31 poll-collab-otp-tight: no re-scan (full AI/SaaS + Keeper apply done ~00:00). Partnered Blockchain Council + Wondershare; 12 Pending incl Keeper Security. SID 4747686. Skip phone/tax/card/IG.',
     jobs: [
       {
         id: 'rak-keeper-security',
