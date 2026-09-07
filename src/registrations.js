@@ -73,7 +73,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-07 ~03:45 poll-apply-tasks: Gmail still NO fresh unlock (newest Impact still Verification 165312 @09:26 Sep 6 + AM resets). Did NOT login. 0 programs. Fresh unlock required — no hammer.',
+      '2026-09-07 ~04:21 impact-unlock-retry: Gmail still NO fresh unlock/reset (newest Impact still Verification 165312 @09:26 Sep 6 + AM resets only; 0 Impact mail in last 12h). Did NOT login. 0 programs. Fresh unlock required — no hammer. Rescheduled once more.',
     jobs: [],
   },
   {
