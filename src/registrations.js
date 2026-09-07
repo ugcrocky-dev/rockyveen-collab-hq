@@ -287,7 +287,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-07 ~17:39 poll-apply-tasks: Browser dash confirmed — Network still Pending; home banner still \"Your 2 program applications are on hold\" (Reclaim.ai + ElevenLabs); Descript Application pending; profile still 69%. Did NOT re-submit. Gmail: 0 PartnerStack/Descript/Reclaim/ElevenLabs after:2026/09/06; 0 Impact app mail after:2026/09/07. Skip phone/tax/card/IG. FlexOffers phone-gated; Digistore skip; Refersion blocked.',
+      '2026-09-07 ~18:40 poll-apply-tasks: Browser dash confirmed — Network still Pending; home banner still \"Your 2 program applications are on hold\" (Reclaim.ai + ElevenLabs; auto-submit after network approval — did NOT re-submit); Descript Application pending; profile still 69%. Gmail: 0 new PartnerStack/Descript approval after:2026/09/05; 0 Impact unlock/reset/Verification after:2026/09/07. Skip phone/tax/card/IG. FlexOffers phone-gated; Digistore skip; Refersion blocked.',
     jobs: [
       {
         id: 'ps-elevenlabs',
