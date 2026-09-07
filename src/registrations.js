@@ -714,7 +714,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-07 ~04:39 poll-collab-otp-tight: SKIPPED login — prior ~03:38 Keycloak Invalid email/password (and ~02:00). Do not hammer. No new Rakuten unlock mail. Last good catalog ~01:14: 2 Partnered + 12 Pending incl Keeper. SID 4747686. Skip phone/tax/card/IG.',
+      '2026-09-07 ~05:19 poll-rakuten-more-saas: SKIPPED login — prior ~03:38 Keycloak Invalid email/password (do not hammer). Gmail: no NEW Partnered approvals since Wondershare + Blockchain Council (Sep 6); 0 Rakuten mail in last 12h. Still expect 2 Partnered + 12 Pending incl Keeper (last catalog ~01:14). SID 4747686. Skip phone/tax/card/IG. FlexOffers phone-gated; Digistore skip; Impact locked; Admitad wait adspace.',
     jobs: [
       {
         id: 'rak-keeper-security',
