@@ -597,7 +597,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'marketplace',
     notes:
-      '2026-09-06 ~23:35 poll-statusphere-rakuten: Gmail (inbox+spam) — no NEW verify/unlock. Still only waitlist mail @12:00 UTC + older verify @08:40 (expired earlier). Remain registered_waitlisted; no profile unlock. No phone/street invention. No IG OAuth.',
+      '2026-09-07 ~00:00 poll-statusphere-rakuten: Gmail (inbox+spam) — no NEW verify/unlock. Still only waitlist mail @12:00 UTC 2026-09-06 + older verify @08:40 (expired earlier). Remain registered_waitlisted; no profile unlock. No phone/street invention. No IG OAuth.',
     jobs: [],
   },
   {
@@ -714,8 +714,18 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-06 ~23:35 poll-statusphere-rakuten: login OK; 0 new AI/SaaS applies (catalog thin — AI/SaaS/software). Educative skipped (terms-blocked). Partnered Blockchain Council + Wondershare; 11 Pending confirmed (Skylum, Brytesoft, NordVPN(+APAC), PureVPN, ESET, HTVRONT, Webroot Inc, IONOS, ExitLag, Tresorit). SID 4747686. Skipped phone/tax/card/IG. Impact not hammered; FlexOffers phone-blocked.',
+      '2026-09-07 ~00:00 poll-statusphere-rakuten: login OK; NEW apply Keeper Security (Pending confirmed). Other AI/SaaS/VPN/antivirus/cloud/productivity searches thin — no further new applies. Educative skipped (terms-blocked). Partnered Blockchain Council + Wondershare; 12 Pending (Keeper Security + Skylum, Brytesoft, NordVPN(+APAC), PureVPN, ESET, HTVRONT, Webroot Inc, IONOS, ExitLag, Tresorit). SID 4747686. Skipped phone/tax/card/IG. Impact not hammered; FlexOffers phone-blocked.',
     jobs: [
+      {
+        id: 'rak-keeper-security',
+        brand: 'Keeper Security',
+        title: 'Rakuten Advertising partnership',
+        status: 'submitted',
+        appliedAt: '2026-09-07',
+        rate: 'Affiliate',
+        notes: 'Apply Pending confirmed 2026-09-07 ~00:00 (cybersecurity search). MID 54233 / offer 2065364. Offer page: Pending (applied); My Advertisers Pending list includes Keeper Security.',
+        href: 'https://publisher.rakutenadvertising.com/advertisers/54233/offers/2065364/details',
+      },
       {
         id: 'rak-depositphotos',
         brand: 'Depositphotos INC',
