@@ -714,7 +714,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-07 ~00:31 poll-collab-otp-tight: no re-scan (full AI/SaaS + Keeper apply done ~00:00). Partnered Blockchain Council + Wondershare; 12 Pending incl Keeper Security. SID 4747686. Skip phone/tax/card/IG.',
+      '2026-09-07 ~01:14 poll-rakuten-more-saas: login OK; Pending→Partnered: none (still 2 Partnered Blockchain Council + Wondershare; 12 Pending unchanged incl Keeper Security). AI/SaaS/software/cybersecurity/VPN/antivirus searches — 0 new applies (hits already Partnered/Pending; Educative skipped). SID 4747686. Skipped phone/tax/card/IG. FlexOffers phone-blocked; Impact skip unless unlock; Admitad wait Active; Digistore no-hammer.',
     jobs: [
       {
         id: 'rak-keeper-security',
