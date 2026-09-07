@@ -597,7 +597,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'marketplace',
     notes:
-      '2026-09-07 ~00:00 poll-statusphere-rakuten: Gmail (inbox+spam) — no NEW verify/unlock. Still only waitlist mail @12:00 UTC 2026-09-06 + older verify @08:40 (expired earlier). Remain registered_waitlisted; no profile unlock. No phone/street invention. No IG OAuth.',
+      '2026-09-07 ~02:00 poll-statusphere-rakuten: Gmail (inbox+spam) — no NEW verify/unlock. Still only waitlist mail @12:00 UTC 2026-09-06 + older verify @08:40. Remain registered_waitlisted; no profile unlock. No phone/street invention. No IG OAuth.',
     jobs: [],
   },
   {
@@ -714,7 +714,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-07 ~01:34 poll-collab-otp-tight: no re-scan (full SaaS poll ~01:14: still 2 Partnered + 12 Pending incl Keeper; 0 new). SID 4747686. Skip phone/tax/card/IG.',
+      '2026-09-07 ~02:00 poll-statusphere-rakuten: this-session login failed (Keycloak shadow-DOM / Invalid email or password after 2 careful tries — STOPPED, no hammer). Last confirmed ~01:14: 2 Partnered (Blockchain Council + Wondershare); 12 Pending incl Keeper Security; 0 new AI/SaaS. SID 4747686. Skip phone/tax/card/IG. Impact not hammered; FlexOffers phone-blocked.',
     jobs: [
       {
         id: 'rak-keeper-security',
