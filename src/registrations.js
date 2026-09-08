@@ -73,7 +73,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-08 ~12:28 poll-collab-otp-tight: still locked — 0 Impact unlock/reset/Verification after:2026/09/07 and after:2026/09/08 (promo/outreach only; SHEIN verify unrelated). Newest Verification 165312 @09:26 Sep 6 (expired). Did NOT login (no hammer). 0 programs.',
+      '2026-09-08 ~12:59 impact-unlock-retry: still locked — 0 notifications@app.impact.com after:2026/09/07 and after:2026/09/08; 0 unlock/reset mail. Newest Verification 165312 @09:26 Sep 6 (expired; Account ID 6854059). Did NOT login (no hammer). Skip CreatorReady/Creator.co (phone). 0 programs. Next retry ~14:59.',
     jobs: [],
   },
   {
