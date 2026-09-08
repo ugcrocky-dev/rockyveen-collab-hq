@@ -73,7 +73,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-08 ~19:52 poll-collab-otp-tight: still locked — 0 notifications@app.impact.com after:2026/09/07 and after:2026/09/08. Newest Verification 165312 @09:26 Sep 6 (expired; Account ID 6854059). Did NOT login (no hammer). Prior ~19:49/~19:03 also 0 unlock. 0 programs.',
+      '2026-09-08 ~20:28 poll-statusphere-rakuten: still locked — 0 Impact unlock/reset/Verification after:2026/09/07 and after:2026/09/08. Newest Verification 165312 @09:26 Sep 6 (expired; Account ID 6854059). Did NOT login (no hammer). Prior ~19:52 also 0 unlock. 0 programs.',
     jobs: [],
   },
   {
@@ -547,7 +547,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-08 ~19:52 poll-collab-otp-tight: skipped — still needs Mobile Phone (do not invent). 0 FlexOffers mail after:2026/09/08. 0 offers.',
+      '2026-09-08 ~20:28 poll-statusphere-rakuten: skipped — still needs Mobile Phone (do not invent). FlexOffers stays phone-blocked. 0 offers.',
     jobs: [],
   },
   {
@@ -597,7 +597,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'marketplace',
     notes:
-      '2026-09-08 ~18:27 poll-statusphere-rakuten: Gmail (inbox+spam) — no NEW verify/unlock after:2026/09/08. Still only waitlist @12:00 UTC 2026-09-06 + verify @08:40. Remain registered_waitlisted. No phone/street invention. Next poll ~20:27.',
+      '2026-09-08 ~20:28 poll-statusphere-rakuten: Gmail (inbox+spam) — no NEW verify/unlock after:2026/09/08. Still only waitlist @12:00 UTC 2026-09-06 + verify @08:40. Remain registered_waitlisted. No phone/street invention. Next poll ~22:28.',
     jobs: [],
   },
   {
@@ -726,7 +726,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-08 ~19:52 poll-collab-otp-tight: SKIP login — Keycloak Invalid since ~03:38 (do not hammer). Gmail: 0 Rakuten after:2026/09/08; no NEW Partnered/Denied since ExitLag DENIED @21:30; still 3 Partnered (Blockchain Council + Wondershare + Tresorit @12:05) + ~10 Pending (Keeper, Skylum, Brytesoft, NordVPN(+APAC), PureVPN, ESET, HTVRONT, Webroot Inc, IONOS). SID 4747686.',
+      '2026-09-08 ~20:28 poll-statusphere-rakuten: SKIP login — Keycloak Invalid since ~03:38 (do not hammer). Gmail: 0 from:rakutenaffiliatenetwork.com after:2026/09/08; no NEW Partnered/Denied since ExitLag DENIED @21:30; still 3 Partnered (Blockchain Council + Wondershare + Tresorit @12:05) + ~10 Pending (Keeper, Skylum, Brytesoft, NordVPN(+APAC), PureVPN, ESET, HTVRONT, Webroot Inc, IONOS). SID 4747686.',
     jobs: [
       {
         id: 'rak-keeper-security',
