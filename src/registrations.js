@@ -73,7 +73,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-08 ~21:30 poll-rakuten-more-saas: still locked — 0 notifications@app.impact.com after:2026/09/07 and after:2026/09/08. Newest Verification 165312 @09:26 Sep 6 (expired). Did NOT login (no hammer). Prior ~21:04 also 0 unlock. 0 programs.',
+      '2026-09-08 ~22:02 poll-apply-tasks: still locked — 0 notifications@app.impact.com after:2026/09/07 and after:2026/09/08. Newest Verification 165312 @09:26 Sep 6 (expired). Did NOT login (no hammer). Prior ~21:30 also 0 unlock. 0 programs.',
     jobs: [],
   },
   {
@@ -287,7 +287,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-08 ~20:52 poll-apply-tasks: Network still DECLINED/limited — Gmail only the ~19:00 networkquality mail (no newer PartnerStack after:2026/09/08). Browser: Network Declined — reason \"One of your links is not working.\"; re-apply eligible from Sep 22, 2026; \"Apply again\" visible but NOT clicked. Banner still \"Your 2 program applications are on hold\". Descript Application pending. Profile 69%. ElevenLabs/Reclaim show Application submitted / on-hold until Network re-approved — did NOT re-submit. Did NOT invent which link is broken. Impact 0 unlock; FlexOffers phone-gated; Digistore skip; Refersion blocked.',
+      '2026-09-08 ~22:02 poll-apply-tasks: Network still DECLINED/limited — Gmail only the ~19:00 networkquality mail (no newer PartnerStack after:2026/09/08). Browser reconfirm: Network Declined — \"One of your links is not working.\"; re-apply eligible Sep 22, 2026; Apply again NOT clicked. Banner still \"Your 2 program applications are on hold\". Descript Application pending. Profile 69%. Spotlight rotation only (Circle). Did NOT invent which link is broken. Impact 0 unlock; FlexOffers phone-gated; Digistore skip; Refersion blocked.',
     jobs: [
       {
         id: 'ps-elevenlabs',
@@ -306,7 +306,7 @@ export const platforms = [
         status: 'submitted',
         appliedAt: '2026-09-05',
         rate: 'Affiliate',
-        notes: 'Application pending Descript review — reconfirmed 2026-09-08 ~20:52 (existing partnership path; Network limit says existing partnerships unaffected).',
+        notes: 'Application pending Descript review — reconfirmed 2026-09-08 ~22:02 (existing partnership path; Network limit says existing partnerships unaffected).',
         href: 'https://dash.partnerstack.com/descriptinc/application',
       },
       {
@@ -326,7 +326,7 @@ export const platforms = [
         status: 'lost',
         appliedAt: '2026-09-06',
         rate: '—',
-        notes: 'DECLINED/limited 2026-09-08 ~19:00 — reason: One of your links is not working. Browser ~20:52: still Declined; re-apply eligible from Sep 22, 2026; Apply again visible but not clicked. Profile still 69%. Did not reapply this poll.',
+        notes: 'DECLINED/limited 2026-09-08 ~19:00 — reason: One of your links is not working. Browser ~22:02: still Declined; re-apply eligible from Sep 22, 2026; Apply again not clicked. Profile still 69%. Did not reapply this poll.',
         href: 'https://dash.partnerstack.com/marketplace/network_application',
       },
     ],
@@ -547,7 +547,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-08 ~21:30 poll-rakuten-more-saas: skipped — still needs Mobile Phone (do not invent). FlexOffers phone-blocked. 0 offers.',
+      '2026-09-08 ~22:02 poll-apply-tasks: skipped — still needs Mobile Phone (do not invent). 0 FlexOffers mail after:2026/09/08. 0 offers.',
     jobs: [],
   },
   {
@@ -659,7 +659,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-08 ~21:30 poll-rakuten-more-saas: SKIPPED login — prior ~03:38 no-advance (no hammer). Username rockyveenaffiliate. ~10 products joined. 0 Digistore mail after:2026/09/08.',
+      '2026-09-08 ~22:02 poll-apply-tasks: SKIPPED login — prior ~03:38 no-advance (no hammer). Username rockyveenaffiliate. ~10 products joined. 0 Digistore mail after:2026/09/08.',
     jobs: [
       {
         id: 'ds-funnelcockpit',
@@ -713,7 +713,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-08 ~21:02 poll-collab-otp-tight: skipped — prior Blocked/anti-bot; 0 Refersion mail after:2026/09/08. Do not hammer. 0 brand programs.',
+      '2026-09-08 ~22:02 poll-apply-tasks: skipped — prior Blocked/anti-bot; 0 Refersion mail after:2026/09/08. Do not hammer. 0 brand programs.',
     jobs: [],
   },
   {
