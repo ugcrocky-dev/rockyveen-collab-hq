@@ -73,7 +73,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-08 ~10:17 poll-collab-otp-tight: still locked — 0 notifications@app.impact.com after:2026/09/07; 0 Verification/unlock/reset. Newest Verification 165312 @09:26 Sep 6 (expired). Did NOT login (no hammer). 0 programs.',
+      '2026-09-08 ~10:43 impact-unlock-retry: still locked — 0 notifications@app.impact.com after:2026/09/07 (also 0 after:2026/09/08); 0 Verification/unlock/reset subject mail (inbox+spam). Newest Verification 165312 @09:26 Sep 6 (expired). Did NOT login (no hammer). 0 programs. Next retry ~12:43.',
     jobs: [],
   },
   {
