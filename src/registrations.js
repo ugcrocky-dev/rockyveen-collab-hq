@@ -73,7 +73,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-08 ~14:33 poll-apply-tasks: still locked — 0 notifications@app.impact.com after:2026/09/07 and after:2026/09/08. Newest Verification 165312 @09:26 Sep 6 (expired; Account ID 6854059). Did NOT login (no hammer). 0 programs.',
+      '2026-09-08 ~14:36 poll-collab-otp-tight: still locked — 0 notifications@app.impact.com after:2026/09/07 and after:2026/09/08. Newest Verification 165312 @09:26 Sep 6 (expired; Account ID 6854059). Did NOT login (no hammer). 0 programs.',
     jobs: [],
   },
   {
@@ -547,7 +547,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-08 ~13:32 poll-collab-otp-tight: skipped — still needs Mobile Phone (do not invent). 0 FlexOffers mail after:2026/09/07. 0 offers.',
+      '2026-09-08 ~14:36 poll-collab-otp-tight: skipped — still needs Mobile Phone (do not invent). 0 FlexOffers mail after:2026/09/07. 0 offers.',
     jobs: [],
   },
   {
@@ -560,7 +560,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-08 ~13:32 poll-collab-otp-tight: skipped password — prior Invalid ~23:28 (no hammer). 0 Admitad mail after:2026/09/07. Adspaces leave pending.',
+      '2026-09-08 ~14:36 poll-collab-otp-tight: skipped password — prior Invalid ~23:28 (no hammer). 0 Admitad mail after:2026/09/07. Adspaces leave pending.',
     jobs: [],
   },
   {
@@ -635,7 +635,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-08 ~13:32 poll-collab-otp-tight: still approved Tapfiliate $178 @12:53 (ref https://tapfiliate.com?ref=ndm2ndd1); no NEW program approvals after:2026/09/07.',
+      '2026-09-08 ~14:36 poll-collab-otp-tight: still approved Tapfiliate $178 @12:53 (ref https://tapfiliate.com?ref=ndm2ndd1); no NEW program approvals after:2026/09/07.',
     jobs: [
       {
         id: 'tap-tapfiliate-178',
@@ -659,7 +659,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-08 ~13:32 poll-collab-otp-tight: SKIPPED login — prior ~03:38 no-advance (no hammer). Username rockyveenaffiliate. ~10 products joined. 0 Digistore mail after:2026/09/07.',
+      '2026-09-08 ~14:36 poll-collab-otp-tight: SKIPPED login — prior ~03:38 no-advance (no hammer). Username rockyveenaffiliate. ~10 products joined. 0 Digistore mail after:2026/09/07.',
     jobs: [
       {
         id: 'ds-funnelcockpit',
@@ -713,7 +713,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-08 ~13:32 poll-collab-otp-tight: skipped — prior Blocked/anti-bot; 0 Refersion mail after:2026/09/07. Do not hammer. 0 brand programs.',
+      '2026-09-08 ~14:36 poll-collab-otp-tight: skipped — prior Blocked/anti-bot; 0 Refersion mail after:2026/09/07. Do not hammer. 0 brand programs.',
     jobs: [],
   },
   {
@@ -726,7 +726,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-08 ~14:25 poll-statusphere-rakuten: SKIP login — Keycloak Invalid since ~03:38 (do not hammer). Gmail: 0 Rakuten/Statusphere after:2026/09/08; no NEW Partnered/Denied since ExitLag DENIED @21:30; still 3 Partnered (Blockchain Council + Wondershare + Tresorit @12:05) + ~10 Pending (Keeper, Skylum, Brytesoft, NordVPN(+APAC), PureVPN, ESET, HTVRONT, Webroot Inc, IONOS). SID 4747686.',
+      '2026-09-08 ~14:36 poll-collab-otp-tight: SKIP login — Keycloak Invalid since ~03:38 (do not hammer). Gmail: 0 Rakuten after:2026/09/08; no NEW Partnered/Denied since ExitLag DENIED @21:30; still 3 Partnered (Blockchain Council + Wondershare + Tresorit @12:05) + ~10 Pending (Keeper, Skylum, Brytesoft, NordVPN(+APAC), PureVPN, ESET, HTVRONT, Webroot Inc, IONOS). SID 4747686.',
     jobs: [
       {
         id: 'rak-keeper-security',
