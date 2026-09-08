@@ -597,7 +597,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'marketplace',
     notes:
-      '2026-09-08 ~08:17 poll-statusphere-rakuten: Gmail (inbox+spam) — no NEW verify/unlock. Still only waitlist @12:00 UTC 2026-09-06 + verify @08:40. Remain registered_waitlisted. No phone/street invention. Next poll ~10:17.',
+      '2026-09-08 ~10:18 poll-statusphere-rakuten: Gmail (inbox+spam) — no NEW verify/unlock. Still only waitlist @12:00 UTC 2026-09-06 + verify @08:40. Remain registered_waitlisted. No phone/street invention. Next poll ~12:18.',
     jobs: [],
   },
   {
@@ -726,7 +726,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-08 ~10:17 poll-collab-otp-tight: SKIP login — Keycloak Invalid since ~03:38 (do not hammer). Gmail: no NEW Partnered/Denied since ExitLag DENIED @21:30; still 3 Partnered (Blockchain Council + Wondershare + Tresorit @12:05) + ~10 Pending (Keeper, Skylum, Brytesoft, NordVPN(+APAC), PureVPN, ESET, HTVRONT, Webroot Inc, IONOS). SID 4747686.',
+      '2026-09-08 ~10:18 poll-statusphere-rakuten: SKIP login — Keycloak Invalid since ~03:38 (do not hammer). Gmail: no NEW Partnered/Denied since ExitLag DENIED @21:30; still 3 Partnered (Blockchain Council + Wondershare + Tresorit @12:05) + ~10 Pending (Keeper, Skylum, Brytesoft, NordVPN(+APAC), PureVPN, ESET, HTVRONT, Webroot Inc, IONOS). SID 4747686.',
     jobs: [
       {
         id: 'rak-keeper-security',
