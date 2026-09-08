@@ -73,7 +73,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-08 ~19:03 impact-unlock-retry: still locked — 0 notifications@app.impact.com after:2026/09/07 and after:2026/09/08. Newest Verification 165312 @09:26 Sep 6 (expired; Account ID 6854059). Did NOT login (no hammer). Prior ~18:49/~18:47 also 0 unlock. 0 programs.',
+      '2026-09-08 ~19:49 poll-apply-tasks: still locked — 0 notifications@app.impact.com after:2026/09/07 and after:2026/09/08. Newest Verification 165312 @09:26 Sep 6 (expired; Account ID 6854059). Did NOT login (no hammer). Prior ~19:03 also 0 unlock. 0 programs.',
     jobs: [],
   },
   {
@@ -281,22 +281,22 @@ export const platforms = [
     id: 'partnerstack',
     platform: 'PartnerStack',
     url: 'https://partnerstack.com',
-    status: 'registered_pending_network_approval',
+    status: 'registered_needs_reapply',
     username: 'collabs@rockyveen.com',
     oauthRequired: false,
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-08 ~18:47 poll-apply-tasks: Browser dash confirmed — Network still Pending; home banner still \"Your 2 program applications are on hold\" (did NOT re-submit); Descript Application pending; Reclaim/ElevenLabs remain the 2 on-hold apps (did NOT click Apply); profile still 69%. Gmail: 0 PartnerStack after:2026/09/06; 0 Impact Verification/unlock after:2026/09/07. Skip phone/tax/card/IG. FlexOffers phone-gated; Digistore skip; Refersion blocked.',
+      '2026-09-08 ~19:49 poll-apply-tasks: Network DECLINED/limited — Gmail @19:00 from networkquality@partnerstack.com \"The status of your PartnerStack Network Application\": access to new Marketplace programs limited; reason \"One of your links is not working.\"; can reapply via dash after fix; existing partnerships unaffected. Browser: Network status Declined; banner still \"Your 2 program applications are on hold\"; Descript still Application pending; profile 69%. Did NOT re-submit/reapply. Impact 0 unlock. FlexOffers phone-gated; Digistore skip; Refersion blocked.',
     jobs: [
       {
         id: 'ps-elevenlabs',
         brand: 'ElevenLabs',
         title: 'PartnerStack affiliate application',
-        status: 'submitted',
+        status: 'blocked',
         appliedAt: '2026-09-06',
         rate: 'Affiliate',
-        notes: 'On hold pending Network approval — reconfirmed 2026-09-08 ~18:47 (do not re-submit).',
+        notes: 'Was on hold; Network Declined ~19:00 Sep 8 (broken link) — cannot join new marketplace programs until Network re-approved. Do not re-submit yet.',
         href: 'https://dash.partnerstack.com/marketplace/all/details/elevenlabsinc',
       },
       {
@@ -306,27 +306,27 @@ export const platforms = [
         status: 'submitted',
         appliedAt: '2026-09-05',
         rate: 'Affiliate',
-        notes: 'Application pending Descript review — reconfirmed 2026-09-08 ~18:47 (up to 30d).',
+        notes: 'Application pending Descript review — reconfirmed 2026-09-08 ~19:49 (existing partnership path; Network limit says existing partnerships unaffected).',
         href: 'https://dash.partnerstack.com/descriptinc/application',
       },
       {
         id: 'ps-reclaim',
         brand: 'Reclaim.ai',
         title: 'PartnerStack affiliate application',
-        status: 'submitted',
+        status: 'blocked',
         appliedAt: '2026-09-06',
         rate: 'Affiliate',
-        notes: 'On hold pending Network approval — reconfirmed 2026-09-08 ~18:47 (do not re-submit).',
+        notes: 'Was on hold; Network Declined ~19:00 Sep 8 (broken link) — cannot join new marketplace programs until Network re-approved. Do not re-submit yet.',
         href: 'https://dash.partnerstack.com/marketplace/all/details/reclaim',
       },
       {
         id: 'ps-network',
         brand: 'PartnerStack Network',
         title: 'Network membership application',
-        status: 'submitted',
+        status: 'lost',
         appliedAt: '2026-09-06',
         rate: '—',
-        notes: 'Still Under Review / Pending 2026-09-08 ~18:47 (profile still 69%). Do not re-submit.',
+        notes: 'DECLINED/limited 2026-09-08 ~19:00 — reason: One of your links is not working. Reapply via dashboard after fixing broken link. Profile still 69%. Did not reapply this poll.',
         href: 'https://dash.partnerstack.com/marketplace/network_application',
       },
     ],
@@ -547,7 +547,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-08 ~18:49 poll-collab-otp-tight: skipped — still needs Mobile Phone (do not invent). 0 FlexOffers mail after:2026/09/08. 0 offers.',
+      '2026-09-08 ~19:49 poll-apply-tasks: skipped — still needs Mobile Phone (do not invent). 0 FlexOffers mail after:2026/09/08. 0 offers.',
     jobs: [],
   },
   {
@@ -659,7 +659,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-08 ~18:49 poll-collab-otp-tight: SKIPPED login — prior ~03:38 no-advance (no hammer). Username rockyveenaffiliate. ~10 products joined. 0 Digistore mail after:2026/09/08.',
+      '2026-09-08 ~19:49 poll-apply-tasks: SKIPPED login — prior ~03:38 no-advance (no hammer). Username rockyveenaffiliate. ~10 products joined. 0 Digistore mail after:2026/09/08.',
     jobs: [
       {
         id: 'ds-funnelcockpit',
@@ -713,7 +713,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-08 ~18:49 poll-collab-otp-tight: skipped — prior Blocked/anti-bot; 0 Refersion mail after:2026/09/08. Do not hammer. 0 brand programs.',
+      '2026-09-08 ~19:49 poll-apply-tasks: skipped — prior Blocked/anti-bot; 0 Refersion mail after:2026/09/08. Do not hammer. 0 brand programs.',
     jobs: [],
   },
   {
