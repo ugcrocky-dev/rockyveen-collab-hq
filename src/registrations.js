@@ -73,7 +73,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-08 ~09:11 poll-apply-tasks: still locked — 0 notifications@app.impact.com after:2026/09/07; 0 Verification/unlock/reset subject mail. Newest Verification 165312 @09:26 Sep 6 (expired). Did NOT login (no hammer). 0 programs.',
+      '2026-09-08 ~09:13 poll-collab-otp-tight: still locked — 0 notifications@app.impact.com after:2026/09/07; 0 Verification/unlock/reset. Newest Verification 165312 @09:26 Sep 6 (expired). Did NOT login (no hammer). 0 programs.',
     jobs: [],
   },
   {
@@ -547,7 +547,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-08 ~08:09 poll-collab-otp-tight: skipped — still needs Mobile Phone (do not invent). 0 FlexOffers mail after:2026/09/07. 0 offers.',
+      '2026-09-08 ~09:13 poll-collab-otp-tight: skipped — still needs Mobile Phone (do not invent). 0 FlexOffers mail after:2026/09/07. 0 offers.',
     jobs: [],
   },
   {
