@@ -726,7 +726,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-08 ~16:45 poll-collab-otp-tight: SKIP login — Keycloak Invalid since ~03:38 (do not hammer). Gmail: 0 Rakuten after:2026/09/08; no NEW Partnered/Denied since ExitLag DENIED @21:30; still 3 Partnered (Blockchain Council + Wondershare + Tresorit @12:05) + ~10 Pending (Keeper, Skylum, Brytesoft, NordVPN(+APAC), PureVPN, ESET, HTVRONT, Webroot Inc, IONOS). SID 4747686.',
+      '2026-09-08 ~17:29 poll-rakuten-more-saas: SKIP login — Keycloak Invalid since ~03:38 (do not hammer). Gmail: 0 Rakuten after:2026/09/08; no NEW Partnered/Denied among pending SaaS (Keeper/Skylum/Brytesoft/NordVPN(+APAC)/PureVPN/ESET/HTVRONT/Webroot/IONOS). Still 3 Partnered (Blockchain Council + Wondershare + Tresorit @12:05) + ExitLag DENIED @21:30 + ~10 Pending. SID 4747686.',
     jobs: [
       {
         id: 'rak-keeper-security',
