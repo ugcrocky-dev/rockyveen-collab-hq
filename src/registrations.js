@@ -73,7 +73,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-08 ~21:04 impact-unlock-retry: still locked — 0 notifications@app.impact.com after:2026/09/07 and after:2026/09/08 (inbox+spam). Newest still Verification 165312 @09:26 Sep 6 (expired; Account ID 6854059) + AM Sep 6 Reset Impact Password only. Did NOT login (no hammer). Prior ~21:02 OTP also 0 unlock. 0 programs. CreatorReady/Creator.co skipped (phone/email loops).',
+      '2026-09-08 ~21:30 poll-rakuten-more-saas: still locked — 0 notifications@app.impact.com after:2026/09/07 and after:2026/09/08. Newest Verification 165312 @09:26 Sep 6 (expired). Did NOT login (no hammer). Prior ~21:04 also 0 unlock. 0 programs.',
     jobs: [],
   },
   {
@@ -547,7 +547,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-08 ~21:02 poll-collab-otp-tight: skipped — still needs Mobile Phone (do not invent). 0 FlexOffers mail after:2026/09/08. 0 offers.',
+      '2026-09-08 ~21:30 poll-rakuten-more-saas: skipped — still needs Mobile Phone (do not invent). FlexOffers phone-blocked. 0 offers.',
     jobs: [],
   },
   {
@@ -560,7 +560,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-08 ~21:02 poll-collab-otp-tight: skipped password — prior Invalid ~23:28 (no hammer). Mitgo ID still nagging \"Please verify your ad space\" Rocky Veen (@09:00 + @07:30 Sep 8) — leave adspaces pending; do not request AI/SaaS until Active. 0 new Admitad after:2026/09/08 beyond verify nags.',
+      '2026-09-08 ~21:30 poll-rakuten-more-saas: skipped password — prior Invalid ~23:28 (no hammer). Mitgo still nagging verify ad space Rocky Veen (@09:00 + @07:30 Sep 8) — leave pending; do not request AI/SaaS until Active.',
     jobs: [],
   },
   {
@@ -659,7 +659,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-08 ~21:02 poll-collab-otp-tight: SKIPPED login — prior ~03:38 no-advance (no hammer). Username rockyveenaffiliate. ~10 products joined. 0 Digistore mail after:2026/09/08.',
+      '2026-09-08 ~21:30 poll-rakuten-more-saas: SKIPPED login — prior ~03:38 no-advance (no hammer). Username rockyveenaffiliate. ~10 products joined. 0 Digistore mail after:2026/09/08.',
     jobs: [
       {
         id: 'ds-funnelcockpit',
@@ -726,7 +726,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-08 ~21:02 poll-collab-otp-tight: SKIP login — Keycloak Invalid since ~03:38 (do not hammer). Gmail: 0 from:rakutenaffiliatenetwork.com after:2026/09/08; no NEW Partnered/Denied since ExitLag DENIED @21:30; still 3 Partnered (Blockchain Council + Wondershare + Tresorit @12:05) + ~10 Pending (Keeper, Skylum, Brytesoft, NordVPN(+APAC), PureVPN, ESET, HTVRONT, Webroot Inc, IONOS). SID 4747686.',
+      '2026-09-08 ~21:30 poll-rakuten-more-saas: SKIP login — Keycloak Invalid since ~03:38 (do not hammer). Gmail: 0 from:rakutenaffiliatenetwork.com after:2026/09/08; 0 Partnered/Denied mail naming Keeper/Skylum/Brytesoft/NordVPN/PureVPN/ESET/HTVRONT/Webroot/IONOS after:2026/09/07. Still 3 Partnered (Blockchain Council + Wondershare + Tresorit @12:05) + ExitLag DENIED @21:30 + ~10 Pending. SID 4747686. No Find Advertisers scan (login broken).',
     jobs: [
       {
         id: 'rak-keeper-security',
