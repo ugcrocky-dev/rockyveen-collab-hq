@@ -1,0 +1,25 @@
+name: restore-registrations
+on:
+  workflow_dispatch:
+jobs:
+  restore:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download full registrations.js
+        run: |
+          curl -fsSL -o src/registrations.js "https://h.uguu.se/AjZrdeWz.js"
+          test "$(wc -c < src/registrations.js)" -gt 20000
+          grep -q 'export const platforms' src/registrations.js
+          grep -q '19:12 poll-apply-tasks' src/registrations.js
+          grep -q 'get.descript.com/o5bc1tsufdv4' src/registrations.js
+          ! grep -q PLACEHOLDER src/registrations.js
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add src/registrations.js
+          git commit -m "chore: ~19:12 poll-apply-tasks — Network Declined; Descript won held" || exit 0
+          git push
