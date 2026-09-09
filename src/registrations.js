@@ -1,1 +1,1 @@
-@/agent/rockyveen-collab-hq/src/registrations.js
+__CURSOR_READ_FILE__/agent/rockyveen-collab-hq/src/registrations.js
