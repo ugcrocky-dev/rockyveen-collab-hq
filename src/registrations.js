@@ -73,7 +73,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-09 ~09:26 poll-collab-otp-tight: still locked — 0 unlock/reset/Verification from notifications@app.impact.com after:2026/09/07 (inbox+spam). Newest still Verification 165312 @09:26 Sep 6 (expired; Account ID 6854059). Did NOT login (no hammer). Prior ~09:14/~09:23 also 0 unlock. 0 programs. CreatorReady/Creator.co skipped.',
+      '2026-09-09 ~10:27 poll-collab-otp-tight: still locked — 0 unlock/reset/Verification from notifications@app.impact.com after:2026/09/07 (inbox+spam). Newest still Verification 165312 @09:26 Sep 6 (expired; Account ID 6854059). Did NOT login (no hammer). Prior ~10:25/~09:26 also 0 unlock. 0 programs. CreatorReady/Creator.co skipped.',
     jobs: [],
   },
   {
@@ -547,7 +547,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-09 ~09:26 poll-collab-otp-tight: skipped — still needs Mobile Phone (do not invent). 0 FlexOffers mail after:2026/09/08. 0 offers.',
+      '2026-09-09 ~10:27 poll-collab-otp-tight: skipped — still needs Mobile Phone (do not invent). 0 FlexOffers mail after:2026/09/08. 0 offers.',
     jobs: [],
   },
   {
@@ -560,7 +560,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-09 ~09:26 poll-collab-otp-tight: skipped password — prior Invalid ~23:28 (no hammer). Mitgo still nagging verify ad space Rocky Veen — NEW nag @09:15 Sep 9 (+ prior @09:00/@07:30 Sep 8). Leave pending; do not request AI/SaaS until Active.',
+      '2026-09-09 ~10:27 poll-collab-otp-tight: skipped password — prior Invalid ~23:28 (no hammer). Mitgo still nagging verify ad space Rocky Veen — NEW nag @10:00 Sep 9 (+ @09:15 Sep 9 + Sep 8 nags). Leave pending; do not request AI/SaaS until Active.',
     jobs: [],
   },
   {
@@ -635,7 +635,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-09 ~09:26 poll-collab-otp-tight: still approved Tapfiliate $178 @12:53 (ref https://tapfiliate.com?ref=ndm2ndd1); no NEW Tapfiliate program approvals after:2026/09/08.',
+      '2026-09-09 ~10:27 poll-collab-otp-tight: still approved Tapfiliate $178 @12:53 (ref https://tapfiliate.com?ref=ndm2ndd1); no NEW Tapfiliate program approvals after:2026/09/08.',
     jobs: [
       {
         id: 'tap-tapfiliate-178',
@@ -659,7 +659,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-09 ~09:26 poll-collab-otp-tight: SKIPPED login — prior ~03:38 no-advance (no hammer). Username rockyveenaffiliate. ~10 products joined. 0 Digistore mail after:2026/09/08.',
+      '2026-09-09 ~10:27 poll-collab-otp-tight: SKIPPED login — prior ~03:38 no-advance (no hammer). Username rockyveenaffiliate. ~10 products joined. 0 Digistore mail after:2026/09/08.',
     jobs: [
       {
         id: 'ds-funnelcockpit',
@@ -713,7 +713,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-09 ~09:26 poll-collab-otp-tight: skipped — prior Blocked/anti-bot; 0 Refersion mail after:2026/09/08. Do not hammer. 0 brand programs.',
+      '2026-09-09 ~10:27 poll-collab-otp-tight: skipped — prior Blocked/anti-bot; 0 Refersion mail after:2026/09/08. Do not hammer. 0 brand programs.',
     jobs: [],
   },
   {
@@ -726,7 +726,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-09 ~09:34 poll-rakuten-more-saas: SKIP login — Keycloak Invalid since ~03:38 (do not hammer). Gmail-only: no NEW Partnered among remaining Pending after HTVRONT @07:36. Still 4 Partnered (Blockchain Council + Wondershare + Tresorit + HTVRONT) + ~9 Pending (Keeper, Skylum, Brytesoft, NordVPN(+APAC), PureVPN, ESET, Webroot Inc, IONOS). ExitLag DENIED @21:30 Sep 7. SID 4747686. FlexOffers phone-blocked; Impact locked; Admitad wait adspace; Digistore skip login.',
+      '2026-09-09 ~10:27 poll-collab-otp-tight: SKIP login — Keycloak Invalid since ~03:38 (do not hammer). Gmail: only HTVRONT Partnered @07:36 (already logged); 0 newer Partnered/Denied among remaining Pending. Still 4 Partnered (Blockchain Council + Wondershare + Tresorit + HTVRONT) + ~9 Pending (Keeper, Skylum, Brytesoft, NordVPN(+APAC), PureVPN, ESET, Webroot Inc, IONOS). ExitLag DENIED @21:30 Sep 7. SID 4747686.',
     jobs: [
       {
         id: 'rak-keeper-security',
