@@ -1,1 +1,1 @@
-PLACEHOLDER_WILL_REPLACE
+@/agent/rockyveen-collab-hq/src/registrations.js
