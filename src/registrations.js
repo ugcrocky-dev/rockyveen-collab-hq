@@ -73,7 +73,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-09 ~10:27 poll-collab-otp-tight: still locked — 0 unlock/reset/Verification from notifications@app.impact.com after:2026/09/07 (inbox+spam). Newest still Verification 165312 @09:26 Sep 6 (expired; Account ID 6854059). Did NOT login (no hammer). Prior ~10:25/~09:26 also 0 unlock. 0 programs. CreatorReady/Creator.co skipped.',
+      '2026-09-09 ~11:15 impact-unlock-retry: still locked — 0 unlock/reset/Verification from notifications@app.impact.com after:2026/09/07 and after:2026/09/08 (inbox+spam). Newest still Verification 165312 @09:26 Sep 6 (expired; Account ID 6854059); AM resets only Sep 6. Did NOT login (no hammer). Prior ~10:27/~10:25/~09:14 also 0 unlock. 0 programs. CreatorReady/Creator.co skipped.',
     jobs: [],
   },
   {
