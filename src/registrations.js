@@ -597,7 +597,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'marketplace',
     notes:
-      '2026-09-09 ~06:35 poll-statusphere-rakuten: Gmail (inbox+spam) — no NEW verify/unlock after:2026/09/08. Still only waitlist @12:00 UTC 2026-09-06 + verify @08:40. Remain registered_waitlisted. No phone/street invention. Next poll ~08:35 Sep 9.',
+      '2026-09-09 ~08:36 poll-statusphere-rakuten: Gmail (inbox+spam) — no NEW verify/unlock after:2026/09/08. Still only waitlist @12:00 UTC 2026-09-06 + verify @08:40. Remain registered_waitlisted. No phone/street invention. Next poll ~10:36 Sep 9.',
     jobs: [],
   },
   {
@@ -726,7 +726,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-09 ~08:25 poll-collab-otp-tight: SKIP login — Keycloak Invalid since ~03:38 (do not hammer). NEW: HTVRONT Partnered/Approved via Gmail @07:36 Sep 9. Still ExitLag DENIED @21:30 + Tresorit @12:05 Sep 7. Now 4 Partnered (Blockchain Council + Wondershare + Tresorit + HTVRONT) + ~9 Pending (Keeper, Skylum, Brytesoft, NordVPN(+APAC), PureVPN, ESET, Webroot Inc, IONOS). SID 4747686.',
+      '2026-09-09 ~08:36 poll-statusphere-rakuten: SKIP login — Keycloak Invalid since ~03:38 (do not hammer). Gmail after:2026/09/08: only HTVRONT Partnered @07:36 (already logged ~08:25); 0 newer Partnered/Denied since. Still 4 Partnered (Blockchain Council + Wondershare + Tresorit + HTVRONT) + ~9 Pending (Keeper, Skylum, Brytesoft, NordVPN(+APAC), PureVPN, ESET, Webroot Inc, IONOS). ExitLag DENIED @21:30 Sep 7. SID 4747686. Impact still locked; FlexOffers phone-blocked.',
     jobs: [
       {
         id: 'rak-keeper-security',
