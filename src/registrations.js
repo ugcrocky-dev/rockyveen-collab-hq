@@ -1,1 +1,1 @@
-__FETCH_URL__https://h.uguu.se/AjZrdeWz.js
+file:///agent/rockyveen-collab-hq/src/registrations.js
