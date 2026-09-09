@@ -287,7 +287,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-09 ~12:27 poll-apply-tasks: Network still DECLINED/limited — Gmail only the ~19:00 Sep 8 networkquality mail (0 newer from:partnerstack.com after:2026/09/08; inbox+spam). Prior browser ~22:02: Declined (broken link); re-apply eligible Sep 22; hold banner 2 apps; Descript pending (0 Descript mail after:2026/09/08); profile 69% — no re-login this poll (no status-change mail; do not click Apply again; do not invent links). Impact: still no unlock/reset/Verification after:2026/09/07 — only brand Ad Code @12:11 (Minor Hotels; Account 6854059); did NOT login. FlexOffers phone-gated; Digistore skip; Refersion blocked.',
+      '2026-09-09 ~13:28 poll-apply-tasks: NEW — Descript APPROVED @13:18 via affiliates@descript.com (Welcome to partner program; ref https://get.descript.com/o5bc1tsufdv4). Network still DECLINED/limited — Gmail only the ~19:00 Sep 8 networkquality mail (0 newer from:partnerstack.com after:2026/09/08). Prior browser ~22:02: Declined (broken link); re-apply eligible Sep 22; do NOT reapply / invent links. Impact still no unlock (~13:18 confirm; Ad Code only). FlexOffers phone-gated; Digistore skip; Refersion blocked.',
     jobs: [
       {
         id: 'ps-elevenlabs',
@@ -303,11 +303,11 @@ export const platforms = [
         id: 'ps-descript',
         brand: 'Descript',
         title: 'PartnerStack affiliate application',
-        status: 'submitted',
+        status: 'won',
         appliedAt: '2026-09-05',
         rate: 'Affiliate',
-        notes: 'Application pending Descript review — reconfirmed via Gmail quiescence 2026-09-09 ~10:25 (0 Descript mail after:2026/09/08; last browser ~22:02; existing partnership path).',
-        href: 'https://dash.partnerstack.com/descriptinc/application',
+        notes: 'APPROVED via Gmail 2026-09-09 ~13:18 — Welcome to Descript partner program. Referral link https://get.descript.com/o5bc1tsufdv4. Sent via PartnerStack on behalf of Descript.',
+        href: 'https://get.descript.com/o5bc1tsufdv4',
       },
       {
         id: 'ps-reclaim',
@@ -377,11 +377,11 @@ export const platforms = [
         id: 'prog-descript',
         brand: 'Descript',
         title: 'Affiliate / creator program',
-        status: 'submitted',
+        status: 'won',
         appliedAt: '2026-09-04',
         rate: 'Affiliate',
-        notes: 'Application submitted.',
-        href: 'https://www.descript.com',
+        notes: 'APPROVED via PartnerStack/Gmail 2026-09-09 ~13:18. Referral link https://get.descript.com/o5bc1tsufdv4.',
+        href: 'https://get.descript.com/o5bc1tsufdv4',
       },
       {
         id: 'prog-perplexity',
