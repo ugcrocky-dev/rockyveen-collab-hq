@@ -1,1 +1,1 @@
-__CURSOR_READ_FILE__/agent/rockyveen-collab-hq/src/registrations.js
+@file:///tmp/cursor-mcp-args-create_or_update_file.json
