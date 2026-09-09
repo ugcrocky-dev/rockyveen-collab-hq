@@ -73,7 +73,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-09 ~12:30 poll-collab-otp-tight: still locked for login — 0 unlock/reset/Verification after:2026/09/07. Brand mail only: Minor Hotels Ad Code @12:11 (Account rockyveen 6854059) — NOT an unlock. Newest Verification still 165312 @09:26 Sep 6 (expired). Did NOT login (no hammer). Prior ~12:27/~11:28 also 0 unlock. CreatorReady/Creator.co skipped.',
+      '2026-09-09 ~13:18 impact-unlock-retry: still locked — 0 unlock/reset/Verification after:2026/09/07 (inbox+spam). Only brand Ad Code @12:11 Minor Hotels (Account rockyveen 6854059; now in Trash) — NOT an unlock. Newest Verification still 165312 @09:26 Sep 6 (expired); AM resets only Sep 6. Did NOT login (no hammer). Prior ~12:30/~12:27/~11:15 also 0 unlock. CreatorReady/Creator.co skipped.',
     jobs: [],
   },
   {
