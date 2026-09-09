@@ -1,1 +1,1 @@
-@/tmp/FULL_registrations.js
+LOAD_FROM_FILE
