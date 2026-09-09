@@ -1,1 +1,1 @@
-LOAD_FROM_FILE
+FILE:/tmp/composio_exec_payload.json
