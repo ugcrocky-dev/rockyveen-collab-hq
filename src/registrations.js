@@ -73,7 +73,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-09 ~21:48 poll-collab-otp-tight: still locked — 0 unlock/reset/Verification after:2026/09/07 (inbox+spam). Only brand Ad Code @12:11 Minor Hotels (NOT unlock) + outreach/promos (32 Degrees @18:54, Zwift, etc). Newest Verification still 165312 @09:26 Sep 6 (expired) + AM Sep 6 resets only. Did NOT login (no hammer). Prior ~20:42/~20:17 also 0 unlock. CreatorReady/Creator.co skipped.',
+      '2026-09-09 ~22:18 impact-unlock-retry: still locked — 0 unlock/reset/Verification after:2026/09/07 (inbox+spam). Only brand Ad Code @12:11 Minor Hotels (NOT unlock). Newest Verification still 165312 @09:26 Sep 6 (expired) + AM Sep 6 resets only. Did NOT login (no hammer). Prior ~21:48/~20:42/~20:17 also 0 unlock. CreatorReady/Creator.co skipped.',
     jobs: [],
   },
   {
