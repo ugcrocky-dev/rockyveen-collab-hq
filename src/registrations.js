@@ -1,1 +1,1 @@
-LOADING_FROM_FILE
+__LOAD_FROM_FILE__/agent/rockyveen-collab-hq/src/registrations.js
