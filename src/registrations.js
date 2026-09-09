@@ -287,7 +287,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-09 ~08:22 poll-apply-tasks: Network still DECLINED/limited — Gmail only the ~19:00 networkquality mail (0 newer from:partnerstack.com after:2026/09/08; inbox+spam). Prior browser ~22:02: Declined (broken link); re-apply eligible Sep 22; hold banner 2 apps; Descript pending; profile 69% — no re-login this poll (no status-change mail; do not click Apply again; do not invent links). Impact still locked (~07:22 + ~08:22 confirm; 0 Impact mail after:2026/09/07). FlexOffers phone-gated; Digistore skip; Refersion blocked.',
+      '2026-09-09 ~09:23 poll-apply-tasks: Network still DECLINED/limited — Gmail only the ~19:00 networkquality mail (0 newer from:partnerstack.com after:2026/09/08; inbox+spam). Prior browser ~22:02: Declined (broken link); re-apply eligible Sep 22; hold banner 2 apps; Descript pending; profile 69% — no re-login this poll (no status-change mail; do not click Apply again; do not invent links). Impact still locked (~09:14 unlock poll + ~09:23 confirm; 0 Impact mail after:2026/09/07). FlexOffers phone-gated; Digistore skip; Refersion blocked.',
     jobs: [
       {
         id: 'ps-elevenlabs',
@@ -306,7 +306,7 @@ export const platforms = [
         status: 'submitted',
         appliedAt: '2026-09-05',
         rate: 'Affiliate',
-        notes: 'Application pending Descript review — reconfirmed via Gmail quiescence 2026-09-09 ~08:22 (0 Descript mail after:2026/09/08; last browser ~22:02; existing partnership path).',
+        notes: 'Application pending Descript review — reconfirmed via Gmail quiescence 2026-09-09 ~09:23 (0 Descript mail after:2026/09/08; last browser ~22:02; existing partnership path).',
         href: 'https://dash.partnerstack.com/descriptinc/application',
       },
       {
@@ -326,7 +326,7 @@ export const platforms = [
         status: 'lost',
         appliedAt: '2026-09-06',
         rate: '—',
-        notes: 'DECLINED/limited 2026-09-08 ~19:00 — reason: One of your links is not working. Gmail ~08:22 Sep 9: no newer PartnerStack mail; last browser ~22:02 still Declined / reapply Sep 22. Did not reapply this poll.',
+        notes: 'DECLINED/limited 2026-09-08 ~19:00 — reason: One of your links is not working. Gmail ~09:23 Sep 9: no newer PartnerStack mail; last browser ~22:02 still Declined / reapply Sep 22. Did not reapply this poll.',
         href: 'https://dash.partnerstack.com/marketplace/network_application',
       },
     ],
