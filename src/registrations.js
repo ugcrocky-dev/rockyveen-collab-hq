@@ -73,7 +73,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-09 ~11:28 poll-collab-otp-tight: still locked — 0 unlock/reset/Verification from notifications@app.impact.com after:2026/09/07 (inbox+spam). Newest still Verification 165312 @09:26 Sep 6 (expired; Account ID 6854059). Did NOT login (no hammer). Prior ~11:15/~11:26 also 0 unlock. 0 programs. CreatorReady/Creator.co skipped.',
+      '2026-09-09 ~12:27 poll-apply-tasks: still locked for login — 0 unlock/reset/Verification after:2026/09/07 (inbox+spam). NEW brand mail only: Minor Hotels Ad Code @12:11 (Account rockyveen 6854059) — NOT an unlock. Newest Verification still 165312 @09:26 Sep 6 (expired). Did NOT login (no hammer). Prior ~11:28/~11:15 also 0 unlock. CreatorReady/Creator.co skipped.',
     jobs: [],
   },
   {
@@ -287,7 +287,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-09 ~11:26 poll-apply-tasks: Network still DECLINED/limited — Gmail only the ~19:00 Sep 8 networkquality mail (0 newer from:partnerstack.com after:2026/09/08; inbox+spam). Prior browser ~22:02: Declined (broken link); re-apply eligible Sep 22; hold banner 2 apps; Descript pending; profile 69% — no re-login this poll (no status-change mail; do not click Apply again; do not invent links). Impact still locked (~11:15 confirm; 0 Impact mail after:2026/09/07). FlexOffers phone-gated; Digistore skip; Refersion blocked.',
+      '2026-09-09 ~12:27 poll-apply-tasks: Network still DECLINED/limited — Gmail only the ~19:00 Sep 8 networkquality mail (0 newer from:partnerstack.com after:2026/09/08; inbox+spam). Prior browser ~22:02: Declined (broken link); re-apply eligible Sep 22; hold banner 2 apps; Descript pending (0 Descript mail after:2026/09/08); profile 69% — no re-login this poll (no status-change mail; do not click Apply again; do not invent links). Impact: still no unlock/reset/Verification after:2026/09/07 — only brand Ad Code @12:11 (Minor Hotels; Account 6854059); did NOT login. FlexOffers phone-gated; Digistore skip; Refersion blocked.',
     jobs: [
       {
         id: 'ps-elevenlabs',
