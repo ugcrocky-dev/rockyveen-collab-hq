@@ -287,7 +287,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-09 ~10:25 poll-apply-tasks: Network still DECLINED/limited — Gmail only the ~19:00 networkquality mail (0 newer from:partnerstack.com after:2026/09/08; inbox+spam). Prior browser ~22:02: Declined (broken link); re-apply eligible Sep 22; hold banner 2 apps; Descript pending; profile 69% — no re-login this poll (no status-change mail; do not click Apply again; do not invent links). Impact still locked (~09:14 + ~10:25 confirm; 0 Impact mail after:2026/09/07). FlexOffers phone-gated; Digistore skip; Refersion blocked.',
+      '2026-09-09 ~11:26 poll-apply-tasks: Network still DECLINED/limited — Gmail only the ~19:00 Sep 8 networkquality mail (0 newer from:partnerstack.com after:2026/09/08; inbox+spam). Prior browser ~22:02: Declined (broken link); re-apply eligible Sep 22; hold banner 2 apps; Descript pending; profile 69% — no re-login this poll (no status-change mail; do not click Apply again; do not invent links). Impact still locked (~11:15 confirm; 0 Impact mail after:2026/09/07). FlexOffers phone-gated; Digistore skip; Refersion blocked.',
     jobs: [
       {
         id: 'ps-elevenlabs',
