@@ -1,1 +1,1 @@
-@file:///tmp/cursor-mcp-args-create_or_update_file.json
+/tmp/reg_content_only.js
