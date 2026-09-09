@@ -1,1 +1,1 @@
-PLACEHOLDER_WILL_REPLACE
+__LOAD_FROM_FILE__/tmp/FULL_registrations.js
