@@ -73,7 +73,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-09 ~02:11 poll-apply-tasks: still locked — 0 unlock/reset/Verification from notifications@app.impact.com after:2026/09/07 (inbox+spam). Newest still Verification 165312 @09:26 Sep 6 (expired; Account ID 6854059). Did NOT login (no hammer). Prior ~01:09 also 0 unlock. 0 programs. CreatorReady/Creator.co skipped.',
+      '2026-09-09 ~03:10 impact-unlock-retry: still locked — 0 unlock/reset/Verification from notifications@app.impact.com after:2026/09/07 and after:2026/09/08 (inbox+spam). Newest still Verification 165312 @09:26 Sep 6 (expired; Account ID 6854059) + AM Sep 6 Reset Impact Password only. Did NOT login (no hammer). Prior ~02:11/~01:09 also 0 unlock. 0 programs. CreatorReady/Creator.co skipped.',
     jobs: [],
   },
   {
@@ -726,7 +726,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-09 ~02:13 poll-collab-otp-tight: SKIP login — Keycloak Invalid since ~03:38 (do not hammer). Gmail: 0 from:rakutenaffiliatenetwork.com after:2026/09/08; no NEW Partnered/Denied since ExitLag DENIED @21:30; still 3 Partnered (Blockchain Council + Wondershare + Tresorit @12:05) + ~10 Pending (Keeper, Skylum, Brytesoft, NordVPN(+APAC), PureVPN, ESET, HTVRONT, Webroot Inc, IONOS). SID 4747686.',
+      '2026-09-09 ~02:33 poll-statusphere-rakuten: SKIP login — Keycloak Invalid since ~03:38 (do not hammer). Gmail: newest still ExitLag DENIED @21:30 Sep 7 + Tresorit Partnered @12:05; 0 NEW Partnered/Denied after:2026/09/08; still 3 Partnered (Blockchain Council + Wondershare + Tresorit) + ~10 Pending (Keeper, Skylum, Brytesoft, NordVPN(+APAC), PureVPN, ESET, HTVRONT, Webroot Inc, IONOS). SID 4747686. FlexOffers phone-blocked; Impact no hammer.',
     jobs: [
       {
         id: 'rak-keeper-security',
