@@ -726,7 +726,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-09 ~13:31 poll-collab-otp-tight: SKIP login — Keycloak Invalid since ~03:38 (do not hammer). Gmail: only HTVRONT Partnered @07:36 (already logged); 0 newer Partnered/Denied among remaining Pending. Still 4 Partnered (Blockchain Council + Wondershare + Tresorit + HTVRONT) + ~9 Pending (Keeper, Skylum, Brytesoft, NordVPN(+APAC), PureVPN, ESET, Webroot Inc, IONOS). ExitLag DENIED @21:30 Sep 7. SID 4747686. Impact still no unlock; FlexOffers phone-blocked. Descript won via PS @13:18 (separate).',
+      '2026-09-09 ~13:35 poll-rakuten-more-saas: SKIP login — Keycloak Invalid since ~03:38 (do not hammer). Gmail: 0 NEW Partnered among pending SaaS (Keeper, Skylum, Brytesoft, NordVPN(+APAC), PureVPN, ESET, Webroot Inc, IONOS) after HTVRONT @07:36. Still 4 Partnered (Blockchain Council + Wondershare + Tresorit + HTVRONT) + ~9 Pending. ExitLag DENIED @21:30 Sep 7. SID 4747686. FlexOffers phone-blocked; Impact no unlock; Admitad wait adspace; Digistore skip login.',
     jobs: [
       {
         id: 'rak-keeper-security',
