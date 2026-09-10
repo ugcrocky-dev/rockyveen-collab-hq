@@ -73,7 +73,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-10 ~14:25 impact-unlock-retry: still locked — 0 unlock/reset/Verification after:2026/09/07 (inbox+spam). Brand noise only: Updates Digest @12:37 + Parallels/ANTA/CapCut/SHOKZ/Minor Hotels Ad Code (NOT unlock). Newest Verification still 165312 @09:26 Sep 6 (expired). Did NOT login (no hammer). CreatorReady/Creator.co skipped.',
+      '2026-09-10 ~15:06 poll-rakuten-more-saas: still locked — 0 unlock/reset/Verification after:2026/09/07. Brand noise only: Updates Digest/Parallels/ANTA/CapCut/SHOKZ (NOT unlock). Newest Verification still 165312 @09:26 Sep 6. Did NOT login.',
     jobs: [],
   },
   {
@@ -560,7 +560,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-10 ~14:19 poll-collab-otp-tight: skipped password — prior Invalid ~23:28 (no hammer). Mitgo still nagging verify ad space Rocky Veen — last @10:00 + @09:15 Sep 9; 0 newer through ~14:19 Sep 10. Leave pending; do not request AI/SaaS until Active.',
+      '2026-09-10 ~15:06 poll-rakuten-more-saas: skipped password — prior Invalid ~23:28 (no hammer). Mitgo still nagging verify ad space Rocky Veen — last @10:00 + @09:15 Sep 9; 0 newer through ~15:06 Sep 10. Leave pending; do not request AI/SaaS until Active.',
     jobs: [],
   },
   {
@@ -659,7 +659,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-10 ~14:19 poll-collab-otp-tight: SKIP login — prior ~03:38 no-advance (no hammer). Username rockyveenaffiliate. ~10 products joined. Digistore newsletters only (Francis CEO @12:01) — not actionable.',
+      '2026-09-10 ~15:06 poll-rakuten-more-saas: SKIP login — prior ~03:38 no-advance (no hammer). Username rockyveenaffiliate. ~10 products joined. Digistore newsletters only (Francis CEO @12:01) — not actionable.',
     jobs: [
       {
         id: 'ds-funnelcockpit',
@@ -726,7 +726,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-10 ~14:19 poll-collab-otp-tight: SKIP login — Keycloak Invalid since ~03:38 (do not hammer). Gmail: no NEW Partnered after Keeper Security @09:25 Sep 10 among Pending (Skylum, Brytesoft, NordVPN(+APAC), PureVPN, ESET, Webroot Inc, IONOS). Still 5 Partnered (Blockchain Council + Wondershare + Tresorit + HTVRONT + Keeper) + ~8 Pending. ExitLag DENIED @21:30 Sep 7 (not Pending). SID 4747686.',
+      '2026-09-10 ~15:06 poll-rakuten-more-saas: SKIP login — Keycloak Invalid since ~03:38 (do not hammer). Gmail: no NEW Partnered after Keeper Security @09:25 Sep 10 among Pending (Skylum, Brytesoft, NordVPN(+APAC), PureVPN, ESET, Webroot Inc, IONOS). Still 5 Partnered (Blockchain Council + Wondershare + Tresorit + HTVRONT + Keeper) + ~8 Pending. ExitLag DENIED @21:30 Sep 7 (not Pending). SID 4747686. Impact still no unlock; Admitad still Mitgo nags only; Digistore skip.',
     jobs: [
       {
         id: 'rak-keeper-security',
