@@ -73,7 +73,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-10 ~02:59 poll-rakuten-more-saas: still locked — 0 unlock/reset/Verification after:2026/09/07 (inbox+spam). Only brand Ad Code @12:11 Minor Hotels (NOT unlock). Newest Verification still 165312 @09:26 Sep 6 (expired) + AM Sep 6 resets only. Did NOT login (no hammer). Prior ~02:19/~02:05 also 0 unlock. CreatorReady/Creator.co skipped.',
+      '2026-09-10 ~03:06 poll-collab-otp-tight: still locked — 0 unlock/reset/Verification after:2026/09/07 (inbox+spam). Only brand Ad Code @12:11 Minor Hotels (NOT unlock). Newest Verification still 165312 @09:26 Sep 6 (expired) + AM Sep 6 resets only. Did NOT login (no hammer). Prior ~02:59/~02:19 also 0 unlock. CreatorReady/Creator.co skipped.',
     jobs: [],
   },
   {
@@ -287,7 +287,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-10 ~02:05 poll-collab-otp-tight: Network still DECLINED/limited — Gmail only the ~19:00 Sep 8 networkquality mail (0 newer from:partnerstack.com after:2026/09/08). Descript still WON @13:18 (ref https://get.descript.com/o5bc1tsufdv4) — no re-submit. Re-apply Network eligible Sep 22; do NOT reapply / invent links. Impact still no unlock; FlexOffers phone-gated; Digistore skip; Refersion blocked.',
+      '2026-09-10 ~03:06 poll-collab-otp-tight: Network still DECLINED/limited — Gmail only the ~19:00 Sep 8 networkquality mail (0 newer from:partnerstack.com after:2026/09/08). Descript still WON @13:18 (ref https://get.descript.com/o5bc1tsufdv4) — no re-submit. Re-apply Network eligible Sep 22; do NOT reapply / invent links. Impact still no unlock; FlexOffers phone-gated; Digistore skip; Refersion blocked.',
     jobs: [
       {
         id: 'ps-elevenlabs',
@@ -547,7 +547,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-10 ~02:05 poll-collab-otp-tight: skipped — still needs Mobile Phone (do not invent). 0 FlexOffers mail after:2026/09/08. 0 offers.',
+      '2026-09-10 ~03:06 poll-collab-otp-tight: skipped — still needs Mobile Phone (do not invent). 0 FlexOffers mail after:2026/09/08. 0 offers.',
     jobs: [],
   },
   {
@@ -560,7 +560,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-10 ~02:59 poll-rakuten-more-saas: skipped password — prior Invalid ~23:28 (no hammer). Mitgo still nagging verify ad space Rocky Veen — @10:00 + @09:15 Sep 9 (+ Sep 8 nags); 0 newer after @10:00. Leave pending; do not request AI/SaaS until Active.',
+      '2026-09-10 ~03:06 poll-collab-otp-tight: skipped password — prior Invalid ~23:28 (no hammer). Mitgo still nagging verify ad space Rocky Veen — @10:00 + @09:15 Sep 9 (+ Sep 8 nags); 0 newer after @10:00. Leave pending; do not request AI/SaaS until Active.',
     jobs: [],
   },
   {
@@ -635,7 +635,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-10 ~02:05 poll-collab-otp-tight: still approved Tapfiliate $178 @12:53 (ref https://tapfiliate.com?ref=ndm2ndd1); no NEW Tapfiliate program approvals after:2026/09/08.',
+      '2026-09-10 ~03:06 poll-collab-otp-tight: still approved Tapfiliate $178 @12:53 (ref https://tapfiliate.com?ref=ndm2ndd1); no NEW Tapfiliate program approvals after:2026/09/08.',
     jobs: [
       {
         id: 'tap-tapfiliate-178',
@@ -659,7 +659,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-10 ~02:05 poll-collab-otp-tight: SKIPPED login — prior ~03:38 no-advance (no hammer). Username rockyveenaffiliate. ~10 products joined. Digistore newsletters only (@22:18 UI refresh + @11:51 Top 4 Metrics) — not actionable. 0 login/OTP Digistore mail after:2026/09/08.',
+      '2026-09-10 ~03:06 poll-collab-otp-tight: SKIPPED login — prior ~03:38 no-advance (no hammer). Username rockyveenaffiliate. ~10 products joined. Digistore newsletters only (@22:18 UI refresh + @11:51 Top 4 Metrics) — not actionable. 0 login/OTP Digistore mail after:2026/09/08.',
     jobs: [
       {
         id: 'ds-funnelcockpit',
@@ -713,7 +713,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-10 ~02:05 poll-collab-otp-tight: skipped — prior Blocked/anti-bot; 0 Refersion mail after:2026/09/08. Do not hammer. 0 brand programs.',
+      '2026-09-10 ~03:06 poll-collab-otp-tight: skipped — prior Blocked/anti-bot; 0 Refersion mail after:2026/09/08. Do not hammer. 0 brand programs.',
     jobs: [],
   },
   {
@@ -726,7 +726,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-10 ~02:59 poll-rakuten-more-saas: SKIP login — Keycloak Invalid since ~03:38 (do not hammer). Gmail: 0 NEW Partnered/Denied among pending SaaS after HTVRONT @07:36 (Keeper, Skylum, Brytesoft, NordVPN(+APAC), PureVPN, ESET, Webroot Inc, IONOS). Still 4 Partnered (Blockchain Council + Wondershare + Tresorit + HTVRONT) + ~9 Pending. ExitLag DENIED @21:30 Sep 7. SID 4747686. Impact still no unlock; Admitad still Mitgo nags only (@10:00/@09:15 Sep 9); Digistore skip.',
+      '2026-09-10 ~03:06 poll-collab-otp-tight: SKIP login — Keycloak Invalid since ~03:38 (do not hammer). Gmail: 0 NEW Partnered/Denied among pending SaaS after HTVRONT @07:36 (Keeper, Skylum, Brytesoft, NordVPN(+APAC), PureVPN, ESET, Webroot Inc, IONOS). Still 4 Partnered (Blockchain Council + Wondershare + Tresorit + HTVRONT) + ~9 Pending. ExitLag DENIED @21:30 Sep 7. SID 4747686. Impact still no unlock; Admitad still Mitgo nags only (@10:00/@09:15 Sep 9); Digistore skip.',
     jobs: [
       {
         id: 'rak-keeper-security',
