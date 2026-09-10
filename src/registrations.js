@@ -73,7 +73,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-10 ~06:22 impact-unlock-retry: still locked — 0 unlock/reset/Verification after:2026/09/07 (inbox+spam). Only brand Ad Code @12:11 Minor Hotels (NOT unlock). Newest Verification still 165312 @09:26 Sep 6 (expired) + AM Sep 6 resets only. Did NOT login (no hammer). Prior ~06:09/~05:08 also 0 unlock. CreatorReady/Creator.co skipped.',
+      '2026-09-10 ~07:00 poll-rakuten-more-saas: still locked — 0 unlock/reset/Verification after:2026/09/07 (inbox+spam). Only brand Ad Code @12:11 Minor Hotels (NOT unlock). Newest Verification still 165312 @09:26 Sep 6 (expired) + AM Sep 6 resets only. Did NOT login (no hammer). Prior ~06:22/~06:09 also 0 unlock. CreatorReady/Creator.co skipped.',
     jobs: [],
   },
   {
@@ -560,7 +560,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-10 ~06:09 poll-collab-otp-tight: skipped password — prior Invalid ~23:28 (no hammer). Mitgo still nagging verify ad space Rocky Veen — @10:00 + @09:15 Sep 9 (+ Sep 8 nags); 0 newer after @10:00. Leave pending; do not request AI/SaaS until Active.',
+      '2026-09-10 ~07:00 poll-rakuten-more-saas: skipped password — prior Invalid ~23:28 (no hammer). Mitgo still nagging verify ad space Rocky Veen — @10:00 + @09:15 Sep 9 (+ Sep 8 nags); 0 newer after @10:00. Leave pending; do not request AI/SaaS until Active.',
     jobs: [],
   },
   {
@@ -726,7 +726,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-10 ~06:09 poll-collab-otp-tight: SKIP login — Keycloak Invalid since ~03:38 (do not hammer). Gmail: 0 NEW Partnered/Denied among pending SaaS after HTVRONT @07:36 (Keeper, Skylum, Brytesoft, NordVPN(+APAC), PureVPN, ESET, Webroot Inc, IONOS). Still 4 Partnered (Blockchain Council + Wondershare + Tresorit + HTVRONT) + ~9 Pending. ExitLag DENIED @21:30 Sep 7. SID 4747686. Impact still no unlock; Admitad still Mitgo nags only (@10:00/@09:15 Sep 9); Digistore skip.',
+      '2026-09-10 ~07:00 poll-rakuten-more-saas: SKIP login — Keycloak Invalid since ~03:38 (do not hammer). Gmail: 0 NEW Partnered/Denied among pending SaaS after HTVRONT @07:36 (Keeper, Skylum, Brytesoft, NordVPN(+APAC), PureVPN, ESET, Webroot Inc, IONOS). Still 4 Partnered (Blockchain Council + Wondershare + Tresorit + HTVRONT) + ~9 Pending. ExitLag DENIED @21:30 Sep 7. SID 4747686. Impact still no unlock; Admitad still Mitgo nags only (@10:00/@09:15 Sep 9); Digistore skip.',
     jobs: [
       {
         id: 'rak-keeper-security',
