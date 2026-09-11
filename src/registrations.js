@@ -73,7 +73,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-10 ~23:36 poll-collab-otp-tight: still locked — 0 unlock/reset/Verification after:2026/09/07. Brand noise only: Flareau @15:31 + Updates Digest/Parallels/ANTA/CapCut/SHOKZ (NOT unlock). Newest Verification still 165312 @09:26 Sep 6 (expired). Did NOT login.',
+      '2026-09-11 ~00:30 impact-unlock-retry: still locked — 0 unlock/reset/Verification after:2026/09/07. Brand noise only: Flareau @15:31 + Updates Digest/Parallels/ANTA/CapCut/SHOKZ (NOT unlock). Newest Verification still 165312 @09:26 Sep 6 (expired). Did NOT login.',
     jobs: [],
   },
   {
