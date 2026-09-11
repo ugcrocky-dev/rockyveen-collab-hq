@@ -73,7 +73,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-11 ~14:57 poll-collab-otp-tight: still locked — 0 unlock/reset/Verification after:2026/09/07 (reconfirmed after ~14:38 unlock-retry). Brand noise only: Flareau @15:31 + Updates Digest/Parallels/ANTA/CapCut/SHOKZ + NH Hotels/Loaded/Daily Digest @~09-10 Sep 11 (NOT unlock). Newest Verification still 165312 @09:26 Sep 6 (expired). Did NOT login.',
+      '2026-09-11 ~15:11 poll-rakuten-more-saas: still locked — 0 unlock/reset/Verification after:2026/09/07. Brand noise only (not unlock). Newest Verification still 165312 @09:26 Sep 6 (expired). Did NOT login.',
     jobs: [],
   },
   {
@@ -547,7 +547,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-11 ~14:57 poll-collab-otp-tight: skipped — still needs Mobile Phone (do not invent). 0 FlexOffers mail after:2026/09/09. 0 offers.',
+      '2026-09-11 ~15:11 poll-rakuten-more-saas: skipped — still needs Mobile Phone (do not invent). 0 FlexOffers mail after:2026/09/09. 0 offers.',
     jobs: [],
   },
   {
@@ -560,7 +560,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-11 ~14:57 poll-collab-otp-tight: skipped password — prior Invalid ~23:28 (no hammer). Mitgo still nagging verify ad space Rocky Veen — last @10:00 + @09:15 Sep 9; 0 newer through ~14:57 Sep 11. Leave pending; do not request AI/SaaS until Active.',
+      '2026-09-11 ~15:11 poll-rakuten-more-saas: skipped password — prior Invalid ~23:28 (no hammer). Mitgo still nagging verify ad space Rocky Veen — last @10:00 + @09:15 Sep 9; 0 newer through ~15:11 Sep 11. Leave pending; do not request AI/SaaS until Active.',
     jobs: [],
   },
   {
@@ -659,7 +659,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-11 ~14:57 poll-collab-otp-tight: SKIP login — prior ~03:38 no-advance (no hammer). Username rockyveenaffiliate. ~10 products joined. Digistore newsletters only (Francis Launch Pad @12:20 Sep 11; Nick funnel tip @22:20 Sep 10) — not actionable.',
+      '2026-09-11 ~15:11 poll-rakuten-more-saas: SKIP login — prior ~03:38 no-advance (no hammer). Username rockyveenaffiliate. ~10 products joined. Digistore newsletters only (Francis Launch Pad @12:20 Sep 11; Nick funnel tip @22:20 Sep 10) — not actionable.',
     jobs: [
       {
         id: 'ds-funnelcockpit',
@@ -726,7 +726,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-11 ~14:57 poll-collab-otp-tight: SKIP login — Keycloak Invalid since ~03:38 (do not hammer). Gmail: no NEW Partnered after Keeper Security @09:25 Sep 10 among Pending (Skylum, Brytesoft, NordVPN(+APAC), PureVPN, ESET, Webroot Inc, IONOS) — only Keeper + HTVRONT approvals after:2026/09/09. Still 5 Partnered (Blockchain Council + Wondershare + Tresorit + HTVRONT + Keeper) + ~8 Pending. ExitLag DENIED @21:30 Sep 7 (not Pending). SID 4747686. Impact still no unlock after:2026/09/07; Admitad wait adspace; Digistore/FlexOffers skip.',
+      '2026-09-11 ~15:11 poll-rakuten-more-saas: SKIP login — Keycloak Invalid since ~03:38 (do not hammer). Gmail: no NEW Partnered after Keeper Security @09:25 Sep 10 among Pending (Skylum, Brytesoft, NordVPN(+APAC), PureVPN, ESET, Webroot Inc, IONOS) — only Keeper + HTVRONT approvals after:2026/09/09. Still 5 Partnered (Blockchain Council + Wondershare + Tresorit + HTVRONT + Keeper) + ~8 Pending. ExitLag DENIED @21:30 Sep 7 (not Pending). SID 4747686. Impact still no unlock after:2026/09/07; Admitad wait adspace; Digistore/FlexOffers skip.',
     jobs: [
       {
         id: 'rak-keeper-security',
