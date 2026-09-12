@@ -73,7 +73,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-12 ~14:20 poll-collab-otp-tight: still locked — 0 unlock/reset/Verification after:2026/09/07. Brand noise only: PAX Contract Terms Changed @06:52 Sep 12 + Corel Painter 35% Off @18:05 + Shokz OpenDots @16:00 + Flareau @15:31 + Updates Digest/Parallels/ANTA/CapCut/SHOKZ + NH Hotels/Loaded/Daily Digest @~09-10 Sep 11 (NOT unlock). Newest Verification still 165312 @09:26 Sep 6 (expired). Did NOT login.',
+      '2026-09-12 ~14:45 impact-unlock-retry: still locked — 0 unlock/reset/Verification after:2026/09/07 (incl spam). Brand noise only: PAX Contract Terms Changed @06:52 Sep 12 + Corel Painter 35% Off @18:05 + Shokz OpenDots @16:00 + Flareau @15:31 + Updates Digest/Parallels/ANTA/CapCut/SHOKZ + NH Hotels/Loaded/Daily Digest @~09-10 Sep 11 (NOT unlock). Newest Verification still 165312 @09:26 Sep 6 (expired). Did NOT login.',
     jobs: [],
   },
   {
