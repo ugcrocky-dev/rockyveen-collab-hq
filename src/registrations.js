@@ -73,7 +73,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-13 ~20:53 poll-collab-otp-tight: still locked — 0 unlock/reset/Verification after:2026/09/07 (incl spam). Newest Verification still 165312 @09:26 Sep 6 (expired); Reset Impact Password mails all @Sep 6. Brand noise only (PAX Contract @06:52 Sep 12 + Corel/Shokz/Flareau/digests — NOT unlock). Did NOT login; no hammer.',
+      '2026-09-13 ~20:54 impact-unlock-retry: still locked — 0 unlock/reset/Verification after:2026/09/07 (from:notifications@app.impact.com newest still Verification 165312 @09:26 Sep 6 expired; Reset Impact Password mails all @Sep 6). Brand noise only (PAX Contract @06:52 Sep 12 + Corel/Shokz/Flareau/digests — NOT unlock). Did NOT login; no hammer.',
     jobs: [],
   },
   {
