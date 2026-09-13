@@ -659,7 +659,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-13 ~12:45 poll-collab-otp-tight: SKIP login — prior ~03:38 no-advance (no hammer). Username rockyveenaffiliate. ~10 products joined. Digistore newsletters only (Francis doom-scroll promo @12:27 Sep 12) — not actionable.',
+      '2026-09-13 ~12:45 poll-collab-otp-tight: SKIP login — prior ~03:38 no-advance (no hammer). Username rockyveenaffiliate. ~10 products joined. Digistore newsletters only (Julianne How-Tos video series @12:34 Sep 13 + Francis doom-scroll promo @12:27 Sep 12) — not actionable.',
     jobs: [
       {
         id: 'ds-funnelcockpit',
