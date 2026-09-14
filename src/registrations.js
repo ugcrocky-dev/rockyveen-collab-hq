@@ -73,7 +73,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-14 ~14:10 poll-collab-otp-tight: still locked — 0 unlock/reset/Verification after:2026/09/07 (from:notifications@app.impact.com 0 hits; newest Verification still 165312 @09:26 Sep 6 expired). Brand noise / SHEIN false-positive only — NOT unlock. Did NOT login; no hammer.',
+      '2026-09-14 ~15:00 impact-unlock-retry: still locked — 0 unlock/reset/Verification after:2026/09/07. from:notifications@app.impact.com after Sep 7 = Updates Digest only @14:18 Sep 14 (platform weekly digest — NOT unlock/reset/Verification). Newest Verification still 165312 @09:26 Sep 6 expired. Brand noise / SHEIN false-positive only — NOT unlock. Did NOT login; no hammer.',
     jobs: [],
   },
   {
