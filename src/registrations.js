@@ -726,7 +726,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-14 ~11:07 poll-collab-otp-tight: SKIP login — Keycloak Invalid since ~03:38 (do not hammer). Gmail NEW: Skylum DENIED @07:51 Sep 14 (Application Denied — Skylum chose not to accept Rocky Veen). Still 5 Partnered (Blockchain Council + Wondershare + Tresorit + HTVRONT + Keeper @09:25). Pending now ~7 (Brytesoft, NordVPN(+APAC), PureVPN, ESET, Webroot Inc, IONOS — no Skylum/ExitLag/HTVRONT/Keeper). ExitLag DENIED @21:30 Sep 7. SID 4747686. Impact still no unlock after:2026/09/07; Admitad wait adspace (Mitgo last Sep 9); Digistore/FlexOffers skip.',
+      '2026-09-14 ~11:24 poll-rakuten-more-saas: SKIP login — Keycloak Invalid since ~03:38 (do not hammer). Gmail: no NEW Partnered after Keeper @09:25 Sep 10; Skylum DENIED @07:51 Sep 14 already logged. Still 5 Partnered (Blockchain Council + Wondershare + Tresorit + HTVRONT + Keeper) + ~7 Pending (Brytesoft, NordVPN(+APAC), PureVPN, ESET, Webroot Inc, IONOS — no Skylum/ExitLag/HTVRONT/Keeper). ExitLag DENIED @21:30 Sep 7. SID 4747686. Impact still no unlock after:2026/09/07; Admitad wait adspace (Mitgo last Sep 9); Digistore/FlexOffers skip.',
     jobs: [
       {
         id: 'rak-keeper-security',
