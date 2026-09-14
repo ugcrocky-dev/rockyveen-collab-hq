@@ -560,7 +560,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-14 ~05:01 poll-collab-otp-tight: skipped password — prior Invalid ~23:28 (no hammer). Mitgo still nagging verify ad space Rocky Veen — last @10:00 + @09:15 Sep 9; 0 newer through ~04:01 Sep 14. Leave pending; do not request AI/SaaS until Active.',
+      '2026-09-14 ~05:01 poll-collab-otp-tight: skipped password — prior Invalid ~23:28 (no hammer). Mitgo still nagging verify ad space Rocky Veen — last @10:00 + @09:15 Sep 9; 0 newer through ~05:01 Sep 14. Leave pending; do not request AI/SaaS until Active.',
     jobs: [],
   },
   {
