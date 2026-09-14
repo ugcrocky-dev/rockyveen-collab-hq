@@ -73,7 +73,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-14 ~07:03 poll-collab-otp-tight: still locked — 0 unlock/reset/Verification after:2026/09/07 (from:notifications@app.impact.com 0 hits; newest Verification still 165312 @09:26 Sep 6 expired). Brand noise / SHEIN false-positive only — NOT unlock. Did NOT login; no hammer.',
+      '2026-09-14 ~08:03 poll-collab-otp-tight: still locked — 0 unlock/reset/Verification after:2026/09/07 (from:notifications@app.impact.com 0 hits; newest Verification still 165312 @09:26 Sep 6 expired). Brand noise / SHEIN false-positive only — NOT unlock. Did NOT login; no hammer.',
     jobs: [],
   },
   {
@@ -287,7 +287,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-14 ~07:03 poll-collab-otp-tight: Network still DECLINED/limited — 0 newer PartnerStack Network status after:2026/09/08 (decline mail still newest). Descript still WON @13:18 (ref https://get.descript.com/o5bc1tsufdv4); portal onboarding mail @14:30 Sep 11 — not a Network change; no re-submit. Re-apply Network eligible Sep 22; do NOT reapply / invent links.',
+      '2026-09-14 ~08:03 poll-collab-otp-tight: Network still DECLINED/limited — 0 newer PartnerStack Network status after:2026/09/08 (decline mail still newest). Descript still WON @13:18 (ref https://get.descript.com/o5bc1tsufdv4); portal onboarding mail @14:30 Sep 11 — not a Network change; no re-submit. Re-apply Network eligible Sep 22; do NOT reapply / invent links.',
     jobs: [
       {
         id: 'ps-elevenlabs',
@@ -547,7 +547,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-14 ~07:03 poll-collab-otp-tight: skipped — still needs Mobile Phone (do not invent). 0 FlexOffers mail after:2026/09/08. 0 offers.',
+      '2026-09-14 ~08:03 poll-collab-otp-tight: skipped — still needs Mobile Phone (do not invent). 0 FlexOffers mail after:2026/09/08. 0 offers.',
     jobs: [],
   },
   {
@@ -560,7 +560,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-14 ~07:03 poll-collab-otp-tight: skipped password — prior Invalid ~23:28 (no hammer). Mitgo still nagging verify ad space Rocky Veen — last @10:00 + @09:15 Sep 9; 0 newer through ~07:03 Sep 14. Leave pending; do not request AI/SaaS until Active.',
+      '2026-09-14 ~08:03 poll-collab-otp-tight: skipped password — prior Invalid ~23:28 (no hammer). Mitgo still nagging verify ad space Rocky Veen — last @10:00 + @09:15 Sep 9; 0 newer through ~08:03 Sep 14. Leave pending; do not request AI/SaaS until Active.',
     jobs: [],
   },
   {
@@ -635,7 +635,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-14 ~07:03 poll-collab-otp-tight: still approved Tapfiliate $178 @12:53 Sep 7 (ref https://tapfiliate.com?ref=ndm2ndd1); no NEW Tapfiliate program approvals after:2026/09/08.',
+      '2026-09-14 ~08:03 poll-collab-otp-tight: still approved Tapfiliate $178 @12:53 Sep 7 (ref https://tapfiliate.com?ref=ndm2ndd1); no NEW Tapfiliate program approvals after:2026/09/08.',
     jobs: [
       {
         id: 'tap-tapfiliate-178',
@@ -659,7 +659,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-14 ~07:03 poll-collab-otp-tight: SKIP login — prior ~03:38 no-advance (no hammer). Username rockyveenaffiliate. ~10 products joined. Digistore newsletters only (Julianne How-Tos video series @12:34 Sep 13) — not actionable; 0 newer after that.',
+      '2026-09-14 ~08:03 poll-collab-otp-tight: SKIP login — prior ~03:38 no-advance (no hammer). Username rockyveenaffiliate. ~10 products joined. Digistore newsletters only (Julianne How-Tos video series @12:34 Sep 13) — not actionable; 0 newer after that.',
     jobs: [
       {
         id: 'ds-funnelcockpit',
@@ -713,7 +713,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-14 ~07:03 poll-collab-otp-tight: skipped — prior Blocked/anti-bot; 0 Refersion mail after:2026/09/08. Do not hammer. 0 brand programs.',
+      '2026-09-14 ~08:03 poll-collab-otp-tight: skipped — prior Blocked/anti-bot; 0 Refersion mail after:2026/09/08. Do not hammer. 0 brand programs.',
     jobs: [],
   },
   {
@@ -726,7 +726,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-14 ~07:23 poll-rakuten-more-saas: SKIP login — Keycloak Invalid since ~03:38 (do not hammer). Gmail: no NEW Partnered after Keeper Security @09:25 Sep 10 among Pending (Skylum, Brytesoft, NordVPN(+APAC), PureVPN, ESET, Webroot Inc, IONOS) — only Keeper after:2026/09/09 (from:rakutenaffiliatenetwork.com / subject application approved). Still 5 Partnered (Blockchain Council + Wondershare + Tresorit + HTVRONT + Keeper) + ~8 Pending. ExitLag DENIED @21:30 Sep 7 (not Pending). SID 4747686. Impact still no unlock after:2026/09/07; Admitad wait adspace (Mitgo last Sep 9); Digistore/FlexOffers skip.',
+      '2026-09-14 ~08:03 poll-collab-otp-tight: SKIP login — Keycloak Invalid since ~03:38 (do not hammer). Gmail NEW: Skylum DENIED @07:51 Sep 14 (Application Denied — Skylum chose not to accept Rocky Veen). Still 5 Partnered (Blockchain Council + Wondershare + Tresorit + HTVRONT + Keeper @09:25). Pending now ~7 (Brytesoft, NordVPN(+APAC), PureVPN, ESET, Webroot Inc, IONOS — no Skylum/ExitLag/HTVRONT/Keeper). ExitLag DENIED @21:30 Sep 7. SID 4747686. Impact still no unlock after:2026/09/07; Admitad wait adspace (Mitgo last Sep 9); Digistore/FlexOffers skip.',
     jobs: [
       {
         id: 'rak-keeper-security',
@@ -852,10 +852,10 @@ export const platforms = [
         id: 'rak-skylum',
         brand: 'Skylum',
         title: 'Rakuten Advertising partnership',
-        status: 'submitted',
+        status: 'lost',
         appliedAt: '2026-09-06',
         rate: 'Affiliate',
-        notes: 'Apply Pending 2026-09-06 (25ab2b7e). MID 46644 / offer 908928.',
+        notes: 'DENIED via Gmail 2026-09-14 ~07:51 — Skylum chose not to accept Rocky Veen into their affiliate program at this time. MID 46644 / offer 908928. Was Apply Pending 2026-09-06.',
         href: 'https://publisher.rakutenadvertising.com/advertisers/46644/offers/908928/details',
       },
       {
