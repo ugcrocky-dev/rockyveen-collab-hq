@@ -73,7 +73,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-15 ~10:40 poll-collab-otp-tight: still locked — 0 unlock/reset/Verification after:2026/09/07. Newest Impact mail = Daily Digest @07:06 Sep 15 (outreach digest — NOT unlock) + Updates Digest @14:18 Sep 14 (NOT unlock/reset/Verification). SHEIN verification false-positive ≠ unlock. Newest Verification still 165312 @09:26 Sep 6 expired. Did NOT login; no hammer.',
+      '2026-09-15 ~11:17 impact-unlock-retry: still locked — 0 unlock/reset/Verification after:2026/09/07. Newest Impact mail still Daily Digest @07:06 Sep 15 (outreach digest — NOT unlock) + Updates Digest @14:18 Sep 14 (NOT unlock/reset/Verification). Brand/promo Impact noise only. SHEIN verification false-positive ≠ unlock. Newest Verification still 165312 @09:26 Sep 6 expired. Did NOT login; no hammer.',
     jobs: [],
   },
   {
@@ -726,7 +726,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-15 ~10:40 poll-collab-otp-tight: SKIP login — Keycloak Invalid since ~03:38 (do not hammer). Gmail: no NEW Partnered after Keeper @09:25 Sep 10 among pending SaaS (Brytesoft/NordVPN(+APAC)/PureVPN/ESET/Webroot Inc/IONOS); Skylum DENIED @07:51 Sep 14 already logged. Still 5 Partnered (Blockchain Council + Wondershare + Tresorit + HTVRONT + Keeper) + ~7 Pending (Brytesoft, NordVPN(+APAC), PureVPN, ESET, Webroot Inc, IONOS — no Skylum/ExitLag/HTVRONT/Keeper). ExitLag DENIED @21:30 Sep 7. SID 4747686. Impact still no unlock after:2026/09/07 (Daily Digest @07:06 Sep 15 + Updates Digest @14:18 ≠ unlock; did not login); Admitad wait adspace (Mitgo last Sep 9); Digistore/FlexOffers skip.',
+      '2026-09-15 ~11:17 impact-unlock-retry light-check: SKIP login — Keycloak Invalid since ~03:38 (do not hammer). Gmail: no NEW Partnered after Keeper Security @09:25 Sep 10 among pending SaaS (Brytesoft/NordVPN(+APAC)/PureVPN/ESET Software/Webroot Inc/IONOS); Skylum DENIED @07:51 Sep 14 already logged. Still 5 Partnered (Blockchain Council + Wondershare + Tresorit + HTVRONT + Keeper Security) + ~7 Pending (Brytesoft, NordVPN(+APAC), PureVPN, ESET Software, Webroot Inc, IONOS — no Skylum/ExitLag/HTVRONT/Keeper). ExitLag DENIED @21:30 Sep 7. SID 4747686. Impact still no unlock after:2026/09/07 (Daily Digest @07:06 Sep 15 + Updates Digest @14:18 ≠ unlock; did not login).',
     jobs: [
       {
         id: 'rak-keeper-security',
