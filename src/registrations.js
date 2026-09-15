@@ -73,7 +73,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-15 ~06:29 poll-collab-otp-tight: still locked — 0 unlock/reset/Verification after:2026/09/07. from:notifications@app.impact.com after Sep 7 = Updates Digest only @14:18 Sep 14 (platform weekly digest — NOT unlock/reset/Verification). SHEIN verification false-positive ≠ unlock. Newest Verification still 165312 @09:26 Sep 6 expired. Did NOT login; no hammer.',
+      '2026-09-15 ~07:15 impact-unlock-retry: still locked — 0 unlock/reset/Verification after:2026/09/07. from:notifications@app.impact.com after Sep 7 = Updates Digest only @14:18 Sep 14 (platform weekly digest — NOT unlock/reset/Verification). SHEIN verification false-positive ≠ unlock. Newest Verification still 165312 @09:26 Sep 6 expired. Did NOT login; no hammer.',
     jobs: [],
   },
   {
@@ -726,7 +726,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-15 ~06:29 poll-collab-otp-tight: SKIP login — Keycloak Invalid since ~03:38 (do not hammer). Gmail: no NEW Partnered after Keeper @09:25 Sep 10; Skylum DENIED @07:51 Sep 14 already logged. Still 5 Partnered (Blockchain Council + Wondershare + Tresorit + HTVRONT + Keeper) + ~7 Pending (Brytesoft, NordVPN(+APAC), PureVPN, ESET, Webroot Inc, IONOS — no Skylum/ExitLag/HTVRONT/Keeper). ExitLag DENIED @21:30 Sep 7. SID 4747686. Impact still no unlock after:2026/09/07 (Updates Digest @14:18 ≠ unlock; did not login); Admitad wait adspace (Mitgo last Sep 9); Digistore/FlexOffers skip.',
+      '2026-09-15 ~07:15 impact-unlock-retry (Gmail light): SKIP login — Keycloak Invalid since ~03:38 (do not hammer). Gmail: no NEW Partnered after Keeper @09:25 Sep 10; Skylum DENIED @07:51 Sep 14 already logged. Still 5 Partnered (Blockchain Council + Wondershare + Tresorit + HTVRONT + Keeper) + ~7 Pending (Brytesoft, NordVPN(+APAC), PureVPN, ESET, Webroot Inc, IONOS — no Skylum/ExitLag/HTVRONT/Keeper). ExitLag DENIED @21:30 Sep 7. SID 4747686. Impact still no unlock after:2026/09/07 (Updates Digest @14:18 ≠ unlock; did not login); Admitad wait adspace (Mitgo last Sep 9); Digistore/FlexOffers skip.',
     jobs: [
       {
         id: 'rak-keeper-security',
