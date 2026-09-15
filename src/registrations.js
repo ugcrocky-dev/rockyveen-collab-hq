@@ -73,7 +73,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-15 ~19:21 impact-unlock-retry: still locked — 0 unlock/reset/Verification after:2026/09/07. Newest Impact mail = NH Hotels featured deals @18:35 (brand noise — NOT unlock) + Munchkin/Govee @16:00–16:11 + CorelDRAW @15:00 + Daily Digest @07:06 (NOT unlock) + Updates Digest @14:18 Sep 14 (NOT unlock). SHEIN verification false-positive ≠ unlock. Newest Verification still 165312 @09:26 Sep 6 expired. Did NOT login; no hammer.',
+      '2026-09-15 ~19:37 poll-rakuten-more-saas light-check: still locked — 0 unlock/reset/Verification after:2026/09/07. Newest Impact mail still NH Hotels @18:35 + brand promos (NOT unlock) + Daily Digest @07:06 (NOT unlock). Did NOT login; no hammer.',
     jobs: [],
   },
   {
@@ -726,7 +726,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-15 ~19:21 impact-unlock-retry light-check: SKIP login — Keycloak Invalid since ~03:38 (do not hammer). Gmail: no NEW Partnered after Keeper Security @09:25 Sep 10; newest status mail still Skylum DENIED @07:51 Sep 14. Still 5 Partnered (Blockchain Council + Wondershare + Tresorit + HTVRONT + Keeper Security) + ~7 Pending (Brytesoft, NordVPN(+APAC), PureVPN, ESET Software, Webroot Inc, IONOS — no Skylum/ExitLag/HTVRONT/Keeper). ExitLag DENIED @21:30 Sep 7. SID 4747686. Impact still no unlock (NH Hotels/Munchkin/Govee/CorelDRAW + Daily Digest ≠ unlock).',
+      '2026-09-15 ~19:37 poll-rakuten-more-saas: SKIP login — Keycloak Invalid since ~03:38 (do not hammer). Gmail: no NEW Partnered after Keeper Security @09:25 Sep 10 among pending SaaS (Brytesoft/NordVPN(+APAC)/PureVPN/ESET Software/Webroot Inc/IONOS); Skylum DENIED @07:51 Sep 14 already logged. Still 5 Partnered (Blockchain Council + Wondershare + Tresorit + HTVRONT + Keeper Security) + ~7 Pending (Brytesoft, NordVPN(+APAC), PureVPN, ESET Software, Webroot Inc, IONOS — no Skylum/ExitLag/HTVRONT/Keeper). ExitLag DENIED @21:30 Sep 7. SID 4747686. Impact still no unlock (NH Hotels/Daily Digest ≠ unlock); Admitad wait adspace; Digistore/FlexOffers skip.',
     jobs: [
       {
         id: 'rak-keeper-security',
