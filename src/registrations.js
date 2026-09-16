@@ -73,7 +73,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-16 ~09:00 poll-collab-otp-tight: still locked — 0 unlock/reset/Verification after:2026/09/07. 0 Impact mail after:2026/09/16 yet (no Daily Digest yet). Newest still Hill House Home @19:38 Sep 15 + NH Hotels @18:35 + Munchkin/Govee/Duke Cannon/CorelDRAW (all brand noise — NOT unlock) + Daily Digest @07:06 Sep 15 (NOT unlock) + Updates Digest @14:18 Sep 14 (NOT unlock). Newest Verification still 165312 @09:26 Sep 6 expired. Did NOT login; no hammer.',
+      '2026-09-16 ~09:27 impact-unlock-retry: still locked — 0 unlock/reset/Verification after:2026/09/07 (Gmail unlock-query false-positives only: Narwal promo / Ad Code). Still 0 Impact mail after:2026/09/16. Newest still Hill House Home @19:38 Sep 15 + NH Hotels @18:35 + Munchkin/Govee/Duke Cannon/CorelDRAW (NOT unlock) + Daily Digest @07:06 Sep 15 (NOT unlock) + Updates Digest @14:18 Sep 14 (NOT unlock). Newest Verification still 165312 @09:26 Sep 6 expired. Did NOT login; no hammer.',
     jobs: [],
   },
   {
@@ -659,7 +659,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-16 ~09:00 poll-collab-otp-tight: SKIP login — Keycloak Invalid since ~03:38 (do not hammer). Gmail: no NEW Partnered after Keeper Security @09:25 Sep 10 among pending SaaS (Brytesoft/NordVPN(+APAC)/PureVPN/ESET Software/Webroot Inc/IONOS); Skylum DENIED @07:51 Sep 14 already logged. Still 5 Partnered (Blockchain Council + Wondershare + Tresorit + HTVRONT + Keeper Security) + ~7 Pending (Brytesoft, NordVPN(+APAC), PureVPN, ESET Software, Webroot Inc, IONOS — no Skylum/ExitLag/HTVRONT/Keeper). ExitLag DENIED @21:30 Sep 7. SID 4747686. Impact still no unlock (0 Impact mail today).',
+      '2026-09-16 ~09:27 impact-unlock-retry light-check: SKIP login — Keycloak Invalid since ~03:38 (do not hammer). Gmail: no NEW Partnered/Denied after Skylum DENIED @07:51 Sep 14; last Partnered still Keeper Security @09:25 Sep 10. Still 5 Partnered (Blockchain Council + Wondershare + Tresorit + HTVRONT + Keeper Security) + ~7 Pending (Brytesoft, NordVPN(+APAC), PureVPN, ESET Software, Webroot Inc, IONOS). ExitLag DENIED @21:30 Sep 7. SID 4747686.',
     jobs: [
       {
         id: 'ds-funnelcockpit',
