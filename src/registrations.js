@@ -73,7 +73,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-16 ~12:03 poll-collab-otp-tight: still locked — 0 unlock/reset/Verification after:2026/09/07. Newest Impact mail: Daily Digest @11:11 Sep 16 (NOT unlock). Prior Hill House @19:38 Sep 15 + NH Hotels @18:35 + Munchkin/Govee/Duke Cannon/CorelDRAW (all brand noise — NOT unlock) + Updates Digest @14:18 Sep 14 (NOT unlock). Newest Verification still 165312 @09:26 Sep 6 expired. Did NOT login; no hammer.',
+      '2026-09-16 ~13:04 poll-collab-otp-tight: still locked — 0 unlock/reset/Verification after:2026/09/07. Newest Impact mail: Daily Digest @11:11 Sep 16 (NOT unlock). Prior Hill House @19:38 Sep 15 + NH Hotels @18:35 + Munchkin/Govee/Duke Cannon/CorelDRAW (all brand noise — NOT unlock) + Updates Digest @14:18 Sep 14 (NOT unlock). Newest Verification still 165312 @09:26 Sep 6 expired. Did NOT login; no hammer.',
     jobs: [],
   },
   {
@@ -287,7 +287,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-16 ~12:03 poll-collab-otp-tight: Network still DECLINED/limited — 0 newer PartnerStack Network status after:2026/09/08 (decline mail @19:00 Sep 8 still newest). Descript still WON @13:18 (ref https://get.descript.com/o5bc1tsufdv4); portal onboarding mail @14:30 Sep 11 — not a Network change; no re-submit. Re-apply Network eligible Sep 22; do NOT reapply / invent links.',
+      '2026-09-16 ~13:04 poll-collab-otp-tight: Network still DECLINED/limited — 0 newer PartnerStack Network status after:2026/09/08 (decline mail @19:00 Sep 8 still newest). Descript still WON @13:18 (ref https://get.descript.com/o5bc1tsufdv4); portal onboarding mail @14:30 Sep 11 — not a Network change; no re-submit. Re-apply Network eligible Sep 22; do NOT reapply / invent links.',
     jobs: [
       {
         id: 'ps-elevenlabs',
@@ -547,7 +547,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-16 ~12:03 poll-collab-otp-tight: skipped — still needs Mobile Phone (do not invent). 0 FlexOffers mail after:2026/09/08. 0 offers.',
+      '2026-09-16 ~13:04 poll-collab-otp-tight: skipped — still needs Mobile Phone (do not invent). 0 FlexOffers mail after:2026/09/08. 0 offers.',
     jobs: [],
   },
   {
@@ -560,7 +560,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-16 ~12:03 poll-collab-otp-tight: skipped password — prior Invalid ~23:28 (no hammer). Mitgo still nagging verify ad space Rocky Veen — last @10:00 + @09:15 Sep 9; 0 newer through ~12:03 Sep 16. Leave pending; do not request AI/SaaS until Active.',
+      '2026-09-16 ~13:04 poll-collab-otp-tight: skipped password — prior Invalid ~23:28 (no hammer). Mitgo still nagging verify ad space Rocky Veen — last @10:00 + @09:15 Sep 9; 0 newer through ~13:04 Sep 16. Leave pending; do not request AI/SaaS until Active.',
     jobs: [],
   },
   {
@@ -635,7 +635,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-16 ~12:03 poll-collab-otp-tight: still approved Tapfiliate $178 @12:53 Sep 7 (ref https://tapfiliate.com?ref=ndm2ndd1); no NEW Tapfiliate program approvals after:2026/09/08.',
+      '2026-09-16 ~13:04 poll-collab-otp-tight: still approved Tapfiliate $178 @12:53 Sep 7 (ref https://tapfiliate.com?ref=ndm2ndd1); no NEW Tapfiliate program approvals after:2026/09/08.',
     jobs: [
       {
         id: 'tap-tapfiliate-178',
@@ -659,7 +659,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-16 ~12:03 poll-collab-otp-tight: SKIP login — Keycloak Invalid since ~03:38 (do not hammer). Gmail: no NEW Partnered after Keeper Security @09:25 Sep 10 among pending SaaS (Brytesoft/NordVPN(+APAC)/PureVPN/ESET Software/Webroot Inc/IONOS); Skylum DENIED @07:51 Sep 14 already logged. Still 5 Partnered (Blockchain Council + Wondershare + Tresorit + HTVRONT + Keeper Security) + ~7 Pending (Brytesoft, NordVPN(+APAC), PureVPN, ESET Software, Webroot Inc, IONOS — no Skylum/ExitLag/HTVRONT/Keeper). ExitLag DENIED @21:30 Sep 7. SID 4747686. Impact still no unlock (Daily Digest @11:11 ≠ unlock).',
+      '2026-09-16 ~13:04 poll-collab-otp-tight: SKIP login — Keycloak Invalid since ~03:38 (do not hammer). Gmail: no NEW Partnered after Keeper Security @09:25 Sep 10 among pending SaaS (Brytesoft/NordVPN(+APAC)/PureVPN/ESET Software/Webroot Inc/IONOS); Skylum DENIED @07:51 Sep 14 already logged. Still 5 Partnered (Blockchain Council + Wondershare + Tresorit + HTVRONT + Keeper Security) + ~7 Pending (Brytesoft, NordVPN(+APAC), PureVPN, ESET Software, Webroot Inc, IONOS — no Skylum/ExitLag/HTVRONT/Keeper). ExitLag DENIED @21:30 Sep 7. SID 4747686. Impact still no unlock (Daily Digest @11:11 ≠ unlock).',
     jobs: [
       {
         id: 'ds-funnelcockpit',
@@ -713,7 +713,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-16 ~12:03 poll-collab-otp-tight: skipped — prior Blocked/anti-bot; 0 Refersion mail after:2026/09/08. Do not hammer. 0 brand programs.',
+      '2026-09-16 ~13:04 poll-collab-otp-tight: skipped — prior Blocked/anti-bot; 0 Refersion mail after:2026/09/08. Do not hammer. 0 brand programs.',
     jobs: [],
   },
   {
@@ -726,7 +726,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-16 ~12:03 poll-collab-otp-tight: SKIP login — Keycloak Invalid since ~03:38 (do not hammer). Gmail: no NEW Partnered after Keeper Security @09:25 Sep 10 among pending SaaS (Brytesoft/NordVPN(+APAC)/PureVPN/ESET Software/Webroot Inc/IONOS); Skylum DENIED @07:51 Sep 14 already logged. Still 5 Partnered (Blockchain Council + Wondershare + Tresorit + HTVRONT + Keeper Security) + ~7 Pending (Brytesoft, NordVPN(+APAC), PureVPN, ESET Software, Webroot Inc, IONOS — no Skylum/ExitLag/HTVRONT/Keeper). ExitLag DENIED @21:30 Sep 7. SID 4747686. Impact still no unlock (Hill House/NH Hotels + Daily Digest ≠ unlock).',
+      '2026-09-16 ~13:04 poll-collab-otp-tight: SKIP login — Keycloak Invalid since ~03:38 (do not hammer). Gmail: no NEW Partnered after Keeper Security @09:25 Sep 10 among pending SaaS (Brytesoft/NordVPN(+APAC)/PureVPN/ESET Software/Webroot Inc/IONOS); Skylum DENIED @07:51 Sep 14 already logged. Still 5 Partnered (Blockchain Council + Wondershare + Tresorit + HTVRONT + Keeper Security) + ~7 Pending (Brytesoft, NordVPN(+APAC), PureVPN, ESET Software, Webroot Inc, IONOS — no Skylum/ExitLag/HTVRONT/Keeper). ExitLag DENIED @21:30 Sep 7. SID 4747686. Impact still no unlock (Hill House/NH Hotels + Daily Digest ≠ unlock).',
     jobs: [
       {
         id: 'rak-keeper-security',
