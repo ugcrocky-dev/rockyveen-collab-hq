@@ -73,7 +73,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-16 ~11:27 impact-unlock-retry: still locked — 0 unlock/reset/Verification after:2026/09/07. Newest Impact mail: Daily Digest @11:11 Sep 16 (NOT unlock). Prior Hill House @19:38 Sep 15 + NH Hotels @18:35 + brand promos + Daily Digest @07:06 Sep 15 + Updates Digest @14:18 Sep 14 also NOT unlock. Unlock-query false-positives only (Narwal/Ad Code). Newest Verification still 165312 @09:26 Sep 6 expired. Did NOT login; no hammer.',
+      '2026-09-16 ~11:40 poll-rakuten-more-saas light-check: still locked — 0 unlock/reset/Verification after:2026/09/07. Newest Impact mail: Daily Digest @11:11 Sep 16 (NOT unlock). Prior Hill House/NH Hotels/brand promos + Daily Digest @07:06 Sep 15 + Updates Digest @14:18 Sep 14 also NOT unlock. Newest Verification still 165312 @09:26 Sep 6 expired. Did NOT login; no hammer.',
     jobs: [],
   },
   {
@@ -659,7 +659,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-16 ~11:27 impact-unlock-retry light-check: SKIP login — Keycloak Invalid since ~03:38 (do not hammer). Gmail: no NEW Partnered/Denied after Skylum DENIED @07:51 Sep 14; last Partnered still Keeper Security @09:25 Sep 10. Still 5 Partnered (Blockchain Council + Wondershare + Tresorit + HTVRONT + Keeper Security) + ~7 Pending (Brytesoft, NordVPN(+APAC), PureVPN, ESET Software, Webroot Inc, IONOS). ExitLag DENIED @21:30 Sep 7. SID 4747686.',
+      '2026-09-16 ~11:40 poll-rakuten-more-saas: SKIP login — Keycloak Invalid since ~03:38 (do not hammer). Gmail: no NEW Partnered among pending SaaS (Brytesoft/NordVPN(+APAC)/PureVPN/ESET Software/Webroot Inc/IONOS) after Keeper Security @09:25 Sep 10; Skylum DENIED @07:51 Sep 14 already logged; 0 Rakuten mail after:2026/09/15. Still 5 Partnered (Blockchain Council + Wondershare + Tresorit + HTVRONT + Keeper Security) + ~7 Pending. ExitLag DENIED @21:30 Sep 7. SID 4747686. Impact still no unlock (Daily Digest @11:11 ≠ unlock).',
     jobs: [
       {
         id: 'ds-funnelcockpit',
