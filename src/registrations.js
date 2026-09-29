@@ -73,7 +73,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-29 ~02:52 poll-rakuten-more-saas: still locked — 0 unlock/reset/Verification after:2026/09/07 (inbox+spam). Newest Verification still 165312 @09:26 Sep 6 expired. Newest Impact mail: Lyca Mobile USA Boost Your Conversions @03:14 Sep 29 ≠ unlock (1a0eb287fdfd1d30); prior The Oodie October sneak peek @02:50 Sep 29 ≠ unlock (1a0eb11b4cd78607); prior Therabody partnership declined @23:19 Sep 28 ≠ unlock (1a0ea5148aaf835a); prior Daily Digest @21:13 Sep 28 ≠ unlock (1a0e9ddc770ab489). Did NOT login; no hammer.',
+      '2026-09-29 ~03:49 impact-unlock-retry: still locked — 0 unlock/reset/Verification after:2026/09/07 (inbox+spam). Newest Verification still 165312 @09:26 Sep 6 expired. Newest Impact mail: Lyca Mobile USA Boost Your Conversions @03:14 Sep 29 ≠ unlock (1a0eb287fdfd1d30); prior The Oodie October sneak peek @02:50 Sep 29 ≠ unlock (1a0eb11b4cd78607); prior Therabody partnership declined @23:19 Sep 28 ≠ unlock (1a0ea5148aaf835a); prior Daily Digest @21:13 Sep 28 ≠ unlock (1a0e9ddc770ab489). Did NOT login; no hammer.',
     jobs: [],
   },
   {
@@ -287,7 +287,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-29 ~02:52 poll-rakuten-more-saas: Network still DECLINED/limited — 0 PartnerStack mail after:2026/09/11; decline @19:00 Sep 8 still newest. Descript still WON @13:18 (ref https://get.descript.com/o5bc1tsufdv4); portal onboarding @14:30 Sep 11 — not Network change; no re-submit. Re-apply eligible Sep 22; do NOT reapply / invent links.',
+      '2026-09-29 ~03:49 impact-unlock-retry: Network still DECLINED/limited — 0 PartnerStack mail after:2026/09/11; decline @19:00 Sep 8 still newest. Descript still WON @13:18 (ref https://get.descript.com/o5bc1tsufdv4); portal onboarding @14:30 Sep 11 — not Network change; no re-submit. Re-apply eligible Sep 22; do NOT reapply / invent links.',
     jobs: [
       {
         id: 'ps-elevenlabs',
@@ -547,7 +547,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-29 ~02:52 poll-rakuten-more-saas: skipped — still needs Mobile Phone (do not invent). 0 FlexOffers mail after:2026/09/11. 0 offers.',
+      '2026-09-29 ~03:49 impact-unlock-retry: skipped — still needs Mobile Phone (do not invent). 0 FlexOffers mail after:2026/09/11. 0 offers.',
     jobs: [],
   },
   {
@@ -560,7 +560,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-29 ~02:52 poll-rakuten-more-saas: skipped password — prior Invalid ~23:28 (no hammer). Mitgo still nagging verify ad space Rocky Veen — last @10:00 + @09:15 Sep 9; 0 newer through ~02:52 Sep 29. Leave pending; do not request AI/SaaS until Active.',
+      '2026-09-29 ~03:49 impact-unlock-retry: skipped password — prior Invalid ~23:28 (no hammer). Mitgo still nagging verify ad space Rocky Veen — last @10:00 + @09:15 Sep 9; 0 newer through ~03:49 Sep 29. Leave pending; do not request AI/SaaS until Active.',
     jobs: [],
   },
   {
@@ -635,7 +635,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-29 ~02:52 poll-rakuten-more-saas: still approved Tapfiliate $178 @12:53 Sep 7 (ref https://tapfiliate.com?ref=ndm2ndd1); no NEW Tapfiliate program approvals after:2026/09/11.',
+      '2026-09-29 ~03:49 impact-unlock-retry: still approved Tapfiliate $178 @12:53 Sep 7 (ref https://tapfiliate.com?ref=ndm2ndd1); no NEW Tapfiliate program approvals after:2026/09/11.',
     jobs: [
       {
         id: 'tap-tapfiliate-178',
@@ -659,7 +659,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-29 ~02:52 poll-rakuten-more-saas: SKIP login — prior ~03:38 no-advance (Username rockyveenaffiliate); do not hammer. Newest Digistore mail: Julianne newsletter @14:11 Sep 27 (Top 3 Marketing Channels — newsletter only; do not login). Prior Nick @13:11 Sep 20 + @22:23 Sep 17; Lenée promo @22:17 Sep 14. Manual resolve before AI/SaaS joins. ~10 products already joined.',
+      '2026-09-29 ~03:49 impact-unlock-retry: SKIP login — prior ~03:38 no-advance (Username rockyveenaffiliate); do not hammer. Newest Digistore mail: Julianne newsletter @14:11 Sep 27 (Top 3 Marketing Channels — newsletter only; do not login). Prior Nick @13:11 Sep 20 + @22:23 Sep 17; Lenée promo @22:17 Sep 14. Manual resolve before AI/SaaS joins. ~10 products already joined.',
     jobs: [
       {
         id: 'ds-funnelcockpit',
@@ -713,7 +713,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-29 ~02:52 poll-rakuten-more-saas: skipped — prior Blocked/anti-bot; 0 Refersion mail after:2026/09/11. Do not hammer. 0 brand programs.',
+      '2026-09-29 ~03:49 impact-unlock-retry: skipped — prior Blocked/anti-bot; 0 Refersion mail after:2026/09/11. Do not hammer. 0 brand programs.',
     jobs: [],
   },
   {
@@ -726,7 +726,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-09-29 ~02:52 poll-rakuten-more-saas: SKIP login — Keycloak Invalid since ~03:38 (do not hammer). Gmail: NEW Partnered Webroot Inc. @20:53 Sep 25 (1a0da586c05cc61a); prior Keeper Security @09:25 Sep 10. Skylum DENIED @07:51 Sep 14 still newest denial. Now 6 Partnered (Blockchain Council + Wondershare + Tresorit + HTVRONT + Keeper Security + Webroot Inc.) + ~5 Pending (Brytesoft, NordVPN(+APAC), PureVPN, ESET, IONOS). ExitLag DENIED @21:30 not Pending.',
+      '2026-09-29 ~03:49 impact-unlock-retry: SKIP login — Keycloak Invalid since ~03:38 (do not hammer). Gmail: NEW Partnered Webroot Inc. @20:53 Sep 25 (1a0da586c05cc61a); prior Keeper Security @09:25 Sep 10. Skylum DENIED @07:51 Sep 14 still newest denial. Now 6 Partnered (Blockchain Council + Wondershare + Tresorit + HTVRONT + Keeper Security + Webroot Inc.) + ~5 Pending (Brytesoft, NordVPN(+APAC), PureVPN, ESET, IONOS). ExitLag DENIED @21:30 not Pending.',
     jobs: [
       {
         id: 'rak-keeper-security',
