@@ -560,7 +560,7 @@ export const platforms = [
     photoUploaded: false,
     category: 'affiliate',
     notes:
-      '2026-10-04 ~21:49 impact-unlock-retry: skipped password — prior Invalid ~23:28 (no hammer). Mitgo still nagging verify ad space Rocky Veen — last @10:00 + @09:15 Sep 9; 0 newer through ~19:41 Oct 4. Leave pending; do not request AI/SaaS until Active.',
+      '2026-10-04 ~21:49 impact-unlock-retry: skipped password — prior Invalid ~23:28 (no hammer). Mitgo still nagging verify ad space Rocky Veen — last @10:00 + @09:15 Sep 9; 0 newer through ~21:49 Oct 4. Leave pending; do not request AI/SaaS until Active.',
     jobs: [],
   },
   {
