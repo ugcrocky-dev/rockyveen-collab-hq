@@ -1,1 +1,1 @@
-FILE_REF:/tmp/exact_content.js
+@/tmp/exact_content.js
