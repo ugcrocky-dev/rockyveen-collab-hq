@@ -1,1 +1,1 @@
-x
+/cursor/stores/self/PUSH_NOW.json
