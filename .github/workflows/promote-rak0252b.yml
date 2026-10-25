@@ -1,0 +1,29 @@
+name: promote-rak0252b-to-main
+on:
+  push:
+    branches: [main]
+    paths: [.tmp/rak0252b/PROMOTE]
+permissions:
+  contents: write
+jobs:
+  promote:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Promote registrations.js from feature branch
+        run: |
+          set -euo pipefail
+          git fetch origin cursor/rakuten-0252b-oct25-595e
+          git checkout origin/cursor/rakuten-0252b-oct25-595e -- src/registrations.js
+          BYTES=$(wc -c < src/registrations.js)
+          echo "bytes=$BYTES"
+          test "$BYTES" = "37808"
+          STAMP=$(grep -o '2026-10-25 ~02:52 poll-rakuten-more-saas' src/registrations.js | wc -l)
+          test "$STAMP" = "8"
+          git config user.name ugcrocky-dev
+          git config user.email ugcrocky@gmail.com
+          git add src/registrations.js
+          git commit -m "2026-10-25 ~02:52 poll-rakuten-more-saas: catch-up; 0 new Partnered; keep Wondershare/Webroot; as of this ~02:52" || echo "no change"
+          git push origin HEAD:main
