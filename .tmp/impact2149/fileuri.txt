@@ -1,0 +1,1 @@
+file:///agent/rockyveen-collab-hq/src/registrations.js
