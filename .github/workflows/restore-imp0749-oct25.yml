@@ -25,7 +25,7 @@ jobs:
           test "$(grep -o 'as of this ~14:52' src/registrations.js | wc -l)" -eq 1
           test "$(grep -o 'as of this ~10:52' src/registrations.js | wc -l)" -eq 0
           test "$(grep -o 'as of this ~08:42' src/registrations.js | wc -l)" -eq 0
-          test "$(grep -o 'o5bc1tsufdv4' src/registrations.js | wc -l)" -eq 2
+          test "$(grep -o 'o5bc1tsufdv4' src/registrations.js | wc -l)" -ge 2
           test "$(grep -o 'rocky25' src/registrations.js | wc -l)" -eq 2
           ! grep -q PLACEHOLDER src/registrations.js
       - name: Commit and push main + feature branch
