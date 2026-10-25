@@ -1,1 +1,1 @@
-PLACEHOLDER_REPLACE_WITH_FULL
+FILE_CONTENT_FROM_/home/ubuntu/.cursor/projects/agent/agent-tools/PUSH_FILES_ARGS_ONE_LINE.json
