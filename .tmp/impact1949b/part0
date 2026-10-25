@@ -1,0 +1,114 @@
+/** Applications HQ — platforms + nested jobs
+ * Email: collabs@rockyveen.com
+ * Shared password (new accounts): RockyCollabs2026!Veen
+ * Prefer email signup — skip Instagram OAuth platforms
+ * Profile photo: /assets/rockyveen-ig.jpg
+ * Public photo mirror: https://n.uguu.se/sCJDngwj.jpg
+ */
+
+export const sharedCreds = {
+  email: 'collabs@rockyveen.com',
+  passwordHint: 'RockyCollabs2026!Veen',
+  handle: '@rockyveen',
+  site: 'https://rockyveen.com',
+  photoPath: '/assets/rockyveen-ig.jpg',
+  photoPublicUrl: 'https://n.uguu.se/sCJDngwj.jpg',
+  photoReady: true,
+  rateCard: 'https://rockyveen-rate-card.vercel.app/rate-card.pdf',
+}
+
+/** Job status: applied | pitched | submitted | won | lost | blocked | queued | needs_action */
+/** Platform status: registered_applying | registered | registered_needs_cc_to_go_live |
+ *  pending_* | blocked_* | already_registered | unavailable */
+
+export const platforms = [
+  {
+    id: 'flinque',
+    platform: 'Flinque',
+    url: 'https://flinque.com',
+    loginUrl: 'https://flinque.com/login',
+    status: 'registered_applying',
+    username: 'collabs@rockyveen.com',
+    oauthRequired: false,
+    photoUploaded: true,
+    category: 'marketplace',
+    notes:
+      'Logged in. Photo upload attempted. Wayy.ai already Applied. 2026-09-06 recheck: still only Wayy.ai campaign and already Applied — 0 new Flinque applies. Profile social fields appear gated behind IG OAuth (skipped).',
+    jobs: [
+      {
+        id: 'flinque-wayy',
+        brand: 'Wayy.ai',
+        title: 'AI product UGC / creator collab',
+        status: 'applied',
+        appliedAt: '2026-09-05',
+        rate: '~$100 pitch (platform budget)',
+        pitch:
+          'AI/SaaS UGC creator · 225K IG · USA audience · Reel $500 / UGC $400–$500',
+        notes: 'First Flinque application submitted.',
+        href: 'https://flinque.com',
+      },
+    ],
+  },
+  {
+    id: 'collabstr',
+    platform: 'Collabstr',
+    url: 'https://collabstr.com',
+    loginUrl: 'https://collabstr.com/login',
+    status: 'registered_needs_cc_to_go_live',
+    username: 'rockyveen-ai',
+    oauthRequired: false,
+    photoUploaded: true,
+    category: 'marketplace',
+    notes:
+      'Profile/rates ready. 2026-09-06 card identity at step=4: details entered but BLOCKED by hCaptcha (0100cf58 / prior). Need human to click hCaptcha then Verify/Go Live ($0 auth expected; stop if >$10). Then mass-apply AI/SaaS.',
+    jobs: [],
+  },
+  {
+    id: 'impact',
+    platform: 'Impact.com',
+    url: 'https://impact.com',
+    status: 'registered_locked',
+    username: 'rockyveen',
+    oauthRequired: false,
+    photoUploaded: false,
+    category: 'affiliate',
+    notes:
+      '2026-10-24 ~19:49 poll-impact-unlock-retry: still locked — 0 unlock/reset/Verification after:2026/09/07 (inbox+spam). Newest Verification still 165312 @09:26 Sep 6 expired. Newest Impact mail: Daily Digest @04:05 Oct 24 ≠ unlock (1a16c15f6a53fca9); prior Duke Cannon Bundle Up & Save Big on Holiday Soap Bundles @15:59 Oct 23 ≠ unlock (1a1697cc58de7a5d); prior BistroMD Affiliates Fall Savings @14:32 Oct 23 ≠ unlock (1a1692d434c94320); prior 32 Degrees Early Access Sweaters/Hoodies @14:29 Oct 23 ≠ unlock (1a1692a67cb3f747). Did NOT login; no hammer.',
+    jobs: [],
+  },
+  {
+    id: 'intellifluence',
+    platform: 'Intellifluence',
+    url: 'https://intellifluence.com',
+    status: 'registered_needs_support',
+    username: 'collabs@rockyveen.com',
+    oauthRequired: false,
+    photoUploaded: true,
+    category: 'marketplace',
+    notes:       'Password reset to shared creds. Photo + bio uploaded. Account was created as Brand (not Influencer) — Zendesk convert ticket submitted + email verified. Waiting support to switch role before campaign apply.',
+    jobs: [],
+  },
+  {
+    id: 'aspire',
+    platform: 'Aspire Creator Portal',
+    url: 'https://creators.aspireiq.com',
+    status: 'registered_needs_social',
+    username: 'collabs@rockyveen.com',
+    oauthRequired: true,
+    photoUploaded: false,
+    category: 'marketplace',
+    notes:
+      'Logged in via email OTP. Profile/bio/portfolio https://rockyveen.com updated. Marketplace blocked until Instagram (or other social) is linked via OAuth — cannot finish with email/photo/site alone.',
+    jobs: [],
+  },
+  {
+    id: 'contra',
+    platform: 'Contra',
+    url: 'https://contra.com',
+    status: 'registered',
+    username: 'collabs@rockyveen.com',
+    oauthRequired: false,
+    photoUploaded: true,
+    category: 'freelance',
+    notes:
+      'OTP login OK · rocky_veen_3cd8iyps ~89%. Published 3 case studies (AI SaaS UGC Reel, Product demo creator content, Tech lifestyle UGC). Apply still blocked: Complete profile requires Verify identity & set up wallet (ID/doc up
