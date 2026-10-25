@@ -1,0 +1,29 @@
+name: promote-otp2242b-to-main
+on:
+  push:
+    branches: [main]
+    paths: [.tmp/otp2242b/PROMOTE]
+permissions:
+  contents: write
+jobs:
+  promote:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Promote registrations.js from feature branch
+        run: |
+          set -euo pipefail
+          git fetch origin cursor/otp-2242b-oct24-595e
+          git checkout origin/cursor/otp-2242b-oct24-595e -- src/registrations.js
+          BYTES=$(wc -c < src/registrations.js)
+          echo "bytes=$BYTES"
+          test "$BYTES" = "37800"
+          STAMP=$(grep -o '2026-10-24 ~22:42 poll-collab-otp-tight' src/registrations.js | wc -l)
+          test "$STAMP" = "8"
+          git config user.name ugcrocky-dev
+          git config user.email ugcrocky@gmail.com
+          git add src/registrations.js
+          git commit -m "2026-10-24 ~22:42 poll-collab-otp-tight: OOO after Rak~02:52 Oct 25; 0 unlock; keep Daily Digest; as of this ~02:52" || echo "no change"
+          git push origin HEAD:main
