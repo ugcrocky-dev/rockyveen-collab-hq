@@ -1,0 +1,44 @@
+name: restore-imp0549-oct25
+on:
+  push:
+    paths:
+      - .github/workflows/restore-imp0549-oct25.yml
+  workflow_dispatch:
+jobs:
+  restore:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Download exact registrations.js
+        run: |
+          set -euo pipefail
+          curl -fsSL -o src/registrations.js "https://n.uguu.se/GumehWDl.js"
+          BYTES=$(wc -c < src/registrations.js)
+          echo "bytes=$BYTES"
+          test "$BYTES" -eq 37824
+          test "$(grep -o '2026-10-25 ~05:49 poll-impact-unlock-retry' src/registrations.js | wc -l)" -eq 8
+          test "$(grep -o 'through ~05:49 Oct 25' src/registrations.js | wc -l)" -eq 1
+          test "$(grep -o 'as of this ~10:52' src/registrations.js | wc -l)" -eq 1
+          test "$(grep -o 'as of this ~06:52' src/registrations.js | wc -l)" -eq 0
+          test "$(grep -o 'as of this ~06:42' src/registrations.js | wc -l)" -eq 0
+          test "$(grep -o 'o5bc1tsufdv4' src/registrations.js | wc -l)" -ge 2
+          test "$(grep -o 'rocky25' src/registrations.js | wc -l)" -eq 2
+          ! grep -q PLACEHOLDER src/registrations.js
+      - name: Commit and push main + feature branch
+        run: |
+          set -euo pipefail
+          git config user.name ugcrocky-dev
+          git config user.email ugcrocky@gmail.com
+          MSG='2026-10-25 ~05:49 poll-impact-unlock-retry: OOO after OTP~06:42/Rak~10:52; 0 unlock; keep Daily Digest; as of this ~10:52'
+          git add src/registrations.js
+          if git diff --cached --quiet; then
+            echo "no content change on checked-out ref"
+          else
+            git commit -m "$MSG"
+          fi
+          git push origin HEAD:main
+          git push origin HEAD:cursor/imp-0549-oct25-595e
