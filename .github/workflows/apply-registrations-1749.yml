@@ -1,0 +1,40 @@
+name: apply-registrations-1749
+on:
+  workflow_dispatch:
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: cursor/impact-1749-oct24-595e
+          fetch-depth: 0
+      - name: decode and push registrations.js
+        env:
+          MSG: "2026-10-24 ~17:49 poll-impact-unlock-retry: OOO after OTP~19:42/Rak~22:52; 0 unlock; keep Daily Digest; as of this ~22:52"
+        run: |
+          python3 - << 'PY'
+          import zlib, base64, pathlib
+          parts=[]
+          for i in range(4):
+              parts.append(pathlib.Path(f".agent-tmp/reg.b64.{i}").read_text().strip())
+          b64="".join(parts)
+          data=zlib.decompress(base64.b64decode(b64))
+          text=data.decode("utf-8")
+          assert len(data)==37824, len(data)
+          assert text.count("2026-10-24 ~17:49 poll-impact-unlock-retry")==8
+          assert text.count("through ~17:49 Oct 24")==1
+          assert text.count("as of this ~22:52")==1
+          pathlib.Path("src/registrations.js").write_bytes(data)
+          print("decoded_ok", len(data))
+          PY
+          git config user.email "ugcrocky@gmail.com"
+          git config user.name "ugcrocky-dev"
+          git add src/registrations.js
+          git rm -f .agent-tmp/reg.b64.0 .agent-tmp/reg.b64.1 .agent-tmp/reg.b64.2 .agent-tmp/reg.b64.3 .agent-tmp/registrations.js.zlib.b64 .agent-tmp/impact-1749-stamp.txt || true
+          git commit -m "$MSG"
+          git push origin HEAD:cursor/impact-1749-oct24-595e
+          git push origin HEAD:main
+          git rev-parse HEAD
