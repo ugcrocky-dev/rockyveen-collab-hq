@@ -1,0 +1,151 @@
+are',
+        brand: 'Wondershare',
+        title: 'Rakuten Advertising partnership',
+        status: 'won',
+        appliedAt: '2026-09-06',
+        rate: 'Affiliate',
+        notes: 'Partnered 2026-09-06 (08e618a0). MID 37160.',
+        href: 'https://publisher.rakutenadvertising.com/advertisers/37160/offers/764692/details',
+      },
+      {
+        id: 'rak-htvront',
+        brand: 'HTVRONT',
+        title: 'Rakuten Advertising partnership',
+        status: 'won',
+        appliedAt: '2026-09-06',
+        rate: 'Affiliate',
+        notes: 'Partnered / Approved via Gmail 2026-09-09 ~07:36 (HTVRONT approved Rocky Veen marketing channel). Was Apply Pending 2026-09-06. MID 44712.',
+        href: 'https://publisher.rakutenadvertising.com/advertisers/find?query=AI&index=advertisers',
+      },
+      {
+        id: 'rak-blockchain-council',
+        brand: 'Blockchain Council',
+        title: 'Rakuten Advertising partnership',
+        status: 'won',
+        appliedAt: '2026-09-06',
+        rate: 'Affiliate',
+        notes: 'Partnered / Approved confirmed 2026-09-06 ~12:15 (MID 43395 / offer 980864).',
+        href: 'https://publisher.rakutenadvertising.com/advertisers/43395/offers/980864/details',
+      },
+    ],
+  },
+  {
+    id: 'firstpromoter',
+    platform: 'FirstPromoter',
+    url: 'https://www.firstpromoter.com',
+    status: 'registered_admin_workspace',
+    username: 'collabs@rockyveen.com',
+    oauthRequired: false,
+    photoUploaded: false,
+    category: 'affiliate',
+    notes:
+      'Logged in 2026-09-06 via same-session OTP 176993 (5a7146db) → https://rockyveen.firstpromoter.com/dashboard. This is Rocky Veen’s COMPANY/admin FirstPromoter workspace (own affiliate program), not a promoter marketplace to join external brands. Billing provider still unset — skipped phone/tax/card. 0 external programs to join.',
+    jobs: [],
+  },
+]
+
+/** Back-compat alias used by older imports */
+export const registrations = platforms.map((p) => ({
+  ...p,
+  jobsApplied: p.jobs.filter((j) =>
+    ['applied', 'pitched', 'submitted', 'won'].includes(j.status),
+  ).length,
+}))
+
+export const jobApplyQueue = [
+  {
+    platform: 'Flinque',
+    action: 'Keep applying open AI/SaaS campaigns',
+    priority: 1,
+  },
+  {
+    platform: 'Collabstr',
+    action: 'After you add CC + Go Live — mass apply jobs',
+    priority: 2,
+  },
+  {
+    platform: 'Intellifluence',
+    action: 'Upload photo + apply campaigns',
+    priority: 3,
+  },
+  {
+    platform: 'Contra',
+    action: 'Bid open AI/SaaS projects (onboarding done)',
+    priority: 4,
+  },
+  {
+    platform: 'soona',
+    action: 'Bypass job-types modal → upload IG photo → submit app',
+    priority: 5,
+  },
+  {
+    platform: 'UGCjob',
+    action: 'Finish OTP + apply open briefs',
+    priority: 6,
+  },
+  {
+    platform: 'CreatorReady',
+    action: 'Finish verify + apply briefs',
+    priority: 7,
+  },
+  {
+    platform: 'JoinBrands',
+    action: 'Password reset / login, then apply',
+    priority: 8,
+  },
+]
+
+export function appStats(list = platforms) {
+  const allJobs = list.flatMap((p) => p.jobs)
+  const applied = allJobs.filter((j) =>
+    ['applied', 'pitched', 'submitted', 'won'].includes(j.status),
+  )
+  const activePlatforms = list.filter(
+    (p) =>
+      p.status.includes('registered') ||
+      p.status.includes('applying') ||
+      p.status === 'already_registered',
+  )
+  const needsRocky = list.filter(
+    (p) =>
+      p.status.includes('needs_') ||
+      p.status.includes('pending_') ||
+      p.jobs.some((j) => j.status === 'blocked' || j.status === 'needs_action'),
+  )
+  const blocked = list.filter(
+    (p) =>
+      p.status.includes('blocked') ||
+      p.status === 'unavailable',
+  )
+  return {
+    platforms: list.length,
+    activePlatforms: activePlatforms.length,
+    jobsTracked: allJobs.length,
+    jobsApplied: applied.length,
+    won: allJobs.filter((j) => j.status === 'won').length,
+    needsRocky: needsRocky.length,
+    blocked: blocked.length,
+  }
+}
+
+export function statusLabel(status) {
+  return String(status || '')
+    .replaceAll('_', ' ')
+    .replace(/\b\w/g, (c) => c.toUpperCase())
+}
+
+export function platformTone(status) {
+  if (status.includes('applying') || status === 'registered') return 'ok'
+  if (status.includes('needs') || status.includes('pending') || status === 'already_registered')
+    return 'warn'
+  if (status.includes('blocked') || status === 'unavailable') return 'danger'
+  return 'neutral'
+}
+
+export function jobTone(status) {
+  if (status === 'won') return 'ok'
+  if (['applied', 'pitched', 'submitted'].includes(status)) return 'teal'
+  if (['queued', 'needs_action'].includes(status)) return 'warn'
+  if (['blocked', 'lost'].includes(status)) return 'danger'
+  return 'neutral'
+}
