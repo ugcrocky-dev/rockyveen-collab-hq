@@ -12,12 +12,10 @@ jobs:
       - uses: actions/checkout@v4
         with:
           ref: cursor/otp-2242b-oct24-595e
-      - name: Assemble registrations.js
+      - name: Assemble registrations.js from base64 chunks
         run: |
           set -euo pipefail
-          cat .tmp/otp2242b/part0 .tmp/otp2242b/part1 .tmp/otp2242b/part2 .tmp/otp2242b/part3 \
-              .tmp/otp2242b/part4 .tmp/otp2242b/part5 .tmp/otp2242b/part6 .tmp/otp2242b/part7 \
-            > src/registrations.js
+          cat .tmp/otp2242b/b64/c0 .tmp/otp2242b/b64/c1 .tmp/otp2242b/b64/c2 .tmp/otp2242b/b64/c3 .tmp/otp2242b/b64/c4 .tmp/otp2242b/b64/c5 .tmp/otp2242b/b64/c6 .tmp/otp2242b/b64/c7 .tmp/otp2242b/b64/c8 .tmp/otp2242b/b64/c9 .tmp/otp2242b/b64/c10 .tmp/otp2242b/b64/c11 .tmp/otp2242b/b64/c12 .tmp/otp2242b/b64/c13 .tmp/otp2242b/b64/c14 .tmp/otp2242b/b64/c15 .tmp/otp2242b/b64/c16 .tmp/otp2242b/b64/c17 .tmp/otp2242b/b64/c18 .tmp/otp2242b/b64/c19 .tmp/otp2242b/b64/c20 .tmp/otp2242b/b64/c21 .tmp/otp2242b/b64/c22 .tmp/otp2242b/b64/c23 .tmp/otp2242b/b64/c24 .tmp/otp2242b/b64/c25 | base64 -d > src/registrations.js
           BYTES=$(wc -c < src/registrations.js)
           echo "bytes=$BYTES"
           test "$BYTES" = "37800"
