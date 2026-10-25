@@ -1,0 +1,101 @@
+bmitted', 'won'].includes(j.status),
+  ).length,
+}))
+
+export const jobApplyQueue = [
+  {
+    platform: 'Flinque',
+    action: 'Keep applying open AI/SaaS campaigns',
+    priority: 1,
+  },
+  {
+    platform: 'Collabstr',
+    action: 'After you add CC + Go Live — mass apply jobs',
+    priority: 2,
+  },
+  {
+    platform: 'Intellifluence',
+    action: 'Upload photo + apply campaigns',
+    priority: 3,
+  },
+  {
+    platform: 'Contra',
+    action: 'Bid open AI/SaaS projects (onboarding done)',
+    priority: 4,
+  },
+  {
+    platform: 'soona',
+    action: 'Bypass job-types modal → upload IG photo → submit app',
+    priority: 5,
+  },
+  {
+    platform: 'UGCjob',
+    action: 'Finish OTP + apply open briefs',
+    priority: 6,
+  },
+  {
+    platform: 'CreatorReady',
+    action: 'Finish verify + apply briefs',
+    priority: 7,
+  },
+  {
+    platform: 'JoinBrands',
+    action: 'Password reset / login, then apply',
+    priority: 8,
+  },
+]
+
+export function appStats(list = platforms) {
+  const allJobs = list.flatMap((p) => p.jobs)
+  const applied = allJobs.filter((j) =>
+    ['applied', 'pitched', 'submitted', 'won'].includes(j.status),
+  )
+  const activePlatforms = list.filter(
+    (p) =>
+      p.status.includes('registered') ||
+      p.status.includes('applying') ||
+      p.status === 'already_registered',
+  )
+  const needsRocky = list.filter(
+    (p) =>
+      p.status.includes('needs_') ||
+      p.status.includes('pending_') ||
+      p.jobs.some((j) => j.status === 'blocked' || j.status === 'needs_action'),
+  )
+  const blocked = list.filter(
+    (p) =>
+      p.status.includes('blocked') ||
+      p.status === 'unavailable',
+  )
+  return {
+    platforms: list.length,
+    activePlatforms: activePlatforms.length,
+    jobsTracked: allJobs.length,
+    jobsApplied: applied.length,
+    won: allJobs.filter((j) => j.status === 'won').length,
+    needsRocky: needsRocky.length,
+    blocked: blocked.length,
+  }
+}
+
+export function statusLabel(status) {
+  return String(status || '')
+    .replaceAll('_', ' ')
+    .replace(/\b\w/g, (c) => c.toUpperCase())
+}
+
+export function platformTone(status) {
+  if (status.includes('applying') || status === 'registered') return 'ok'
+  if (status.includes('needs') || status.includes('pending') || status === 'already_registered')
+    return 'warn'
+  if (status.includes('blocked') || status === 'unavailable') return 'danger'
+  return 'neutral'
+}
+
+export function jobTone(status) {
+  if (status === 'won') return 'ok'
+  if (['applied', 'pitched', 'submitted'].includes(status)) return 'teal'
+  if (['queued', 'needs_action'].includes(status)) return 'warn'
+  if (['blocked', 'lost'].includes(status)) return 'danger'
+  return 'neutral'
+}
