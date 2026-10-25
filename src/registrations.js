@@ -1,1 +1,1 @@
-FILE_REF:/home/ubuntu/.cursor/projects/agent/agent-tools/CALL_otp2042b_branch.json#content
+@/tmp/mcp_content_only.txt
