@@ -1,1 +1,1 @@
-PLACEHOLDER_REPLACE_WITH_FULL_FILE
+FILE:/agent/rockyveen-collab-hq/src/registrations.js
