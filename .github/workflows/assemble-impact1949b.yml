@@ -1,0 +1,36 @@
+name: assemble-impact1949b
+on:
+  push:
+    branches: [cursor/impact-1949b-oct24-595e]
+    paths: [.tmp/impact1949b/DONE]
+permissions:
+  contents: write
+jobs:
+  assemble:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: cursor/impact-1949b-oct24-595e
+      - name: Assemble registrations.js
+        run: |
+          set -euo pipefail
+          cat .tmp/impact1949b/part0 .tmp/impact1949b/part1 .tmp/impact1949b/part2 .tmp/impact1949b/part3 \
+              .tmp/impact1949b/part4 .tmp/impact1949b/part5 .tmp/impact1949b/part6 .tmp/impact1949b/part7 \
+            > src/registrations.js
+          BYTES=$(wc -c < src/registrations.js)
+          echo "bytes=$BYTES"
+          test "$BYTES" = "37824"
+          STAMP=$(grep -o '2026-10-24 ~19:49 poll-impact-unlock-retry' src/registrations.js | wc -l)
+          test "$STAMP" = "8"
+          test "$(grep -c 'through ~19:49 Oct 24' src/registrations.js)" = "1"
+          test "$(grep -c 'as of this ~22:52' src/registrations.js)" = "1"
+          # reject OTP stamps
+          test "$(grep -c '2026-10-24 ~20:42 poll-collab-otp-tight' src/registrations.js || true)" = "0"
+      - name: Commit
+        run: |
+          git config user.name ugcrocky-dev
+          git config user.email ugcrocky@gmail.com
+          git add src/registrations.js
+          git commit -m "2026-10-24 ~19:49 poll-impact-unlock-retry: OOO after OTP~20:42/Rak~22:52; 0 unlock; keep Daily Digest; as of this ~22:52" || echo "no change"
+          git push origin HEAD:cursor/impact-1949b-oct24-595e
