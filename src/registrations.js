@@ -1,1 +1,1 @@
-FILE:/agent/rockyveen-collab-hq/src/registrations.js
+@/agent/rockyveen-collab-hq/src/registrations.js
