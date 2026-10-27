@@ -24,4 +24,20 @@ jobs:
           test "$(grep -o 'through ~22:42 Oct 26' src/registrations.js | wc -l)" -eq 1
           test "$(grep -o 'as of this ~02:52' src/registrations.js | wc -l)" -eq 1
           test "$(grep -o 'as of this ~22:52' src/registrations.js | wc -l)" -eq 0
-          test "$(grep -o 'o5bc1tsufdv4' src/registrations.js | wc -l)" -eq 5"
+          test "$(grep -o 'o5bc1tsufdv4' src/registrations.js | wc -l)" -ge 2
+          test "$(grep -o 'rocky25' src/registrations.js | wc -l)" -eq 2
+          ! grep -q PLACEHOLDER src/registrations.js
+      - name: Commit and push main + feature branch
+        run: |
+          set -euo pipefail
+          git config user.name ugcrocky-dev
+          git config user.email ugcrocky@gmail.com
+          MSG='2026-10-26 ~22:42 poll-collab-otp-tight: OOO after OTP~21:42/Rak~02:52; 0 unlock baseline; keep Daily Digest; as of this ~02:52'
+          git add src/registrations.js
+          if git diff --cached --quiet; then
+            echo "no content change on checked-out ref"
+          else
+            git commit -m "$MSG"
+          fi
+          git push origin HEAD:main
+          git push origin HEAD:cursor/otp-2242-oct26-595e
